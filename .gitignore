@@ -345,3 +345,10 @@ assets/gen_typing_gif.py
 !/jumpserver/
 !/jumpserver/agent-harness/
 !/cli_anything/jumpserver/
+
+# graphify knowledge graph + Claude Code integration
+!/CLAUDE.md
+!/.gitattributes
+!/.claude/
+!/graphify-out/
+/graphify-out/cache/
