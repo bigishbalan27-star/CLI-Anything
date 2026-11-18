@@ -353,3 +353,4 @@ assets/gen_typing_gif.py
 !/.claude/
 !/graphify-out/
 /graphify-out/cache/
+/graphify-out/.rebuild.lock
