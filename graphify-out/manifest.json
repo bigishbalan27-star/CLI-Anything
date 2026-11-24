@@ -6012,8 +6012,8 @@
     "semantic_hash": ""
   },
   "registry.json": {
-    "mtime": 1795346805.504478,
-    "seen": 1795346860.7248366,
+    "mtime": 1795519654.4088557,
+    "seen": 1795519725.8368423,
     "ast_hash": "97a8237fa41de222fb8b3ae7fe86d694",
     "semantic_hash": ""
   },
@@ -8238,8 +8238,8 @@
     "semantic_hash": ""
   },
   "README.md": {
-    "mtime": 1795346805.1420937,
-    "seen": 1795346860.7318864,
+    "mtime": 1795519654.0918448,
+    "seen": 1795519725.849495,
     "ast_hash": "7300602dd8fe2173db4c5ce88a884fd4",
     "semantic_hash": ""
   },
@@ -11048,19 +11048,19 @@
   "mubu/agent-harness/pyproject.toml": {
     "mtime": 1795014639.5182452,
     "seen": 1795346933.1301153,
-    "ast_hash": "b3546f8b58654642bcbf2b27ab959ce0",
+    "ast_hash": "",
     "semantic_hash": ""
   },
   "nslogger/agent-harness/pyproject.toml": {
     "mtime": 1795014639.523602,
     "seen": 1795346933.1302443,
-    "ast_hash": "061459011bd0526b3f70c10c2237e705",
+    "ast_hash": "",
     "semantic_hash": ""
   },
   "zotero/agent-harness/pyproject.toml": {
     "mtime": 1795014639.5553343,
     "seen": 1795346933.1307251,
-    "ast_hash": "b3546f8b58654642bcbf2b27ab959ce0",
+    "ast_hash": "",
     "semantic_hash": ""
   },
   "alexa/agent-harness/cli_anything/alexa/__init__.py": {
@@ -11076,9 +11076,9 @@
     "semantic_hash": ""
   },
   "alexa/agent-harness/cli_anything/alexa/alexa_cli.py": {
-    "mtime": 1795346805.5570767,
-    "seen": 1795346860.7074819,
-    "ast_hash": "64deb114d3cce70e45366c7c82709a98",
+    "mtime": 1795519654.47816,
+    "seen": 1795519725.8083894,
+    "ast_hash": "1d39eda090b1ef02028e1514fc2aa953",
     "semantic_hash": ""
   },
   "alexa/agent-harness/cli_anything/alexa/core/__init__.py": {
@@ -11112,9 +11112,9 @@
     "semantic_hash": ""
   },
   "alexa/agent-harness/cli_anything/alexa/tests/test_core.py": {
-    "mtime": 1795346805.5573575,
-    "seen": 1795346860.7075787,
-    "ast_hash": "6d59c8c716b620a714767059a5e5b8e8",
+    "mtime": 1795519654.478373,
+    "seen": 1795519725.808549,
+    "ast_hash": "5f6d4738fed0e98b263bd656030441fc",
     "semantic_hash": ""
   },
   "alexa/agent-harness/cli_anything/alexa/tests/test_full_e2e.py": {
@@ -11160,38 +11160,38 @@
     "semantic_hash": ""
   },
   "alexa/agent-harness/cli_anything/alexa/README.md": {
-    "mtime": 1795346805.1420937,
-    "seen": 1795346860.732058,
+    "mtime": 1795519654.0918448,
+    "seen": 1795519725.8497968,
     "ast_hash": "b471a7a2ec83153c3ef283ccc63f717d",
     "semantic_hash": ""
   },
   "alexa/agent-harness/cli_anything/alexa/skills/SKILL.md": {
-    "mtime": 1795346805.1420937,
-    "seen": 1795346860.73206,
+    "mtime": 1795519654.0944538,
+    "seen": 1795519725.8498003,
     "ast_hash": "9bf33d0010e5592313bde3ed522697ae",
     "semantic_hash": ""
   },
   "alexa/agent-harness/cli_anything/alexa/tests/TEST.md": {
-    "mtime": 1795346805.5570767,
-    "seen": 1795346860.7320614,
-    "ast_hash": "6b461454b4f65c560597338ca3d42d3d",
+    "mtime": 1795519654.478373,
+    "seen": 1795519725.8498034,
+    "ast_hash": "7d336d220e0dd75fe1994db903a1a444",
     "semantic_hash": ""
   },
   "skills/cli-anything-alexa/SKILL.md": {
-    "mtime": 1795346805.504478,
-    "seen": 1795346860.737671,
+    "mtime": 1795519654.4088557,
+    "seen": 1795519725.8599381,
     "ast_hash": "dcd3f2dcf30280d591c5800f3faff410",
     "semantic_hash": ""
   },
   ".claude/settings.json": {
-    "mtime": 1795346805.136497,
-    "seen": 1795346860.705837,
+    "mtime": 1795519654.0900652,
+    "seen": 1795519725.805778,
     "ast_hash": "8eafe95f2f857d090df6c04324b234d1",
     "semantic_hash": ""
   },
   "CLAUDE.md": {
-    "mtime": 1795346805.1414921,
-    "seen": 1795346860.7317958,
+    "mtime": 1795519654.0918448,
+    "seen": 1795519725.8493288,
     "ast_hash": "dfe5fa7939121e96d61b54077cc9ab84",
     "semantic_hash": ""
   },
