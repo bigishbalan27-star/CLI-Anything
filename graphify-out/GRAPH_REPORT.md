@@ -1,17 +1,17 @@
-# Graph Report - CLI-Anything  (2026-11-24)
+# Graph Report - CLI-Anything  (2026-11-25)
 
 ## Corpus Check
-- 1829 files · ~1,400,515 words
+- 1829 files · ~1,400,665 words
 - Verdict: corpus is large enough that graph structure adds value.
 - Unclassified: 28 file(s) not represented in the graph (top: (none) 14, .template 3, .in 3)
 
 ## Summary
-- 38608 nodes · 87497 edges · 1562 communities (1003 shown, 559 thin omitted)
+- 38604 nodes · 87507 edges · 1580 communities (1003 shown, 577 thin omitted)
 - Extraction: 97% EXTRACTED · 3% INFERRED · 0% AMBIGUOUS · INFERRED: 2983 edges (avg confidence: 0.89)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `d9295bd6`
+- Built from commit: `f1e25d79`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -24,7 +24,7 @@
 - add_clip
 - add_transition
 - json
-- connect_db
+- ccswitch/tests/test_core.py
 - iterm2_ctl_cli.py
 - test_domshell_backend.py
 - shotcut_cli.py
@@ -32,7 +32,7 @@
 - calibre/tests/test_core.py
 - create_scene
 - n8n_cli.py
-- Session
+- save_scene
 - slay_the_spire_ii/tests/test_full_e2e.py
 - mailchimp/tests/test_core.py
 - inkscape_cli.py
@@ -63,13 +63,13 @@
 - openscreen_cli.py
 - mubu_cli.py
 - shotcut/core/preview.py
-- adguardhome_cli.py
+- output
 - safari_cli.py
 - listener.py
 - add_zoom_region
 - zotero_cli.py
-- shlex
-- Session
+- patch
+- TestClientHeaders
 - libreoffice_cli.py
 - drawio_cli.py
 - libreoffice/tests/test_full_e2e.py
@@ -79,22 +79,22 @@
 - Session
 - shotcut/utils/mlt_xml.py
 - _make_cube_mesh
-- unimol_tools_cli.py
+- click
 - MailchimpError
 - `test_core.py` (157 tests, 36 classes)
 - kdenlive_cli.py
-- QgisBackendError
+- sketch.py
 - Session
 - cloudanalyzer_cli.py
 - lldb_cli.py
 - api_get
-- cli.py
+- inkscape/tests/test_core.py
 - freecad/core/mesh.py
 - ensure_collection
 - create_project
 - iterm2_ctl/tests/test_full_e2e.py
 - replay.py
-- Any
+- inkscape/tests/test_full_e2e.py
 - freecad/core/preview.py
 - cli
 - macrocli_cli.py
@@ -104,7 +104,7 @@
 - alexa_cli.py
 - RuntimeContext
 - cloudcompare/tests/test_core.py
-- handle_error
+- notebooklm_cli.py
 - joplin_cli.py
 - n8n_backend.py
 - SeaClipBackend
@@ -114,7 +114,7 @@
 - zotero_sqlite.py
 - create_project
 - blender_orbital_relay_drone_demo.py
-- calibre_cli.py
+- output
 - nsight_graphics_backend.py
 - SiYuanClient
 - click
@@ -154,7 +154,7 @@
 - MeshData
 - fem.py
 - video_doctor.py
-- ca_backend.py
+- unrealinsights/tests/test_core.py
 - BridgeMod.Actions.cs
 - openrefine/tests/test_core.py
 - SessionStore
@@ -193,7 +193,7 @@
 - ReplSkin
 - ReplSkin
 - ReplSkin
-- obsidian/tests/test_core.py
+- svg_utils.py
 - ReplSkin
 - ReplSkin
 - ReplSkin
@@ -214,10 +214,10 @@
 - ReplSkin
 - ReplSkin
 - _run_repl
-- jumpserver_cli.py
+- JumpServerREPL
 - inkscape/tests/test_core.py
 - xml_etree_elementtree
-- obsidian_cli.py
+- requests
 - siyuan_cli.py
 - renderdoc/core/pipeline.py
 - ReplSkin
@@ -236,10 +236,10 @@
 - ReplSkin
 - nsight_graphics_cli.py
 - auto_backup
-- _clean_for_api
+- TestReapplyTags
 - ReplSkin
-- TestOutput
-- sbox/tests/test_core.py
+- obs_studio/tests/test_core.py
+- sbox/tests/test_full_e2e.py
 - core/test_orchestrator.py
 - Connection
 - add_source
@@ -247,7 +247,7 @@
 - add_light
 - add_track
 - _invoke_json
-- inkscape/tests/test_core.py
+- create_document
 - nslogger_cli.py
 - ollama_cli.py
 - openrefine/tests/test_full_e2e.py
@@ -259,27 +259,27 @@
 - minimax_cli.py
 - test_validate_geometry_nan.py
 - blender_preview_story_demo.py
-- shlex
+- unrealinsights/core/export.py
 - dify_workflow_cli.py
 - drawio/tests/test_core.py
-- cli
+- inkscape/core/export.py
 - README.md
 - TestParityHighValueSchemas
-- ccswitch/tests/test_core.py
+- success
 - Interactive Features Guide
 - CLI-Anything Extension for Pi Coding Agent
 - ReplSkin
 - import_mod.py
 - gimp/tests/test_core.py
-- analytics.py
+- add_text
 - ReplSkin
 - openrefine_cli.py
 - pr-labeler.test.js
 - fake
-- create_prefab
+- sbox/tests/test_core.py
 - commands/reports.py
 - README_DE.md
-- patch
+- pm2_backend.py
 - cli
 - macrocli/tests/test_core.py
 - export_file.yaml
@@ -292,14 +292,14 @@
 - Session
 - Regression Tutorial
 - Cleanup Workflow SOP
-- matrix.py
+- web_yu_pri_cli.py
 - Command Groups
 - Usage Examples
 - techdraw.py
 - import_clip
 - transform_json.yaml
 - alexa/core/actions.py
-- _run
+- TestOneShotFailureExitsNonZero
 - Command Groups
 - Usage Examples
 - ReplSkin
@@ -309,15 +309,15 @@
 - renderdoc/tests/test_core.py
 - validate_url
 - Architecture Design
-- re
+- cli-anything-plugin/skill_generator.py
 - _mock_response
 - cli-anything Plugin for Claude Code
 - cloudanalyzer/core/project.py
 - api_get
-- get_cli
+- add_linear_gradient
 - async_find_window
-- cli
-- libreoffice/core/export.py
+- add_layer
+- paths.py
 - repl
 - eez_studio/core/project.py
 - domshell_backend.py
@@ -326,13 +326,13 @@
 - SiYuanConfig
 - Zotero: Project-Specific Analysis and Operator Guide
 - _run
-- ccswitch_cli.py
+- unimol_backend.py
 - freecad/core/parts.py
 - automations.py
 - novita_cli.py
 - Session
 - qgis_backend.py
-- TestCompositing
+- spreadsheet.py
 - add_effect
 - wavetone/tests/test_core.py
 - cleanup.py
@@ -350,13 +350,13 @@
 - Troubleshooting Guide
 - anygen_backend.py
 - firefly_iii_cli.py
-- output
+- get_backend
 - TestCLIClick
 - create_material
 - broadcast.py
 - campaigns.py
 - add_filter
-- obs_studio/core/transitions.py
+- Session
 - diff.py
 - cli-anything-safari
 - cli-anything-safari
@@ -395,11 +395,11 @@
 - gedit_save_as.yaml
 - renderdoc/tests/test_full_e2e.py
 - action_adapter.py
-- krita_cli.py
+- commands_user.py
 - Session
 - SessionManager
 - breakpoints.py
-- commands_audit.py
+- musescore_cli.py
 - add_filter
 - reporting.py
 - Session
@@ -407,10 +407,10 @@
 - create_material
 - sanitize_dom_text
 - What This Command Does
-- web_yu_pri_cli.py
+- web_yu_pri/tests/test_core.py
 - BridgeMod
 - videocaptioner_cli.py
-- TestPreviewBundle
+- localization.py
 - _parse_epub_chapters
 - gedit_new_window.yaml
 - _resolve_cli
@@ -422,16 +422,16 @@
 - threemf_cli.py
 - mubu/tests/test_cli_entrypoint.py
 - nslogger/core/parser.py
-- db.py
+- update_registry_dates.py
 - tab.py
-- patch
+- cli-anything-plugin/preview_bundle.py
 - _run_cli
 - extract_tools.py
 - Test Suite Report - FINAL
 - cli-anything-browser — Browser Automation CLI
 - cli-anything-plugin/HARNESS.md
 - General SOP: Turning Any GUI App into an Agent-Usable CLI
-- novita/tests/test_core.py
+- krita_backend.py
 - set_render_settings
 - importer.py
 - eth2_quickstart_cli.py
@@ -441,7 +441,7 @@
 - gedit_type_and_save.yaml
 - backend/commands.py
 - Test Results
-- notebooklm_cli.py
+- create_material
 - adguardhome/tests/test_core.py
 - prompt.py
 - alexa/tests/test_core.py
@@ -450,19 +450,19 @@
 - Firefly III CLI
 - TestTracks
 - access_key.py
-- execution.py
+- eth2_quickstart/core/project.py
 - undo_last.yaml
-- parse_style
+- emit
 - qgis/core/layers.py
-- TestParityParameters
+- cli
 - patch
 - create_task
 - Command Groups
 - cli-anything-browser
 - TestCLISubprocess
-- comfyui/tests/test_core.py
-- validate_model
-- TestCSFFilterValidation
+- TestCLIModels
+- load_moc3
+- csf_filter
 - version_info
 - TestBackend
 - kdenlive/tests/test_core.py
@@ -479,14 +479,14 @@
 - Command Groups
 - cli-anything-iterm2
 - JumpServerClient
-- ModelInfo
+- live2d/tests/test_core.py
 - Command Groups
 - cli-anything-calibre
 - Command Groups (258 commands)
 - Command Groups
 - Command Groups
 - cli-anything-blender
-- list_actions
+- _minimal_project
 - commands_session.py
 - TestModels
 - _reload_security_module
@@ -494,7 +494,7 @@
 - _parse_value
 - versions.py
 - 2. E2E Tests (`test_full_e2e.py`)
-- Session
+- mermaid/tests/test_core.py
 - cli
 - MutateDryRunE2ETests
 - TestNewerSchemaFallback
@@ -505,15 +505,15 @@
 - cli-anything-audacity
 - _build_package_tree
 - cli
-- chromadb_cli.py
+- lldb/tests/test_full_e2e.py
 - ReplSkin
 - cli-anything-gimp
 - sms_campaigns.py
-- mermaid/tests/test_core.py
-- vault.py
+- budgets.py
+- textures.py
 - cli-anything-obsidian
 - session_server.py
-- format_size
+- output_json
 - Shotcut: Project-Specific Analysis & SOP
 - alexa/tests/test_full_e2e.py
 - cli-anything-audacity
@@ -541,16 +541,16 @@
 - Demo: 5 Real Examples + All Features Testing
 - analyze.py
 - Unit Tests (`test_core.py`)
-- cli
+- eez_studio/tests/test_core.py
 - Calibre CLI Harness — SOP
 - TEST.md — cli-anything-calibre Test Plan & Results
 - Examples
 - Quick Start Guide
-- batch_webhooks.py
-- TestURLValidation
-- TestExport
+- create_sound_event
+- validate_url
+- krita/core/export.py
 - cli-anything-libreoffice
-- UnrealInsightsSession
+- object
 - CliEntrypointTests
 - cli-anything-nsight-graphics
 - cli-anything-obs_studio
@@ -590,11 +590,11 @@
 - Command Groups
 - Uni-Mol Tools - Molecular Property Prediction CLI
 - Command Groups
-- ReplSkin
+- render
 - Uni-Mol Tools - Molecular Property Prediction CLI
 - object.py
 - Command Groups
-- calibre_cli.py
+- ToolRegistry
 - Blender CLI - Agent Harness
 - Capabilities
 - cli-anything-comfyui
@@ -617,11 +617,11 @@
 - CLI-Anything-Slay-the-Spire-2
 - call
 - commands/templates.py
-- TestCLISubprocess
-- _mask_value
+- shotcut/tests/test_full_e2e.py
+- eth2_quickstart/tests/test_core.py
 - patch
 - Capabilities
-- cli
+- menu.py
 - autofix
 - download_image
 - Exa CLI Skill
@@ -650,15 +650,15 @@
 - browser/tests/test_security.py
 - Unit Test Plan
 - Test Results
-- cli
+- connected_sites.py
 - cli-anything-anygen
-- shotcut/tests/conftest.py
+- export_cloud
 - Unit Tests (`test_core.py`)
 - cli-anything-calibre
 - TestCLISubprocess
 - Preview Methodology for Harnesses
 - Capabilities
-- _pretty
+- cc_backend.py
 - TestCLIParsing
 - Novita CLI
 - OBS Studio CLI - Agent Harness
@@ -684,15 +684,15 @@
 - Firefly III CLI
 - check-codex-skill.yml
 - steps
-- validate_url
+- rules.py
 - Kdenlive CLI - Standard Operating Procedure
 - cli-anything-mailchimp
-- surveys.py
+- batches.py
 - cli-anything-mubu
 - mubu/agent-harness/skill_generator.py
 - compute_stats
-- _handle_repl_builtin
-- Part 1 — Test Plan
+- zotero/core/session.py
+- _unwrap
 - unimol_tools/tests/conftest.py
 - cli-anything-qgis test plan
 - cli
@@ -700,7 +700,7 @@
 - cli-anything-mailchimp
 - cli-anything-mubu
 - Command Groups
-- documents.py
+- _run_json
 - Uni-Mol Tools CLI Documentation
 - Command Groups
 - TestSessionLifecycle
@@ -711,7 +711,7 @@
 - CloudCompare CLI Harness — SOP
 - CLI-Anything for Codex
 - TestCLISubprocess
-- _invoke_project_json
+- get_vertices
 - EEZ Studio Harness Test Plan
 - openscreen/core/timeline.py
 - attributes
@@ -724,7 +724,7 @@
 - template_folders.py
 - package.json
 - Session
-- check_yoyo_export
+- Eth2QuickStartBackend
 - audiences.py
 - sketch-harness — AI Agent 使用说明
 - MacroCLI CLI
@@ -741,23 +741,23 @@
 - firefly_iii/core/tags.py
 - tmp_dir
 - attributes
-- collections.py
+- contacts.py
 - verified_domains.py
-- _unwrap
+- insights.py
 - unittest
 - NotebookLM Harness - Test Documentation
 - authorized_apps.py
 - Openscreen: Project-Specific Analysis & SOP
 - CLI-Anything for Reasonix
 - cli
-- Session
+- webhooks.py
 - TestCLISubprocess
 - add_speed_region
 - cli-anything-seaclip
 - cli-anything-seaclip
 - Core Commands
 - _locked_save_json
-- issues.py
+- TestExport
 - DAPClient
 - cli-anything-unrealinsights
 - Core Commands
@@ -774,14 +774,14 @@
 - Part 1: Test Plan
 - Session
 - TestCLISubprocess
-- TestRealSafariRoundTrip
-- seaclip_cli.py
-- scheduler_add
+- Test Plan - cli-anything-sbox
+- accounts.py
+- comparer.py
 - cli-anything-minimax
-- ensure_destination
-- openscreen/tests/test_full_e2e.py
+- eez_studio_backend.py
+- TestMediaE2E
 - scpi.py
-- TestCLISubprocess
+- llm_assist.py
 - What This Command Does
 - cli.js
 - cli-anything-rekordbox
@@ -797,7 +797,7 @@
 - _translate_path
 - Command Mapping
 - exa/tests/test_full_e2e.py
-- chromadb/core/server.py
+- save_workflow
 - CLI-Anything for Hermes Agent
 - Inkscape: Project-Specific Analysis & SOP
 - cli-hub/setup.py
@@ -816,7 +816,7 @@
 - cli-anything-pm2
 - generate_component
 - Alexa harness: analysis and SOP
-- scan_directory
+- _run
 - parse_child_refs
 - CC Switch CLI - Test Plan
 - Video Captions
@@ -824,7 +824,7 @@
 - Preview Mechanism Progress
 - Draw.io — CLI Harness Analysis & SOP
 - cli-anything-alexa
-- build_combo_matrix
+- log_config
 - cli-anything-alexa
 - TestFireflyIIIBackend
 - cli-anything-freecad
@@ -837,7 +837,7 @@
 - validate_expression
 - What This Command Does
 - get_buffer_data
-- notebooklm/tests/test_core.py
+- build_command
 - Command Reference
 - cli-anything-3mf
 - AdGuardHome - CLI Harness SOP
@@ -867,7 +867,6 @@
 - download_recording
 - Test Plan
 - TestBackend
-- TestCLISubprocess
 - Unit Tests (`test_core.py`)
 - primitives.js
 - Commands
@@ -875,8 +874,8 @@
 - cli-anything-rekordbox
 - TEST.md — cli-anything-alexa
 - VideoCaptioner: Project-Specific Analysis & SOP
-- TestNoiseFilterImport
-- parse_ids
+- firefly_iii/core/export.py
+- Style Presets
 - video-creation/SKILL.md
 - cli-hub
 - cli-anything-cloudcompare
@@ -888,11 +887,11 @@
 - TestCLISubprocess
 - Krita — Agent Harness SOP
 - TestCLISubprocessE2E
-- export
+- Sound Design For Video Edits
 - cli-anything-mermaid
 - Commands
 - cli-anything-list Command
-- repl
+- get_template
 - cli-anything-siyuan
 - cli-anything-siyuan
 - mubu/tests/test_core.py
@@ -901,12 +900,13 @@
 - cli-anything-siyuan
 - CLI-Hub Meta-Skill
 - Workflow Diagrams
+- strip_server_fields
 - wavetone/core/session.py
 - Test Plan: cli-anything-web-yu-pri
 - 3MF CLI — Standard Operating Procedure
 - cli
 - Architecture Analysis
-- main
+- `test_exit_codes.py` (20 tests, 5 classes)
 - cli-anything:test Command
 - CLI-Hub Meta-Skill
 - _handle_response
@@ -915,7 +915,7 @@
 - iter_block_tree
 - cli-anything-krita
 - Commands (42 total)
-- Usage Examples
+- weights.py
 - TestEdgeCases
 - TestGenerateSkillMd
 - cli-anything-notebooklm
@@ -924,22 +924,22 @@
 - TestCLISubprocess
 - Key Concepts
 - SBOX.md - s&box CLI Harness SOP
-- Usage Examples
+- Art Direction Review
 - Commands (42 total)
 - cli-anything-notebooklm
-- TestOutput
+- cli
 - Agent Harness: Tigris Object Storage CLI
 - packager.py
 - WireMock CLI Harness — Test Plan
 - HARNESS.md - LLDB CLI Harness Specification
-- server_status
-- wavetone/tests/test_full_e2e.py
+- TestCLISystem
+- dify_workflow/utils/repl_skin.py
 - Audacity CLI
 - CLI Strategy: JSON Scene + bpy Script Generation
 - CC Switch CLI - Agent Harness
 - The cli-anything Methodology
 - TestMermaidCLI
-- rewrite_add
+- adguardhome_cli.py
 - Video Creation Matrix (v3 — capability-based)
 - Command Groups
 - cli-anything-comfyui
@@ -948,7 +948,7 @@
 - Standard CLI Surface
 - TestConfig
 - HOW TO RUN
-- subprocess
+- freecad_backend.py
 - cli
 - TestCLISubprocess
 - mock_config
@@ -957,7 +957,7 @@
 - cli-anything-joplin
 - 0.3.0 (2026-05-29)
 - Mermaid Live Editor - CLI Harness Analysis
-- calibre/utils/repl_skin.py
+- _joplin_package_json_candidates
 - announce_when_done.sh
 - OpenRefine Harness Test Plan
 - OpenRefine CLI-Anything Harness
@@ -970,15 +970,15 @@
 - cli-anything-joplin
 - quietshrink — Agent Skill
 - TestSessionSaveLoad
-- _format_size
+- TestSessionAuth
 - Uni-Mol Tools - Agent Harness
 - config
 - _run_repl
 - WaveTone Harness Test Plan and Results
 - Web Yu-pri Harness SOP
-- Agent-Specific Guidance
+- output_table
 - flatten_network
-- Agent-Specific Guidance
+- TestReplModeAbsorbsExit
 - CLI-Anything ChromaDB
 - validate_root_skills.py
 - handle_error
@@ -1027,7 +1027,7 @@
 - edit
 - cli-anything-adguardhome
 - CLI-Anything Demo Assets
-- pm2/tests/test_core.py
+- list_processes
 - TestCLISubprocessSmoke
 - ChromaDB CLI Tests
 - adguardhome/core/session.py
@@ -1053,7 +1053,6 @@
 - TestBackendQuery
 - LLDB.md - LLDB Backend Notes for CLI-Anything
 - MacroCLI
-- PM2 CLI Tests
 - cli-anything-musescore
 - NotebookLM: Project-Specific Analysis & SOP
 - NSLogger CLI Harness — SOP
@@ -1078,21 +1077,22 @@
 - FIX_NOTES.md - PR #223 Calibre Harness Validation
 - cli-anything-cloudanalyzer
 - CloudAnalyzer CLI Harness — Architecture
-- handle_error
 - cli-anything-list Command
 - Dify Workflow CLI Skill
 - FreeCAD Demo Video Reference
 - Draw.io CLI — Test Plan & Results
 - cli-anything-eth2-quickstart
-- run_checked
+- Security Policy
 - contact_links
 - Test Guide — cli-anything-mailchimp
-- TestCLIHelp
+- TestClientURLConstruction
+- sample_model3_file
 - PR 189 MiniMax Harness Fix Notes
 - TEST.md — Test Plan and Results
 - cli-anything-n8n
 - Testing cli-anything-n8n
 - Third-Party Notices
+- TestCLISubprocess
 - cli-anything-openscreen
 - TestMeltRenderE2E
 - cli-anything-rekordbox
@@ -1116,7 +1116,7 @@
 - Typical Workflows
 - interface
 - CLI-Anything Pricing
-- TestExtractSystemPackage
+- _locked_save_json
 - CLAUDE.md
 - interface
 - Profiles & Preferences
@@ -1126,7 +1126,7 @@
 - macros
 - cli-anything-mailchimp
 - TestCliDualMode
-- parse_captions
+- _resolve_cli
 - cli-anything PM2
 - interface
 - Evaluation Pipeline — cli-anything-rekordbox
@@ -1136,9 +1136,9 @@
 - build.sh
 - test_features.sh
 - setup-cli-anything.sh
-- TestCCBackendConstants
-- cli
-- coord_to_sf_and_filter
+- resolve_data_path
+- TestProjectValidateExitsNonZero
+- TestModelDiscovery
 - Test Plan — cli-anything-cloudanalyzer
 - 1. project — Project Management (3 commands)
 - 4. mesh — Mesh Operations (3 commands)
@@ -1150,12 +1150,10 @@
 - TestAccountCommands
 - TestOutputFormats
 - TestErrorHandling
-- e2e_project
 - Attribution
-- _supports_interactive_prompt
 - _FakeAPI
 - Test Plan — cli-anything-obsidian
-- lldb_cli.py
+- session_group
 - setup-qodercli.sh
 - _emit_error
 - AgentHarnessPackagingTests
@@ -1171,22 +1169,23 @@
 - JSON Schemas — Session, Window, Tab
 - JSON Schemas — tmux, App, Preferences
 - slay_the_spire_ii/__main__.py
-- DetailedDiff
 - generate_template
 - TestEmbedE2E
 - TestCLISubprocess
 - install.sh script
-- list_profiles
 - _get
 - _set
 - _get_status
 - selection
-- build_parser
+- mock_ctx
+- main
+- TestCategorySlugMap
 - layout-arrangement.md
 - session-control.md
 - session-io.md
 - session-shell-integration.md
 - tmux-commands.md
+- TestE2E
 - backend
 - lvgl
 - project
@@ -1199,35 +1198,71 @@
 - cli-anything/install.sh
 - install.sh script
 - scpi
-- diagram
-- export
-- project
+- _resolve_cli
+- mock_project_with_models
+- effect_group
 - session
-- session
-- import_group
+- export_group
+- camera
 - seaclip/README.md
 - workflow_basic.sh
 - skills/README.md
 - install_bridge.sh
 - run_tests.sh
+- _pretty
+- images
+- models
+- queue
+- workflow
+- system
+- list_presets
+- motion_group
 - feature
-- export_mesh
+- preview_group
+- text
 - cli-anything-jumpserver
 - cli-anything-n8n
 - cli-anything-unimol-tools
-- compute_c2c_distances
-- draft_group
-- document
+- style
+- app
+- arrangement
+- broadcast
+- menu
+- pref
+- profile
+- tmux
+- window
 - _print_node_tree
-- frame_group
-- prepare_output_dir
-- require_launch_target
-- preview_group
+- tab
+- session
+- secret_group
+- platform_group
+- terminal_group
 - configs
-- remote_access
 - config
 - session
 - app
+- timeline
+- calc
+- session
+- core_group
+- config
+- session
+- execution_
+- workflow_versions_
+- doctor_group
+- audio_group
+- layout
+- project
+- session
+- config_group
+- smtp
+- media
+- preview
+- models
+- gui_group
+- store_group
+- session
 - request
 - scenario
 - record
@@ -1247,24 +1282,18 @@
 10. `Session` - 147 edges
 
 ## Surprising Connections (you probably didn't know these)
-- `Multi-Session Warning` --references--> `call()`  [INFERRED]
-  skills/cli-anything-safari/SKILL.md → safari/agent-harness/cli_anything/safari/utils/safari_backend.py
-- `A1. 打开 gedit` --references--> `start_process()`  [INFERRED]
-  macrocli/agent-harness/DEMO.md → pm2/agent-harness/cli_anything/pm2/core/lifecycle.py
+- `Phase Gates and Resume (hard gate)` --references--> `terminal_status()`  [INFERRED]
+  cursor-plugin/commands/cli-anything.md → jumpserver/agent-harness/cli_anything/jumpserver/core/commands_session.py
+- `Threat Model` --references--> `_script_fu_escape()`  [INFERRED]
+  SECURITY.md → gimp/agent-harness/cli_anything/gimp/utils/gimp_backend.py
+- `Threat Model` --references--> `xml_escape()`  [INFERRED]
+  SECURITY.md → kdenlive/agent-harness/cli_anything/kdenlive/utils/mlt_xml.py
 - `Code Fixes` --references--> `model_dir()`  [INFERRED]
   unimol_tools/agent-harness/docs/test/TEST_REPORT.md → live2d/agent-harness/tests/test_new_features.py
 - `常见问题` --references--> `run_command()`  [INFERRED]
   macrocli/agent-harness/DEMO.md → nsight-graphics/agent-harness/cli_anything/nsight_graphics/utils/backend/execution.py
-- `Phase Gates and Resume (hard gate)` --references--> `terminal_status()`  [INFERRED]
-  cursor-plugin/commands/cli-anything.md → jumpserver/agent-harness/cli_anything/jumpserver/core/commands_session.py
 
 ## Import Cycles
-- 2-file cycle: `shotcut/agent-harness/cli_anything/shotcut/core/timeline.py -> shotcut/agent-harness/cli_anything/shotcut/core/transitions.py -> shotcut/agent-harness/cli_anything/shotcut/core/timeline.py`
-- 2-file cycle: `firefly-iii/agent-harness/cli_anything/firefly_iii/core/info.py -> firefly-iii/agent-harness/cli_anything/firefly_iii/firefly_iii_cli.py -> firefly-iii/agent-harness/cli_anything/firefly_iii/core/info.py`
-- 2-file cycle: `firefly-iii/agent-harness/cli_anything/firefly_iii/core/insights.py -> firefly-iii/agent-harness/cli_anything/firefly_iii/firefly_iii_cli.py -> firefly-iii/agent-harness/cli_anything/firefly_iii/core/insights.py`
-- 2-file cycle: `firefly-iii/agent-harness/cli_anything/firefly_iii/core/recurrences.py -> firefly-iii/agent-harness/cli_anything/firefly_iii/firefly_iii_cli.py -> firefly-iii/agent-harness/cli_anything/firefly_iii/core/recurrences.py`
-- 2-file cycle: `firefly-iii/agent-harness/cli_anything/firefly_iii/core/search.py -> firefly-iii/agent-harness/cli_anything/firefly_iii/firefly_iii_cli.py -> firefly-iii/agent-harness/cli_anything/firefly_iii/core/search.py`
-- 2-file cycle: `firefly-iii/agent-harness/cli_anything/firefly_iii/core/transactions.py -> firefly-iii/agent-harness/cli_anything/firefly_iii/firefly_iii_cli.py -> firefly-iii/agent-harness/cli_anything/firefly_iii/core/transactions.py`
 - 2-file cycle: `firefly-iii/agent-harness/cli_anything/firefly_iii/core/accounts.py -> firefly-iii/agent-harness/cli_anything/firefly_iii/firefly_iii_cli.py -> firefly-iii/agent-harness/cli_anything/firefly_iii/core/accounts.py`
 - 2-file cycle: `firefly-iii/agent-harness/cli_anything/firefly_iii/core/autocomplete.py -> firefly-iii/agent-harness/cli_anything/firefly_iii/firefly_iii_cli.py -> firefly-iii/agent-harness/cli_anything/firefly_iii/core/autocomplete.py`
 - 2-file cycle: `firefly-iii/agent-harness/cli_anything/firefly_iii/core/bills.py -> firefly-iii/agent-harness/cli_anything/firefly_iii/firefly_iii_cli.py -> firefly-iii/agent-harness/cli_anything/firefly_iii/core/bills.py`
@@ -1272,50 +1301,56 @@
 - 2-file cycle: `firefly-iii/agent-harness/cli_anything/firefly_iii/core/categories.py -> firefly-iii/agent-harness/cli_anything/firefly_iii/firefly_iii_cli.py -> firefly-iii/agent-harness/cli_anything/firefly_iii/core/categories.py`
 - 2-file cycle: `firefly-iii/agent-harness/cli_anything/firefly_iii/core/currencies.py -> firefly-iii/agent-harness/cli_anything/firefly_iii/firefly_iii_cli.py -> firefly-iii/agent-harness/cli_anything/firefly_iii/core/currencies.py`
 - 2-file cycle: `firefly-iii/agent-harness/cli_anything/firefly_iii/core/export.py -> firefly-iii/agent-harness/cli_anything/firefly_iii/firefly_iii_cli.py -> firefly-iii/agent-harness/cli_anything/firefly_iii/core/export.py`
+- 2-file cycle: `firefly-iii/agent-harness/cli_anything/firefly_iii/core/info.py -> firefly-iii/agent-harness/cli_anything/firefly_iii/firefly_iii_cli.py -> firefly-iii/agent-harness/cli_anything/firefly_iii/core/info.py`
+- 2-file cycle: `firefly-iii/agent-harness/cli_anything/firefly_iii/core/insights.py -> firefly-iii/agent-harness/cli_anything/firefly_iii/firefly_iii_cli.py -> firefly-iii/agent-harness/cli_anything/firefly_iii/core/insights.py`
 - 2-file cycle: `firefly-iii/agent-harness/cli_anything/firefly_iii/core/piggy_banks.py -> firefly-iii/agent-harness/cli_anything/firefly_iii/firefly_iii_cli.py -> firefly-iii/agent-harness/cli_anything/firefly_iii/core/piggy_banks.py`
+- 2-file cycle: `firefly-iii/agent-harness/cli_anything/firefly_iii/core/recurrences.py -> firefly-iii/agent-harness/cli_anything/firefly_iii/firefly_iii_cli.py -> firefly-iii/agent-harness/cli_anything/firefly_iii/core/recurrences.py`
 - 2-file cycle: `firefly-iii/agent-harness/cli_anything/firefly_iii/core/rule_groups.py -> firefly-iii/agent-harness/cli_anything/firefly_iii/firefly_iii_cli.py -> firefly-iii/agent-harness/cli_anything/firefly_iii/core/rule_groups.py`
 - 2-file cycle: `firefly-iii/agent-harness/cli_anything/firefly_iii/core/rules.py -> firefly-iii/agent-harness/cli_anything/firefly_iii/firefly_iii_cli.py -> firefly-iii/agent-harness/cli_anything/firefly_iii/core/rules.py`
+- 2-file cycle: `firefly-iii/agent-harness/cli_anything/firefly_iii/core/search.py -> firefly-iii/agent-harness/cli_anything/firefly_iii/firefly_iii_cli.py -> firefly-iii/agent-harness/cli_anything/firefly_iii/core/search.py`
 - 2-file cycle: `firefly-iii/agent-harness/cli_anything/firefly_iii/core/summary.py -> firefly-iii/agent-harness/cli_anything/firefly_iii/firefly_iii_cli.py -> firefly-iii/agent-harness/cli_anything/firefly_iii/core/summary.py`
 - 2-file cycle: `firefly-iii/agent-harness/cli_anything/firefly_iii/core/tags.py -> firefly-iii/agent-harness/cli_anything/firefly_iii/firefly_iii_cli.py -> firefly-iii/agent-harness/cli_anything/firefly_iii/core/tags.py`
+- 2-file cycle: `firefly-iii/agent-harness/cli_anything/firefly_iii/core/transactions.py -> firefly-iii/agent-harness/cli_anything/firefly_iii/firefly_iii_cli.py -> firefly-iii/agent-harness/cli_anything/firefly_iii/core/transactions.py`
 - 2-file cycle: `firefly-iii/agent-harness/cli_anything/firefly_iii/core/webhooks.py -> firefly-iii/agent-harness/cli_anything/firefly_iii/firefly_iii_cli.py -> firefly-iii/agent-harness/cli_anything/firefly_iii/core/webhooks.py`
+- 2-file cycle: `shotcut/agent-harness/cli_anything/shotcut/core/timeline.py -> shotcut/agent-harness/cli_anything/shotcut/core/transitions.py -> shotcut/agent-harness/cli_anything/shotcut/core/timeline.py`
 
-## Communities (1562 total, 559 thin omitted)
+## Communities (1580 total, 577 thin omitted)
 
 ### Community 0 - "freecad_cli.py"
 Cohesion: 0.01
-Nodes (285): assembly_add_part(), assembly_add_sim_step(), assembly_bom(), assembly_collapse(), assembly_constrain(), assembly_create_simulation(), assembly_dof(), assembly_explode() (+277 more)
+Nodes (284): assembly_add_part(), assembly_add_sim_step(), assembly_bom(), assembly_collapse(), assembly_constrain(), assembly_create_simulation(), assembly_dof(), assembly_explode() (+276 more)
 
 ### Community 1 - "group"
-Cohesion: 0.00
-Nodes (223): clip(), effect_group(), export_group(), label(), media(), project(), session_group(), track() (+215 more)
+Cohesion: 0.01
+Nodes (175): clip(), label(), media(), project(), session_group(), track(), animation(), light() (+167 more)
 
 ### Community 2 - "freecad/tests/test_core.py"
-Cohesion: 0.02
-Nodes (95): FreeCAD body preview alignment, additive_box(), additive_cone(), additive_cylinder(), additive_helix(), additive_loft(), additive_pipe(), _additive_primitive() (+87 more)
+Cohesion: 0.04
+Nodes (58): FreeCAD body preview alignment, additive_box(), additive_cone(), additive_cylinder(), additive_helix(), additive_loft(), additive_pipe(), _additive_primitive() (+50 more)
 
 ### Community 3 - "sbox_cli.py"
 Cohesion: 0.03
-Nodes (103): asset(), asset_compile(), asset_find_refs(), asset_find_unused(), human(), asset_info(), asset_list(), asset_move() (+95 more)
+Nodes (104): asset(), asset_compile(), asset_find_refs(), asset_find_unused(), human(), asset_info(), asset_list(), asset_move() (+96 more)
 
 ### Community 4 - "freecad/core/preview.py"
 Cohesion: 0.03
-Nodes (27): create_document(), get_document_info(), list_profiles(), _now_iso(), open_document(), save_document(), _validate_project(), export_project() (+19 more)
+Nodes (33): create_document(), get_document_info(), list_profiles(), _now_iso(), open_document(), save_document(), _validate_project(), add_part() (+25 more)
 
 ### Community 5 - "add_clip"
 Cohesion: 0.05
-Nodes (27): render(), add_filter(), set_filter_param(), import_media(), list_media(), open_project(), project_info(), save_project() (+19 more)
+Nodes (22): render(), import_media(), list_media(), open_project(), project_info(), save_project(), add_blank(), add_clip() (+14 more)
 
 ### Community 6 - "add_transition"
 Cohesion: 0.04
-Nodes (37): _absolute_insertion_point(), _entry_duration_frames(), _get_fps(), _get_track_playlist(), _get_transition_ids(), is_transition_entry(), is_transition_entry_by_dict(), move_clip() (+29 more)
+Nodes (41): _absolute_insertion_point(), _entry_duration_frames(), _get_fps(), _get_track_playlist(), _get_transition_ids(), is_transition_entry(), is_transition_entry_by_dict(), move_clip() (+33 more)
 
 ### Community 7 - "json"
-Cohesion: 0.01
-Nodes (135): _locked_save_json(), encode_file(), _locked_save_json(), _locked_save_json(), _wait_for_live_bundle_count(), runner(), runner(), sample_workflow() (+127 more)
+Cohesion: 0.00
+Nodes (225): _resolve_cli(), iso_env(), _resolve_cli(), _locked_save_json(), _resolve_cli(), encode_file(), _locked_save_json(), TestSoXAudioE2E (+217 more)
 
-### Community 8 - "connect_db"
-Cohesion: 0.09
-Nodes (31): _enabled_app_columns(), _enabled_apps_str(), _format_masked_value(), mcp_enable(), mcp_list(), _normalise_usage_rows(), providers_get(), providers_list() (+23 more)
+### Community 8 - "ccswitch/tests/test_core.py"
+Cohesion: 0.03
+Nodes (105): cli(), _coerce_env_config(), _enabled_app_columns(), _enabled_apps_str(), _env_config(), _env_value(), _format_masked_value(), _gemini_env_config() (+97 more)
 
 ### Community 9 - "iterm2_ctl_cli.py"
 Cohesion: 0.05
@@ -1327,27 +1362,27 @@ Nodes (84): _make_result(), _make_session(), test_back_returns_dict_with_url_key
 
 ### Community 11 - "shotcut_cli.py"
 Cohesion: 0.04
-Nodes (72): _auto_save_callback(), cli(), composite_blend_modes(), composite_get_blend(), composite_pip(), composite_set_blend(), composite_set_opacity(), export_preset_info() (+64 more)
+Nodes (71): _auto_save_callback(), cli(), composite_blend_modes(), composite_get_blend(), composite_pip(), composite_set_blend(), composite_set_opacity(), export_preset_info() (+63 more)
 
 ### Community 12 - "krita/tests/test_core.py"
-Cohesion: 0.08
-Nodes (15): add_filter(), add_layer(), create_project(), _find_layer(), list_layers(), _now_iso(), project_info(), remove_layer() (+7 more)
+Cohesion: 0.07
+Nodes (21): add_filter(), add_layer(), create_project(), _find_layer(), list_layers(), _now_iso(), open_project(), project_info() (+13 more)
 
 ### Community 13 - "calibre/tests/test_core.py"
-Cohesion: 0.02
-Nodes (49): add_custom_column(), list_custom_columns(), remove_custom_column(), set_custom_field(), backup_metadata(), export_books(), export_chapters_pdf(), generate_catalog() (+41 more)
+Cohesion: 0.03
+Nodes (43): add_custom_column(), list_custom_columns(), remove_custom_column(), set_custom_field(), backup_metadata(), export_books(), export_chapters_pdf(), generate_catalog() (+35 more)
 
 ### Community 14 - "create_scene"
 Cohesion: 0.03
-Nodes (45): from_scene_object(), add_component(), add_object(), _build_default_objects(), bulk_modify_objects(), _category_for_ref(), clone_object(), create_scene() (+37 more)
+Nodes (44): add_component(), add_object(), _build_default_objects(), bulk_modify_objects(), _category_for_ref(), clone_object(), create_scene(), diff_scenes() (+36 more)
 
 ### Community 15 - "n8n_cli.py"
-Cohesion: 0.07
-Nodes (72): get_workflow(), _auto_snapshot(), config_set(), config_show(), config_test(), _conn(), _create_workflow(), credential_create() (+64 more)
+Cohesion: 0.09
+Nodes (54): _auto_snapshot(), config_show(), _conn(), credential_create(), credential_delete(), credential_schema(), credential_transfer(), execution_delete() (+46 more)
 
-### Community 16 - "Session"
-Cohesion: 0.06
-Nodes (10): live_push(), live_start(), list_profiles(), open_scene(), save_scene(), Session, TestPreview, fake_capture() (+2 more)
+### Community 16 - "save_scene"
+Cohesion: 0.13
+Nodes (5): get_scene_info(), list_profiles(), open_scene(), save_scene(), TestSceneLifecycle
 
 ### Community 17 - "slay_the_spire_ii/tests/test_full_e2e.py"
 Cohesion: 0.11
@@ -1355,7 +1390,7 @@ Nodes (14): E2E Tests (`test_full_e2e.py`), BridgeServerTestCase, TestBridgeSubp
 
 ### Community 18 - "mailchimp/tests/test_core.py"
 Cohesion: 0.03
-Nodes (24): automations_group(), lists_group(), MailchimpAuthError, MailchimpClient, _server_prefix(), subscriber_hash(), collect(), paginate() (+16 more)
+Nodes (25): automations_group(), campaigns_group(), lists_group(), MailchimpAuthError, MailchimpClient, _server_prefix(), subscriber_hash(), collect() (+17 more)
 
 ### Community 19 - "inkscape_cli.py"
 Cohesion: 0.05
@@ -1363,31 +1398,31 @@ Nodes (72): _auto_save_callback(), cli(), document_canvas_size(), document_info(
 
 ### Community 20 - "create_scene"
 Cohesion: 0.04
-Nodes (20): create_scene(), _excerpt(), _minimal_project(), TestGeneratedScriptSyntax, TestScene, TestBPYScriptGeneration, _engine_to_bpy(), _gen_cameras() (+12 more)
+Nodes (21): assign_material(), create_scene(), TestScene, TestBlenderRenderE2E, TestBPYScriptGeneration, TestScriptValidity, render_scene_headless(), _engine_to_bpy() (+13 more)
 
 ### Community 21 - "commands/__init__.py"
 Cohesion: 0.03
-Nodes (51): account_export_group(), _cmd_get(), _parse_json_option(), account_exports_group(), _cmd_create(), _cmd_list_(), _parse_json_option(), activity_feed_group() (+43 more)
+Nodes (44): account_export_group(), _cmd_get(), _parse_json_option(), account_exports_group(), _cmd_create(), _cmd_list_(), _parse_json_option(), activity_feed_group() (+36 more)
 
 ### Community 22 - "blender_cli.py"
 Cohesion: 0.05
-Nodes (65): animation_fps(), animation_frame_range(), animation_keyframe(), animation_list_keyframes(), animation_remove_keyframe(), auto_save_on_exit(), camera_add(), camera_list() (+57 more)
+Nodes (64): animation_fps(), animation_frame_range(), animation_keyframe(), animation_list_keyframes(), animation_remove_keyframe(), auto_save_on_exit(), camera_add(), camera_list() (+56 more)
 
 ### Community 23 - "cloudcompare/tests/test_full_e2e.py"
-Cohesion: 0.02
-Nodes (44): batch_export(), export_cloud(), cloud_xyz(), _make_xyz_cloud(), noisy_cloud_xyz(), project_json(), _resolve_cli(), TestApplyTransform (+36 more)
+Cohesion: 0.04
+Nodes (20): TestNoiseFilterImport, cloud_xyz(), _make_xyz_cloud(), noisy_cloud_xyz(), project_json(), TestApplyTransform, TestNoisePCLFilter, TestSegmentCC (+12 more)
 
 ### Community 25 - "BackendConfig"
 Cohesion: 0.04
-Nodes (84): attach_file(), _cli_supports_flag(), dump_database(), e2ee_decrypt(), e2ee_decrypt_file(), e2ee_status(), e2ee_target_status(), export_sync_status() (+76 more)
+Nodes (84): attach_file(), dump_database(), e2ee_decrypt_file(), e2ee_status(), e2ee_target_status(), export_sync_status(), geoloc(), keymap() (+76 more)
 
 ### Community 26 - "rms_cli.py"
 Cohesion: 0.07
 Nodes (81): alert_configs_create(), alert_configs_delete(), alert_configs_get(), alert_configs_list(), alert_configs_update(), alerts_delete(), alerts_get(), alerts_list() (+73 more)
 
 ### Community 27 - "drawio_xml.py"
-Cohesion: 0.07
-Nodes (22): TestDrawioXml, TestShapePresets, add_edge(), add_vertex(), create_blank_diagram(), find_cell_by_id(), get_all_cells(), get_cell_geometry() (+14 more)
+Cohesion: 0.06
+Nodes (21): set_connector_style(), TestDrawioXml, TestShapePresets, TestStyleParsing, add_edge(), add_vertex(), build_style(), create_blank_diagram() (+13 more)
 
 ### Community 28 - "._run"
 Cohesion: 0.07
@@ -1398,12 +1433,12 @@ Cohesion: 0.03
 Nodes (15): change_directory(), grep_elements(), list_elements(), read_element(), Session, TestDaemonMode, TestFsModule, TestSession (+7 more)
 
 ### Community 30 - "Session"
-Cohesion: 0.05
-Nodes (27): add_connector(), list_connectors(), render(), rename_page(), new_project(), open_project(), project_info(), save_project() (+19 more)
+Cohesion: 0.06
+Nodes (24): add_connector(), list_connectors(), rename_page(), new_project(), open_project(), project_info(), save_project(), Session (+16 more)
 
 ### Community 31 - "gimp_cli.py"
-Cohesion: 0.06
-Nodes (49): auto_save_on_exit(), canvas_crop(), canvas_dpi(), canvas_info(), canvas_mode(), canvas_resize(), canvas_scale(), cli() (+41 more)
+Cohesion: 0.05
+Nodes (56): auto_save_on_exit(), canvas_crop(), canvas_dpi(), canvas_info(), canvas_mode(), canvas_resize(), canvas_scale(), cli() (+48 more)
 
 ### Community 32 - "TigrisBackend"
 Cohesion: 0.10
@@ -1414,20 +1449,20 @@ Cohesion: 0.04
 Nodes (19): list_alerts(), list_configs(), list_hotspots(), list_logs(), list_sessions(), TestAlerts, TestBackend, TestCompanies (+11 more)
 
 ### Community 34 - "create_document"
-Cohesion: 0.06
-Nodes (15): create_document(), list_profiles(), open_document(), save_document(), to_ods(), to_odt(), TestDocument, TestExportEdgeCases (+7 more)
+Cohesion: 0.05
+Nodes (19): create_document(), list_profiles(), open_document(), export(), to_ods(), to_odt(), import_document(), list_import_formats() (+11 more)
 
 ### Community 35 - "get_client"
 Cohesion: 0.10
 Nodes (68): _cmd_create(), _cmd_create_list_member_events(), _cmd_create_list_member_tags(), _cmd_create_lists_id(), _cmd_create_lists_id_interest_categories(), _cmd_create_lists_id_interest_categories_id_interests(), _cmd_create_lists_id_members(), _cmd_create_lists_id_members_id_notes() (+60 more)
 
 ### Community 36 - "renderdoc_cli.py"
-Cohesion: 0.06
-Nodes (40): actions_find(), actions_get(), actions_list(), actions_summary(), capture_convert(), capture_info(), _human(), capture_thumb() (+32 more)
+Cohesion: 0.04
+Nodes (50): fetch_counters(), list_counters(), actions_find(), actions_get(), actions_group(), actions_list(), actions_summary(), capture_convert() (+42 more)
 
 ### Community 37 - "sys"
-Cohesion: 0.08
-Nodes (46): cli(), cloud_add(), cloud_convert(), cloud_crop(), cloud_curvature(), cloud_density(), cloud_filter_csf(), cloud_filter_sf() (+38 more)
+Cohesion: 0.09
+Nodes (45): cli(), cloud_add(), cloud_convert(), cloud_crop(), cloud_curvature(), cloud_density(), cloud_filter_csf(), cloud_filter_sf() (+37 more)
 
 ### Community 38 - "joplin/tests/test_core.py"
 Cohesion: 0.05
@@ -1443,7 +1478,7 @@ Nodes (53): audio_add(), audio_list(), audio_monitor(), audio_mute(), audio_remo
 
 ### Community 41 - "unrealinsights_cli.py"
 Cohesion: 0.07
-Nodes (51): analyze_summary_cmd(), backend_ensure_insights(), backend_info(), batch_run_rsp(), capture_run(), capture_snapshot_cmd(), capture_start(), capture_status_cmd() (+43 more)
+Nodes (57): analyze_summary_cmd(), backend_ensure_insights(), backend_info(), batch_run_rsp(), capture_run(), capture_snapshot_cmd(), capture_start(), capture_status_cmd() (+49 more)
 
 ### Community 42 - "audacity_cli.py"
 Cohesion: 0.07
@@ -1458,8 +1493,8 @@ Cohesion: 0.06
 Nodes (67): Module: `mubu_probe.py`, BackupLoadingTests, ClientSyncParsingTests, DocumentMetadataOverlayTests, DocumentMetaNormalizationTests, DocumentNodeListingTests, FolderNormalizationTests, LinkExtractionTests (+59 more)
 
 ### Community 45 - "openscreen_cli.py"
-Cohesion: 0.07
-Nodes (37): annotation_add_text(), annotation_list(), annotation_remove(), crop_get(), crop_set(), export_presets(), export_render(), handle_error() (+29 more)
+Cohesion: 0.04
+Nodes (53): save_project(), set_video(), annotation(), annotation_add_text(), annotation_list(), annotation_remove(), crop(), crop_get() (+45 more)
 
 ### Community 47 - "mubu_cli.py"
 Cohesion: 0.06
@@ -1467,39 +1502,35 @@ Nodes (54): append_command_history(), build_session_payload(), changes(), clear_
 
 ### Community 48 - "shotcut/core/preview.py"
 Cohesion: 0.06
-Nodes (57): capture(), _history_item(), latest(), list_recipes(), live_push(), _live_session_dir(), _live_session_name(), live_start() (+49 more)
+Nodes (56): capture(), _history_item(), latest(), list_recipes(), live_push(), _live_session_dir(), _live_session_name(), live_start() (+48 more)
 
-### Community 49 - "adguardhome_cli.py"
-Cohesion: 0.07
-Nodes (61): blocked_services(), blocked_services_list(), blocked_services_set(), blocking(), clients_(), clients_list(), clients_show(), config() (+53 more)
+### Community 49 - "output"
+Cohesion: 0.10
+Nodes (34): blocked_services_list(), blocked_services_set(), clients_list(), clients_show(), config_save(), config_test(), filter_list(), filter_toggle() (+26 more)
 
 ### Community 50 - "safari_cli.py"
-Cohesion: 0.02
-Nodes (44): _build_tool_command(), run(), cli(), _click_param_name(), _click_type_for_param(), _compute_url_validated_tools(), get_session(), handle_error() (+36 more)
+Cohesion: 0.07
+Nodes (26): _build_tool_command(), run(), _click_param_name(), _click_type_for_param(), _compute_url_validated_tools(), get_session(), handle_error(), _handle_error() (+18 more)
 
 ### Community 51 - "listener.py"
 Cohesion: 0.03
 Nodes (14): _bonjour_service_types(), _classify_connection(), _dns_sd_txt_args(), _DnsSdBonjourPublisher, _get_local_ip(), _looks_like_tls_client_hello(), _NativeBonjourListenerProcess, _NativeBonjourPublisher (+6 more)
 
 ### Community 52 - "add_zoom_region"
-Cohesion: 0.10
-Nodes (7): list_presets(), add_zoom_region(), list_zoom_regions(), remove_zoom_region(), _repl_zoom(), TestIntegration, TestZoom
+Cohesion: 0.08
+Nodes (9): list_presets(), add_zoom_region(), get_active_regions_at(), get_timeline_boundaries(), list_zoom_regions(), remove_zoom_region(), update_zoom_region(), TestIntegration (+1 more)
 
 ### Community 53 - "zotero_cli.py"
 Cohesion: 0.15
 Nodes (64): append_command_history(), build_session_payload(), save_session_state(), app_enable_local_api(), app_launch(), app_ping(), app_status(), app_version() (+56 more)
 
-### Community 54 - "shlex"
-Cohesion: 0.04
-Nodes (37): _bundled_install(), _bundled_uninstall(), _bundled_update(), _command_exists(), doctor_matrix(), _find_npm(), _find_uv(), _generic_install() (+29 more)
-
-### Community 55 - "Session"
-Cohesion: 0.07
-Nodes (13): health_check(), list_bindings(), list_labels(), list_roles(), list_settings(), system_info(), Session, auth_session() (+5 more)
+### Community 54 - "patch"
+Cohesion: 0.01
+Nodes (138): agh_docker(), _configure_adguardhome(), _wait_for_adguardhome(), _analytics_dir(), _build_posthog_payload(), _build_umami_payload(), detect_invocation_context(), _detect_is_agent() (+130 more)
 
 ### Community 56 - "libreoffice_cli.py"
-Cohesion: 0.05
-Nodes (60): get_document_info(), auto_save_on_exit(), calc(), calc_add_sheet(), calc_get_cell(), calc_list_sheets(), calc_remove_sheet(), calc_rename_sheet() (+52 more)
+Cohesion: 0.07
+Nodes (53): get_document_info(), auto_save_on_exit(), calc_add_sheet(), calc_get_cell(), calc_list_sheets(), calc_remove_sheet(), calc_rename_sheet(), calc_set_cell() (+45 more)
 
 ### Community 57 - "drawio_cli.py"
 Cohesion: 0.07
@@ -1511,107 +1542,107 @@ Nodes (14): add_heading(), add_list(), add_page_break(), add_paragraph(), add_ta
 
 ### Community 59 - "cli"
 Cohesion: 0.05
-Nodes (17): cli(), TestCLIParsing, TestEmbedCommands, TestErrorHandling, TestGenerateChatCommands, TestGenerateTextCommands, TestModelCommands, TestModelPsCommands (+9 more)
+Nodes (16): cli(), TestCLIParsing, TestEmbedCommands, TestErrorHandling, TestGenerateChatCommands, TestGenerateTextCommands, TestModelCommands, TestModelPsCommands (+8 more)
 
 ### Community 60 - "TestBackend"
-Cohesion: 0.03
-Nodes (23): _count_wall_vertices(), _group_circles(), _is_interior_hole(), _wall_axial_extent(), _build_mesh_element(), _build_model_from_scratch(), _detect_namespace(), _find_model_path() (+15 more)
+Cohesion: 0.04
+Nodes (12): compute_mesh_stats_cube(), _make_circle_points(), TestBackend, _axis_plane_normal(), compute_mesh_stats(), cross_section_circles(), find_cylinder_vertices(), fit_circle_least_squares() (+4 more)
 
 ### Community 61 - "qgis_cli.py"
-Cohesion: 0.09
-Nodes (37): _auto_save_if_one_shot(), _current_project_modified(), export_image(), export_pdf(), export_presets(), feature_add(), feature_list(), get_session() (+29 more)
+Cohesion: 0.08
+Nodes (41): _active_project_path(), _auto_save_if_one_shot(), _current_project_modified(), export(), export_image(), export_pdf(), export_presets(), feature_add() (+33 more)
 
 ### Community 62 - "Session"
-Cohesion: 0.03
-Nodes (14): get_preset_info(), list_presets(), new_project(), Session, set_track_hidden(), set_track_mute(), set_track_name(), session() (+6 more)
+Cohesion: 0.05
+Nodes (7): Session, list_tracks(), set_track_hidden(), set_track_mute(), set_track_name(), TestSession, TestTimelineEdgeCases
 
 ### Community 63 - "shotcut/utils/mlt_xml.py"
 Cohesion: 0.03
-Nodes (53): _render_with_melt(), duck_volume(), _find_filter_index(), _resolve_target(), set_volume_envelope(), _get_bin_ids(), _get_media_producers(), real_clip_entries() (+45 more)
+Nodes (52): _find_compositing_transition(), get_track_blend_mode(), list_blend_modes(), pip_position(), set_track_blend_mode(), set_track_opacity(), _render_with_melt(), _metrics() (+44 more)
 
 ### Community 64 - "_make_cube_mesh"
-Cohesion: 0.05
-Nodes (8): compare_meshes(), get_mesh_info(), inspect_mesh(), InspectParams, _perpendicular_axes(), _validate_mesh(), _make_washer_mesh(), TestInspector
+Cohesion: 0.04
+Nodes (12): compare_meshes(), _count_wall_vertices(), get_mesh_info(), _group_circles(), inspect_mesh(), InspectParams, _is_interior_hole(), _perpendicular_axes() (+4 more)
 
-### Community 65 - "unimol_tools_cli.py"
-Cohesion: 0.03
-Nodes (46): list_predictions(), run_prediction(), create_project(), get_project_info(), load_project(), save_project(), set_dataset(), update_config() (+38 more)
+### Community 65 - "click"
+Cohesion: 0.02
+Nodes (77): books_add(), books_export(), books_export_chapters(), books_list(), books_remove(), books_search(), books_show(), catalog() (+69 more)
 
 ### Community 66 - "MailchimpError"
-Cohesion: 0.13
+Cohesion: 0.12
 Nodes (63): _cmd_create(), _cmd_create_ecommerce_stores_id_carts(), _cmd_create_ecommerce_stores_id_carts_id_lines(), _cmd_create_ecommerce_stores_id_customers(), _cmd_create_ecommerce_stores_id_orders(), _cmd_create_ecommerce_stores_id_orders_id_lines(), _cmd_create_ecommerce_stores_id_products(), _cmd_create_ecommerce_stores_id_products_id_images() (+55 more)
 
 ### Community 67 - "`test_core.py` (157 tests, 36 classes)"
 Cohesion: 0.05
-Nodes (23): generate_class(), _classify_asset(), find_asset_refs(), find_unused_assets(), get_asset_info(), move_asset(), _normalize_ref(), _parse_json_asset() (+15 more)
+Nodes (22): _classify_asset(), find_asset_refs(), find_project_dir(), find_unused_assets(), get_asset_info(), _get_extensions_for_type(), list_assets(), move_asset() (+14 more)
 
 ### Community 68 - "kdenlive_cli.py"
 Cohesion: 0.07
 Nodes (45): auto_save_on_exit(), bin_get(), bin_import(), bin_list(), bin_remove(), cli(), export_presets(), export_xml() (+37 more)
 
-### Community 69 - "QgisBackendError"
-Cohesion: 0.14
-Nodes (16): add_label_item(), add_map_item(), _all_layouts(), _combined_project_extent(), create_layout(), get_layout(), _item_summary(), layout_info() (+8 more)
+### Community 69 - "sketch.py"
+Cohesion: 0.06
+Nodes (35): add_arc(), add_bspline(), add_circle(), add_constraint(), add_ellipse(), add_external_from_face(), add_line(), add_point() (+27 more)
 
 ### Community 70 - "Session"
 Cohesion: 0.05
-Nodes (7): Session, TestSession, TestProjectWorkflow, Module: `core/project.py`, Module: `core/session.py`, Module: `utils/cc_backend.py` (unit-level), Unit Test Plan (`test_core.py`)
+Nodes (8): project_info(), Session, TestSession, TestProjectWorkflow, Module: `core/project.py`, Module: `core/session.py`, Module: `utils/cc_backend.py` (unit-level), Unit Test Plan (`test_core.py`)
 
 ### Community 71 - "cloudanalyzer_cli.py"
-Cohesion: 0.08
-Nodes (40): baseline(), baseline_decision(), baseline_list(), baseline_save(), check(), check_init(), check_run(), _error() (+32 more)
+Cohesion: 0.03
+Nodes (75): baseline(), baseline_decision(), baseline_list(), baseline_save(), check(), check_init(), check_run(), cli() (+67 more)
 
 ### Community 72 - "lldb_cli.py"
-Cohesion: 0.12
-Nodes (34): breakpoint_delete(), breakpoint_disable(), breakpoint_enable(), breakpoint_list(), breakpoint_set(), core_load(), expr_eval(), frame_info() (+26 more)
+Cohesion: 0.10
+Nodes (43): main(), breakpoint_delete(), breakpoint_disable(), breakpoint_enable(), breakpoint_group(), breakpoint_list(), breakpoint_set(), _cleanup() (+35 more)
 
 ### Community 73 - "api_get"
 Cohesion: 0.05
 Nodes (63): create_alert_config(), delete_alert(), delete_alert_config(), get_alert(), get_alert_config(), list_alert_configs(), update_alert_config(), create_company() (+55 more)
 
-### Community 74 - "cli.py"
-Cohesion: 0.05
-Nodes (39): track_install(), track_launch(), track_matrix_discover(), track_matrix_info(), track_matrix_install(), track_matrix_preflight(), track_uninstall(), can() (+31 more)
+### Community 74 - "inkscape/tests/test_core.py"
+Cohesion: 0.08
+Nodes (16): add_circle(), add_ellipse(), add_line(), _add_object(), add_path(), add_polygon(), add_rect(), add_star() (+8 more)
 
 ### Community 75 - "freecad/core/mesh.py"
-Cohesion: 0.09
-Nodes (20): analyze_mesh(), check_mesh(), decimate_mesh(), export_mesh(), fill_holes(), flip_normals(), _get_mesh(), import_mesh() (+12 more)
+Cohesion: 0.06
+Nodes (31): ensure_collection(), analyze_mesh(), check_mesh(), decimate_mesh(), export_mesh(), fill_holes(), flip_normals(), _get_mesh() (+23 more)
 
 ### Community 76 - "ensure_collection"
-Cohesion: 0.05
-Nodes (50): ensure_collection(), draft_array_linear(), draft_array_path(), draft_array_polar(), draft_bezier(), draft_bspline(), draft_circle(), draft_clone() (+42 more)
+Cohesion: 0.06
+Nodes (39): draft_array_linear(), draft_array_path(), draft_array_polar(), draft_bezier(), draft_bspline(), draft_circle(), draft_clone(), draft_copy() (+31 more)
 
 ### Community 77 - "create_project"
-Cohesion: 0.06
-Nodes (19): render(), add_filter(), add_from_file(), check_media(), create_project(), get_project_info(), list_profiles(), open_project() (+11 more)
+Cohesion: 0.07
+Nodes (17): render(), add_filter(), add_from_file(), check_media(), create_project(), get_project_info(), open_project(), save_project() (+9 more)
 
 ### Community 78 - "iterm2_ctl/tests/test_full_e2e.py"
 Cohesion: 0.04
 Nodes (29): apply_color_preset(), get_profile_detail(), list_color_presets(), list_profiles(), activate_session(), close_session(), get_screen_contents(), get_scrollback() (+21 more)
 
 ### Community 79 - "replay.py"
-Cohesion: 0.10
-Nodes (17): _build_analysis(), _capture_type(), _compact_result(), _first_value(), _has_files(), _is_no_error_line(), _load_json_artifact(), _read_error_summary() (+9 more)
+Cohesion: 0.09
+Nodes (19): main(), analyze_capture(), _build_analysis(), _capture_type(), _compact_result(), _first_value(), _has_files(), _is_no_error_line() (+11 more)
 
-### Community 80 - "Any"
-Cohesion: 0.10
-Nodes (23): add_keyframe(), apply_motion(), create_motion(), delete_motion(), _find_track(), _frame_times(), get_motion(), _interpolate_vec3() (+15 more)
+### Community 80 - "inkscape/tests/test_full_e2e.py"
+Cohesion: 0.07
+Nodes (16): get_object_style(), list_style_properties(), set_fill(), set_opacity(), set_stroke(), set_style(), _set_style_prop(), reset_ids() (+8 more)
 
 ### Community 81 - "freecad/core/preview.py"
-Cohesion: 0.06
-Nodes (70): append_live_trajectory(), artifact_record(), build_cache_key(), build_live_history_item(), bundle_root(), _clean_none_fields(), finalize_bundle(), find_cached_manifest() (+62 more)
+Cohesion: 0.09
+Nodes (48): _history_item(), latest(), list_recipes(), _live_session_dir(), _live_session_name(), live_status(), live_stop(), _load_existing_live_session() (+40 more)
 
 ### Community 82 - "cli"
 Cohesion: 0.03
-Nodes (17): _build_repl_commands(), _CatchErrors, cli(), repl(), mock_ctx(), runner(), TestBlockInsertCommand, TestDocCreateCommand (+9 more)
+Nodes (15): _build_repl_commands(), _CatchErrors, cli(), repl(), TestBlockInsertCommand, TestDocCreateCommand, TestDocGetCommand, TestDocListCommand (+7 more)
 
 ### Community 83 - "macrocli_cli.py"
 Cohesion: 0.07
-Nodes (29): interactive_parameterize(), llm_suggest_parameters(), parameterize_yaml_file(), _prompt_param_name(), _valid_param_name(), _YamlTypeStep, backends(), cli() (+21 more)
+Nodes (31): interactive_parameterize(), llm_suggest_parameters(), parameterize_yaml_file(), _prompt_param_name(), _valid_param_name(), _YamlTypeStep, backends(), cli() (+23 more)
 
 ### Community 84 - "MacroRegistry"
-Cohesion: 0.05
-Nodes (13): MacroCondition, MacroDefinition, MacroRegistry, _check_condition(), ExecutionResult, MacroRuntime, TestMacroRegistry, TestMacroRuntime (+5 more)
+Cohesion: 0.06
+Nodes (9): MacroDefinition, MacroRegistry, MacroRuntime, TestMacroRegistry, TestMacroRuntime, TestFileTransformE2E, TestNativeAPIE2E, TestPostconditionE2E (+1 more)
 
 ### Community 85 - "matrix_skill.py"
 Cohesion: 0.04
@@ -1619,23 +1650,23 @@ Nodes (24): _copy_matrix_assets(), _fallback_repo_skill_path(), _fetch_published
 
 ### Community 86 - "create_project"
 Cohesion: 0.05
-Nodes (9): create_project(), _default_project(), get_project_info(), open_project(), Session, TestProject, TestSession, TestEdgeCases (+1 more)
+Nodes (9): create_project(), _default_project(), get_project_info(), Session, TestProject, TestSession, TestEdgeCases, TestSessionUndoRedo (+1 more)
 
 ### Community 87 - "alexa_cli.py"
-Cohesion: 0.06
+Cohesion: 0.05
 Nodes (35): announce(), auth(), auth_locale(), auth_login(), auth_logout(), auth_status(), cli(), command() (+27 more)
 
 ### Community 88 - "RuntimeContext"
-Cohesion: 0.11
-Nodes (41): analyze_item(), build_item_context(), _creator_line(), _link_payload(), _prompt_context(), collection_items(), collection_tree(), _default_library() (+33 more)
+Cohesion: 0.10
+Nodes (46): analyze_item(), build_item_context(), _creator_line(), _link_payload(), _prompt_context(), collection_items(), collection_tree(), _default_library() (+38 more)
 
 ### Community 89 - "cloudcompare/tests/test_core.py"
-Cohesion: 0.05
-Nodes (27): add_cloud(), add_mesh(), _cloud_entry(), create_project(), _default_project(), get_cloud(), get_mesh(), load_project() (+19 more)
+Cohesion: 0.07
+Nodes (18): add_cloud(), add_mesh(), create_project(), get_cloud(), load_project(), remove_cloud(), dummy_cloud_file(), dummy_mesh_file() (+10 more)
 
-### Community 90 - "handle_error"
-Cohesion: 0.15
-Nodes (18): artifact_generate_report(), artifact_list(), auth_check(), auth_login(), auth_status(), chat_ask(), chat_history(), download_report() (+10 more)
+### Community 90 - "notebooklm_cli.py"
+Cohesion: 0.05
+Nodes (37): artifact(), artifact_generate_report(), artifact_list(), auth(), auth_check(), auth_login(), auth_status(), chat() (+29 more)
 
 ### Community 91 - "joplin_cli.py"
 Cohesion: 0.16
@@ -1643,15 +1674,19 @@ Nodes (67): add_history(), project_info(), attach_add(), auto_save_on_exit(), _b
 
 ### Community 92 - "n8n_backend.py"
 Cohesion: 0.04
-Nodes (56): create_credential(), delete_credential(), get_credential_schema(), transfer_credential(), delete_execution(), get_execution(), list_executions(), retry_execution() (+48 more)
+Nodes (50): create_credential(), delete_credential(), get_credential_schema(), transfer_credential(), delete_execution(), get_execution(), list_executions(), retry_execution() (+42 more)
 
 ### Community 93 - "SeaClipBackend"
-Cohesion: 0.09
-Nodes (7): agent_list(), pipeline_resume(), pipeline_start(), pipeline_status(), pipeline_stop(), TestBackendURLConstruction, SeaClipBackend
+Cohesion: 0.04
+Nodes (24): activity_group(), activity_list(), agent_group(), agent_list(), issue_create(), issue_delete(), issue_group(), issue_list() (+16 more)
 
 ### Community 94 - "TestBackendWorkflows"
 Cohesion: 0.08
 Nodes (29): Forcing the installed console script, BackendTestBase, TestBackendCommands, TestBackendIntegration, TestBackendWorkflows, TestCLISubprocess, WorkflowStep, Known limitations (+21 more)
+
+### Community 95 - "Session"
+Cohesion: 0.06
+Nodes (6): create_project(), open_project(), Session, TestProject, TestSession, TestFormatValidation
 
 ### Community 96 - "LLDBSession"
 Cohesion: 0.10
@@ -1663,19 +1698,19 @@ Nodes (52): add_item_to_collection(), create_collection(), move_item_to_collecti
 
 ### Community 98 - "create_project"
 Cohesion: 0.05
-Nodes (19): add_package(), configure_project(), create_project(), _default_minimal_scene(), _default_sbproj(), find_sbproj(), get_project_info(), load_project() (+11 more)
+Nodes (20): add_package(), configure_project(), create_project(), _default_minimal_scene(), _default_sbproj(), find_sbproj(), get_project_info(), load_project() (+12 more)
 
 ### Community 99 - "blender_orbital_relay_drone_demo.py"
 Cohesion: 0.06
 Nodes (27): add_modifier(), get_modifier_info(), list_available(), list_modifiers(), remove_modifier(), set_modifier_param(), validate_params(), TestModifiers (+19 more)
 
-### Community 100 - "calibre_cli.py"
-Cohesion: 0.12
-Nodes (27): books_add(), books_export(), books_export_chapters(), books_list(), books_remove(), books_search(), books_show(), catalog() (+19 more)
+### Community 100 - "output"
+Cohesion: 0.08
+Nodes (29): open_project(), get_session(), auto_save_on_exit(), export_batch(), export_verify(), handle_error(), instruments_add(), instruments_list() (+21 more)
 
 ### Community 101 - "nsight_graphics_backend.py"
-Cohesion: 0.08
-Nodes (22): ensure_at_most_one(), _candidate_dirs_from_env(), _default_windows_install_dirs(), detect_tool_mode(), discover_binaries(), _fixed_windows_drive_roots(), get_version(), list_installations() (+14 more)
+Cohesion: 0.07
+Nodes (29): _candidate_dirs_from_env(), _default_windows_install_dirs(), detect_tool_mode(), discover_binaries(), _fixed_windows_drive_roots(), get_version(), list_installations(), _normalized_install_key() (+21 more)
 
 ### Community 102 - "SiYuanClient"
 Cohesion: 0.07
@@ -1698,24 +1733,24 @@ Cohesion: 0.12
 Nodes (22): act_click(), act_type(), fs_cat(), fs_cd(), fs_grep(), fs_ls(), fs_pwd(), get_session() (+14 more)
 
 ### Community 107 - "test_cli_hub.py"
-Cohesion: 0.14
-Nodes (33): _apply_session_trajectory_metadata(), _artifact_href(), _coalesce(), _extract_bundle_payload(), format_bytes(), _history_from_session(), inspect_bundle(), inspect_session() (+25 more)
+Cohesion: 0.08
+Nodes (36): _apply_session_trajectory_metadata(), _artifact_href(), _coalesce(), _extract_bundle_payload(), format_bytes(), _history_from_session(), inspect_bundle(), inspect_session() (+28 more)
 
 ### Community 108 - "blender/core/preview.py"
-Cohesion: 0.08
-Nodes (51): capture(), _ensure_preview_rig(), _history_item(), latest(), list_recipes(), _live_session_dir(), _live_session_name(), live_status() (+43 more)
+Cohesion: 0.04
+Nodes (56): capture(), _ensure_preview_rig(), _history_item(), latest(), list_recipes(), live_push(), _live_session_dir(), _live_session_name() (+48 more)
 
 ### Community 109 - "eez_studio_cli.py"
 Cohesion: 0.09
-Nodes (34): backend_status(), get_session(), handle_error(), lvgl_add_button(), lvgl_add_label(), lvgl_add_page(), lvgl_backend_inspect(), lvgl_build_files() (+26 more)
+Nodes (35): verify_simulator_output(), backend_status(), get_session(), handle_error(), lvgl_add_button(), lvgl_add_label(), lvgl_add_page(), lvgl_backend_inspect() (+27 more)
 
 ### Community 110 - "pass_context"
-Cohesion: 0.10
-Nodes (24): canvas_info(), canvas_resize(), export_anim(), export_formats(), export_render(), filter_apply(), filter_list(), handle_error() (+16 more)
+Cohesion: 0.07
+Nodes (33): canvas(), canvas_info(), canvas_resize(), cli(), export_anim(), export_formats(), export_group(), export_presets() (+25 more)
 
 ### Community 111 - "_clean_for_api"
-Cohesion: 0.08
-Nodes (6): _clean_for_api(), _load_json_arg(), _load(), TestWritePayload, TestCLICommands, TestLoadJsonArg
+Cohesion: 0.05
+Nodes (17): _clean_for_api(), _create_workflow(), _diag(), _is_unknown_property_error(), _load_json_arg(), _reapply_tags(), _send_workflow(), _update_workflow() (+9 more)
 
 ### Community 112 - "gpu_trace.py"
 Cohesion: 0.06
@@ -1723,7 +1758,7 @@ Nodes (22): _build_trace_analysis(), _event_depth(), _find_export_dir(), _frame_
 
 ### Community 113 - "load_motion"
 Cohesion: 0.09
-Nodes (10): build_dependency_graph(), DependencyGraph, ParamUsage, ExpressionInfo, ExpressionParam, load_expression(), load_motion(), MotionCurve (+2 more)
+Nodes (11): build_dependency_graph(), DependencyGraph, ParamUsage, ExpressionInfo, ExpressionParam, load_expression(), load_motion(), MotionCurve (+3 more)
 
 ### Community 114 - "openscreen/utils/preview_bundle.py"
 Cohesion: 0.11
@@ -1738,40 +1773,40 @@ Cohesion: 0.10
 Nodes (29): error(), print_json(), print_table(), success(), record_snapshot(), record_start(), record_status(), record_stop() (+21 more)
 
 ### Community 118 - "ReplSkin"
-Cohesion: 0.05
-Nodes (9): _display_home_path(), ReplSkin, _box_line(), _meta_lines(), _strip_ansi(), _visible_len(), _safe_print_banner(), _safe_print_goodbye() (+1 more)
+Cohesion: 0.04
+Nodes (15): _display_home_path(), ReplSkin, _box_line(), _meta_lines(), _strip_ansi(), _visible_len(), _build_runtime_from_config(), _handle_repl_builtin() (+7 more)
 
 ### Community 119 - "musescore_cli.py"
-Cohesion: 0.02
-Nodes (83): batch_export(), export_score(), _ext_to_format(), verify_output(), add_instrument(), list_instruments(), remove_instrument(), reorder_instruments() (+75 more)
+Cohesion: 0.03
+Nodes (39): _ext_to_format(), verify_output(), add_instrument(), list_instruments(), remove_instrument(), reorder_instruments(), probe_score(), score_stats() (+31 more)
 
 ### Community 121 - "jumpserver/tests/test_core.py"
-Cohesion: 0.04
-Nodes (17): _format_dict_table(), _format_list_table(), format_output(), _format_table(), _truncate(), CLIState, get_state(), reset_state() (+9 more)
+Cohesion: 0.03
+Nodes (31): account_group(), asset_group(), audit_group(), ops_group(), auth_group(), perm_group(), session_group(), label_group() (+23 more)
 
 ### Community 122 - "renderdoc/utils/preview_bundle.py"
-Cohesion: 0.06
-Nodes (41): open_capture(), _attach_trajectory_ref(), capture(), _compact_diff(), _count_differences(), _default_event_id(), diff(), latest() (+33 more)
+Cohesion: 0.09
+Nodes (35): open_capture(), _attach_trajectory_ref(), capture(), _compact_diff(), _count_differences(), _default_event_id(), diff(), latest() (+27 more)
 
 ### Community 123 - "comfyui_cli.py"
-Cohesion: 0.07
-Nodes (30): echo_human(), handle_error(), images(), images_download(), images_download_all(), images_list(), models(), models_checkpoints() (+22 more)
+Cohesion: 0.08
+Nodes (25): echo_human(), handle_error(), images_download(), images_download_all(), images_list(), models_checkpoints(), models_controlnets(), models_list_nodes() (+17 more)
 
 ### Community 124 - "cli"
-Cohesion: 0.04
-Nodes (8): cli(), main(), TestCLIImages, TestCLIQueue, TestCLIWorkflow, TestErrorHandling, TestFullGenerationWorkflow, TestModelDiscovery
+Cohesion: 0.05
+Nodes (7): cli(), main(), TestCLIImages, TestCLIQueue, TestCLIWorkflow, TestErrorHandling, TestFullGenerationWorkflow
 
 ### Community 125 - "motion.py"
-Cohesion: 0.05
-Nodes (26): get_export_info(), list_presets(), _validate_3mf(), _validate_dxf(), _validate_gltf(), _validate_iges(), _validate_pdf(), _validate_step() (+18 more)
+Cohesion: 0.06
+Nodes (43): add_keyframe(), apply_motion(), create_motion(), delete_motion(), _ensure_empty_dir(), _find_track(), _frame_times(), _generate_motion_macro() (+35 more)
 
 ### Community 126 - "tmux.py"
-Cohesion: 0.05
-Nodes (24): create_window(), _ensure_app_and_connections(), list_connections(), list_tmux_tabs(), _resolve_connection(), run_session_tmux_command(), send_command(), set_window_visible() (+16 more)
+Cohesion: 0.04
+Nodes (22): bootstrap(), create_window(), _ensure_app_and_connections(), list_connections(), list_tmux_tabs(), _resolve_connection(), run_session_tmux_command(), send_command() (+14 more)
 
 ### Community 127 - "ReplSkin"
 Cohesion: 0.05
-Nodes (10): _display_home_path(), _get_skin(), print_banner(), _print_dict(), _print_table(), ReplSkin, _box_line(), _meta_lines() (+2 more)
+Nodes (6): _display_home_path(), ReplSkin, _box_line(), _meta_lines(), _strip_ansi(), _visible_len()
 
 ### Community 128 - "cli"
 Cohesion: 0.04
@@ -1786,8 +1821,8 @@ Cohesion: 0.12
 Nodes (13): add_sheet(), clear_cell(), _ensure_calc(), get_cell(), _get_sheet(), get_sheet_data(), list_sheets(), remove_sheet() (+5 more)
 
 ### Community 131 - "CliEntrypointTests"
-Cohesion: 0.10
-Nodes (20): fake_zotero_http_server(), apply_session_update(), _binary_response(), create_attachment_item(), create_note_item(), create_top_level_item(), db_connect(), do_GET() (+12 more)
+Cohesion: 0.09
+Nodes (24): fake_zotero_http_server(), apply_session_update(), _binary_response(), create_attachment_item(), create_note_item(), create_top_level_item(), db_connect(), do_GET() (+16 more)
 
 ### Community 132 - "cam.py"
 Cohesion: 0.11
@@ -1809,29 +1844,33 @@ Nodes (20): _init_lifecycle_mod(), lifecycle(), lifecycle_delete(), lifecycle_re
 Cohesion: 0.08
 Nodes (12): auth_group(), login(), logout(), whoami(), bucket_group(), bucket_info(), create_bucket(), delete_bucket() (+4 more)
 
+### Community 138 - "MeshData"
+Cohesion: 0.06
+Nodes (16): _build_mesh_element(), _build_model_from_scratch(), _detect_namespace(), _find_model_path(), MeshData, parse_3mf(), _parse_mesh_element(), _rebuild_model_xml() (+8 more)
+
 ### Community 139 - "fem.py"
 Cohesion: 0.09
 Nodes (20): add_beam_section(), add_displacement_constraint(), add_fixed_constraint(), add_force_constraint(), add_heatflux_constraint(), add_pressure_constraint(), add_temperature_constraint(), add_tie_constraint() (+12 more)
 
 ### Community 140 - "video_doctor.py"
-Cohesion: 0.15
-Nodes (42): as_float(), as_int(), audio_doctor(), calc_time(), caption_doctor(), compact_media(), coverage_seconds(), ensure_tool() (+34 more)
+Cohesion: 0.11
+Nodes (54): add_common(), as_float(), as_int(), audio_doctor(), build_parser(), calc_time(), caption_doctor(), clean_text() (+46 more)
 
-### Community 141 - "ca_backend.py"
-Cohesion: 0.05
-Nodes (29): baseline_decision(), baseline_discover(), baseline_list(), baseline_rotate(), baseline_save(), batch_evaluate(), compare(), convert() (+21 more)
+### Community 141 - "unrealinsights/tests/test_core.py"
+Cohesion: 0.07
+Nodes (27): _make_fake_binary(), _session_state_dir(), TestBackendDiscovery, TestErrorUtils, _has_local_insights(), handle_error(), build_engine_program(), build_insights_command() (+19 more)
 
 ### Community 143 - "openrefine/tests/test_core.py"
 Cohesion: 0.06
-Nodes (49): column_addition(), column_removal(), load_operations(), mass_edit(), _require_text(), text_transform(), _extract_project_id(), cli() (+41 more)
+Nodes (52): column_addition(), column_removal(), load_operations(), mass_edit(), _require_text(), text_transform(), _extract_project_id(), cli() (+44 more)
 
 ### Community 144 - "SessionStore"
 Cohesion: 0.10
-Nodes (25): OpenRefineService, SessionState, SessionStore, FakeBackend, test_service_apply_operations_requires_project(), test_service_apply_operations_uses_session_project(), test_service_export_writes_output_and_session(), test_service_import_file_persists_project() (+17 more)
+Nodes (24): OpenRefineService, SessionState, SessionStore, FakeBackend, test_service_apply_operations_uses_session_project(), test_service_export_writes_output_and_session(), test_service_import_file_persists_project(), test_service_list_projects() (+16 more)
 
 ### Community 146 - "iterm2_ctl/tests/test_core.py"
-Cohesion: 0.11
-Nodes (6): clear_state(), load_state(), save_state(), SessionState, TestSessionStateDefaults, TestSessionStatePersistence
+Cohesion: 0.10
+Nodes (7): clear_state(), default_state_path(), load_state(), save_state(), SessionState, TestSessionStateDefaults, TestSessionStatePersistence
 
 ### Community 147 - "add_object"
 Cohesion: 0.10
@@ -1843,7 +1882,7 @@ Nodes (6): _display_home_path(), ReplSkin, _box_line(), _meta_lines(), _strip_an
 
 ### Community 149 - "Session"
 Cohesion: 0.04
-Nodes (14): info(), new_project(), open_project(), save_project(), set_setting(), set_video(), _validate_crop_region(), Session (+6 more)
+Nodes (11): info(), new_project(), open_project(), set_setting(), _validate_crop_region(), Session, get_crop(), set_crop() (+3 more)
 
 ### Community 150 - "cli"
 Cohesion: 0.11
@@ -1895,7 +1934,7 @@ Nodes (6): _display_home_path(), ReplSkin, _box_line(), _meta_lines(), _strip_an
 
 ### Community 162 - "ReplSkin"
 Cohesion: 0.07
-Nodes (6): _display_home_path(), ReplSkin, _box_line(), _meta_lines(), _strip_ansi(), _visible_len()
+Nodes (4): ReplSkin, _box_line(), _meta_lines(), _visible_len()
 
 ### Community 163 - "ReplSkin"
 Cohesion: 0.05
@@ -1969,9 +2008,9 @@ Nodes (6): _display_home_path(), ReplSkin, _box_line(), _meta_lines(), _strip_an
 Cohesion: 0.05
 Nodes (6): _display_home_path(), ReplSkin, _box_line(), _meta_lines(), _strip_ansi(), _visible_len()
 
-### Community 181 - "obsidian/tests/test_core.py"
-Cohesion: 0.08
-Nodes (11): execute_command(), list_commands(), get_active(), open_note(), TestBackend, api_delete(), api_get(), api_post() (+3 more)
+### Community 181 - "svg_utils.py"
+Cohesion: 0.07
+Nodes (14): TestSVGUtils, find_all_shapes(), find_defs(), find_element_by_id(), get_element_style(), parse_svg(), parse_svg_file(), remove_element_by_id() (+6 more)
 
 ### Community 182 - "ReplSkin"
 Cohesion: 0.05
@@ -2010,7 +2049,7 @@ Cohesion: 0.05
 Nodes (6): _display_home_path(), ReplSkin, _box_line(), _meta_lines(), _strip_ansi(), _visible_len()
 
 ### Community 191 - "ReplSkin"
-Cohesion: 0.05
+Cohesion: 0.08
 Nodes (6): _display_home_path(), ReplSkin, _box_line(), _meta_lines(), _strip_ansi(), _visible_len()
 
 ### Community 192 - "ReplSkin"
@@ -2034,8 +2073,8 @@ Cohesion: 0.05
 Nodes (6): _display_home_path(), ReplSkin, _box_line(), _meta_lines(), _strip_ansi(), _visible_len()
 
 ### Community 197 - "visual_anchor.py"
-Cohesion: 0.09
-Nodes (13): _execute_action(), _find_template(), _get_window_bounds(), _load_image_as_array(), _mouse_click(), _mouse_drag(), _require_mss(), _require_numpy() (+5 more)
+Cohesion: 0.06
+Nodes (18): BackendContext, _execute_action(), _file_to_b64(), GUIAgentBackend, _screenshot_b64(), _find_template(), _get_window_bounds(), _load_image_as_array() (+10 more)
 
 ### Community 198 - "ReplSkin"
 Cohesion: 0.05
@@ -2050,24 +2089,24 @@ Cohesion: 0.05
 Nodes (6): _display_home_path(), ReplSkin, _box_line(), _meta_lines(), _strip_ansi(), _visible_len()
 
 ### Community 201 - "_run_repl"
-Cohesion: 0.11
-Nodes (5): get_filter_info(), list_available_filters(), list_filters(), remove_filter(), TestFilters
+Cohesion: 0.09
+Nodes (13): add_filter(), duck_volume(), _find_filter_index(), get_filter_info(), list_available_filters(), list_filters(), remove_filter(), _resolve_target() (+5 more)
 
-### Community 202 - "jumpserver_cli.py"
-Cohesion: 0.05
-Nodes (17): account_group(), asset_group(), audit_group(), ops_group(), auth_group(), perm_group(), session_group(), label_group() (+9 more)
+### Community 202 - "JumpServerREPL"
+Cohesion: 0.12
+Nodes (3): JumpserverCLI, JumpServerREPL, main()
 
 ### Community 203 - "inkscape/tests/test_core.py"
 Cohesion: 0.11
 Nodes (13): clear_transform(), _format_number(), _get_object(), get_transform(), parse_transform_string(), rotate(), scale(), serialize_transform_string() (+5 more)
 
 ### Community 204 - "xml_etree_elementtree"
-Cohesion: 0.09
+Cohesion: 0.10
 Nodes (26): _add_heading_element(), _add_image_ref_element(), _add_list_element(), _add_page_break_element(), _add_paragraph_element(), _add_table_element(), _apply_paragraph_properties(), _apply_text_properties() (+18 more)
 
-### Community 205 - "obsidian_cli.py"
-Cohesion: 0.08
-Nodes (26): command_execute(), command_group(), command_list(), handle_error(), main(), note(), note_active(), note_open() (+18 more)
+### Community 205 - "requests"
+Cohesion: 0.02
+Nodes (63): get_node_info(), search_nodes(), execute_command(), list_commands(), get_active(), open_note(), search_query(), search_simple() (+55 more)
 
 ### Community 206 - "siyuan_cli.py"
 Cohesion: 0.09
@@ -2086,24 +2125,28 @@ Cohesion: 0.06
 Nodes (13): _empty_report(), _filter_triangle_attributes(), fix_normals(), merge_duplicate_vertices(), _nondegenerate_face_mask(), remove_degenerate_faces(), remove_unreferenced_vertices(), repair_mesh() (+5 more)
 
 ### Community 210 - "libreoffice/tests/test_core.py"
-Cohesion: 0.11
-Nodes (11): add_slide(), add_slide_element(), duplicate_slide(), _ensure_impress(), get_slide(), list_slides(), move_slide(), remove_slide() (+3 more)
+Cohesion: 0.09
+Nodes (13): to_odp(), add_slide(), add_slide_element(), duplicate_slide(), _ensure_impress(), get_slide(), list_slides(), move_slide() (+5 more)
 
 ### Community 211 - "LLDBDebugAdapter"
 Cohesion: 0.09
 Nodes (7): _first_present(), LLDBDebugAdapter, post_send(), post_send(), post_send(), post_send(), post_send()
 
 ### Community 212 - "E2E Test Plan (test_full_e2e.py)"
-Cohesion: 0.11
-Nodes (18): App status workflow, Arrangement workflow, CLI subprocess tests, E2E Test Plan (test_full_e2e.py), Module: CLI output formatting, Module: `core/session.py` (logic only — no live connection), Module: `core/session_state.py`, Profile workflow (+10 more)
+Cohesion: 0.07
+Nodes (24): App status workflow, Arrangement workflow, CLI subprocess tests, TestIterm2Backend, E2E Test Plan (test_full_e2e.py), Module: CLI output formatting, Module: `core/session.py` (logic only — no live connection), Module: `core/session_state.py` (+16 more)
 
 ### Community 213 - "ReplSkin"
 Cohesion: 0.05
 Nodes (4): ReplSkin, _box_line(), _strip_ansi(), _visible_len()
 
+### Community 214 - "ReplSkin"
+Cohesion: 0.05
+Nodes (4): ReplSkin, _box_line(), _strip_ansi(), _visible_len()
+
 ### Community 215 - "queue.py"
-Cohesion: 0.07
-Nodes (9): clear_queue(), _format_outputs(), get_history(), get_prompt_history(), interrupt(), TestQueueClear, TestQueueHistory, api_delete() (+1 more)
+Cohesion: 0.10
+Nodes (7): clear_queue(), _format_outputs(), get_history(), get_prompt_history(), interrupt(), TestQueueClear, TestQueueHistory
 
 ### Community 216 - "ReplSkin"
 Cohesion: 0.05
@@ -2114,8 +2157,8 @@ Cohesion: 0.05
 Nodes (4): ReplSkin, _box_line(), _strip_ansi(), _visible_len()
 
 ### Community 218 - "minimax/tests/test_core.py"
-Cohesion: 0.07
-Nodes (26): test_chat_completion_default_temperature(), test_chat_completion_error(), test_chat_completion_missing_api_key(), test_chat_completion_stream_success(), test_chat_completion_success(), test_chat_completion_uses_cn_region_base_url(), test_chat_completion_uses_global_region_base_url(), test_get_api_key_no_env_no_config() (+18 more)
+Cohesion: 0.06
+Nodes (29): test_chat_completion_default_temperature(), test_chat_completion_error(), test_chat_completion_missing_api_key(), test_chat_completion_stream_success(), test_chat_completion_success(), test_chat_completion_uses_cn_region_base_url(), test_chat_completion_uses_global_region_base_url(), test_get_api_key_no_env_no_config() (+21 more)
 
 ### Community 219 - "ReplSkin"
 Cohesion: 0.05
@@ -2130,60 +2173,56 @@ Cohesion: 0.05
 Nodes (4): ReplSkin, _box_line(), _strip_ansi(), _visible_len()
 
 ### Community 222 - "nsight_graphics_cli.py"
-Cohesion: 0.06
-Nodes (27): capture_cpp(), get_installation_report(), list_installations(), attach(), launch_detached(), cli(), _common_kwargs(), cpp_capture_cmd() (+19 more)
+Cohesion: 0.04
+Nodes (32): die(), capture_cpp(), get_installation_report(), list_installations(), _activity_options(), _append_if_supported(), _build_unified_frame_args(), attach() (+24 more)
 
 ### Community 223 - "auto_backup"
-Cohesion: 0.09
-Nodes (10): auto_backup(), _backup_dir_for(), list_backups(), restore(), snapshot(), cli(), main(), TestBackup (+2 more)
-
-### Community 224 - "_clean_for_api"
 Cohesion: 0.05
-Nodes (13): _diag(), _is_unknown_property_error(), _reapply_tags(), _send_workflow(), _strip_server_fields(), _update_workflow(), _clean(), _without_newer_schema_fields() (+5 more)
+Nodes (20): auto_backup(), _backup_dir_for(), list_backups(), restore(), snapshot(), cli(), main(), TestBackup (+12 more)
 
 ### Community 225 - "ReplSkin"
-Cohesion: 0.05
+Cohesion: 0.06
 Nodes (6): _display_home_path(), ReplSkin, _box_line(), _meta_lines(), _strip_ansi(), _visible_len()
 
-### Community 226 - "TestOutput"
-Cohesion: 0.10
-Nodes (8): get_output_info(), list_encoding_presets(), set_output_settings(), set_recording(), set_streaming(), TestOutput, TestOutputConfiguration, TestSaveLoadRoundtrip
+### Community 226 - "obs_studio/tests/test_core.py"
+Cohesion: 0.06
+Nodes (18): get_output_info(), list_encoding_presets(), set_output_settings(), set_recording(), set_streaming(), open_project(), save_project(), add_transition() (+10 more)
 
-### Community 227 - "sbox/tests/test_core.py"
-Cohesion: 0.05
-Nodes (21): add_layer(), add_rule(), get_default_collision_config(), list_layers(), load_collision_config(), remove_layer(), remove_rule(), save_collision_config() (+13 more)
+### Community 227 - "sbox/tests/test_full_e2e.py"
+Cohesion: 0.06
+Nodes (13): add_layer(), add_rule(), get_default_collision_config(), list_layers(), load_collision_config(), remove_layer(), remove_rule(), save_collision_config() (+5 more)
 
 ### Community 228 - "core/test_orchestrator.py"
 Cohesion: 0.05
-Nodes (22): check_sentinel(), cleanup_data_files(), collect_screenshot(), kill_sbox_process(), poll_for_sentinel(), rgba_to_png(), run_single_combo(), run_test_pipeline() (+14 more)
+Nodes (24): build_combo_matrix(), check_sentinel(), cleanup_data_files(), collect_screenshot(), kill_sbox_process(), poll_for_sentinel(), rgba_to_png(), run_single_combo() (+16 more)
 
 ### Community 229 - "Connection"
-Cohesion: 0.07
-Nodes (18): Darwin, Foundation, Arguments, Connection, emit(), ListenerDelegate, loadIdentity(), normalizeServiceType() (+10 more)
+Cohesion: 0.08
+Nodes (13): Darwin, Foundation, Arguments, Connection, emit(), ListenerDelegate, loadIdentity(), normalizeServiceType() (+5 more)
 
 ### Community 230 - "add_source"
-Cohesion: 0.10
-Nodes (10): add_source(), _default_source(), _get_scene_sources(), get_source(), list_sources(), remove_source(), set_source_property(), transform_source() (+2 more)
+Cohesion: 0.14
+Nodes (5): add_source(), list_sources(), set_source_property(), TestSources, TestSourceManipulation
 
 ### Community 231 - "unrealinsights/tests/test_core.py"
-Cohesion: 0.08
-Nodes (11): _make_fake_binary(), TestBackendDiscovery, TestCaptureCLIConvenience, TestCLIHelp, TestCLIJsonErrors, TestREPLSessionState, _has_local_insights(), cli() (+3 more)
+Cohesion: 0.13
+Nodes (6): TestCaptureCLIConvenience, TestCLIHelp, TestCLIJsonErrors, TestREPLSessionState, cli(), main()
 
 ### Community 232 - "add_light"
-Cohesion: 0.05
+Cohesion: 0.06
 Nodes (23): add_camera(), add_light(), get_camera(), get_light(), list_cameras(), list_lights(), _next_camera_id(), _next_light_id() (+15 more)
 
 ### Community 233 - "add_track"
-Cohesion: 0.07
-Nodes (10): import_clip(), generate_kdenlive_xml(), create_project(), open_project(), add_clip_to_track(), add_track(), TestProject, TestTimeline (+2 more)
+Cohesion: 0.08
+Nodes (13): generate_kdenlive_xml(), add_clip_to_track(), add_track(), list_tracks(), move_clip(), _next_track_id(), remove_clip_from_track(), remove_track() (+5 more)
 
 ### Community 234 - "_invoke_json"
-Cohesion: 0.12
-Nodes (3): _invoke_json(), TestE2EDemoGamePipeline, TestE2EEngineVersion
+Cohesion: 0.07
+Nodes (9): e2e_project(), _invoke_json(), _invoke_project_json(), runner(), TestE2EDemoGamePipeline, TestE2EEngineVersion, TestE2EProject, TestE2EScene (+1 more)
 
-### Community 235 - "inkscape/tests/test_core.py"
-Cohesion: 0.01
-Nodes (111): _add_gradient_to_defs(), create_document(), get_document_info(), list_profiles(), _object_to_svg_element(), open_document(), project_to_svg(), save_document() (+103 more)
+### Community 235 - "create_document"
+Cohesion: 0.06
+Nodes (17): _add_gradient_to_defs(), create_document(), get_document_info(), list_profiles(), _object_to_svg_element(), open_document(), project_to_svg(), save_document() (+9 more)
 
 ### Community 236 - "nslogger_cli.py"
 Cohesion: 0.08
@@ -2198,8 +2237,8 @@ Cohesion: 0.12
 Nodes (25): backend(), _cleanup(), cli_base(), _project_id(), _resolve_cli(), _run(), sample_csv(), test_e2e_apply_mass_edit_normalizes_city() (+17 more)
 
 ### Community 239 - "alexa_backend.py"
-Cohesion: 0.08
-Nodes (34): test_choose_port_picks_free_port_by_default(), test_choose_port_rejects_port_used_by_another_app(), test_config_dir_expands_tilde(), test_device_cache_written_atomically(), reader(), account_file(), _alexapy(), _atomic_write_json() (+26 more)
+Cohesion: 0.07
+Nodes (35): test_choose_port_picks_free_port_by_default(), test_choose_port_rejects_port_used_by_another_app(), test_config_dir_expands_tilde(), test_device_cache_written_atomically(), reader(), test_missing_cache_is_none(), account_file(), _alexapy() (+27 more)
 
 ### Community 240 - "wavetone_cli.py"
 Cohesion: 0.11
@@ -2218,20 +2257,20 @@ Cohesion: 0.08
 Nodes (41): create_account(), delete_account(), get_account(), list_accounts(), list_templates(), secret_history(), update_account(), view_secret() (+33 more)
 
 ### Community 245 - "minimax_cli.py"
-Cohesion: 0.09
-Nodes (23): chat(), cli(), config(), config_delete(), config_get(), config_path(), config_set(), get_session() (+15 more)
+Cohesion: 0.10
+Nodes (21): chat(), cli(), config_delete(), config_get(), config_path(), config_set(), get_session(), handle_error() (+13 more)
 
 ### Community 246 - "test_validate_geometry_nan.py"
 Cohesion: 0.05
-Nodes (34): duplicate_source(), _project(), test_add_source_rejects_nan_position(), test_transform_source_atomic_validation_on_invalid_rotation(), test_transform_source_rejects_nan_position(), test_validate_crop_preserves_decimal_integer_strings(), test_validate_crop_preserves_large_int(), test_validate_crop_rejects_inf() (+26 more)
+Nodes (35): _default_source(), duplicate_source(), _get_scene_sources(), get_source(), remove_source(), transform_source(), _project(), test_add_source_rejects_nan_position() (+27 more)
 
 ### Community 247 - "blender_preview_story_demo.py"
 Cohesion: 0.16
 Nodes (22): build_command_cards(), build_trajectory(), bundle_payload(), concat_videos(), draw_global_header(), draw_preview_panel(), _draw_text_right(), draw_trace_panel() (+14 more)
 
-### Community 248 - "shlex"
-Cohesion: 0.04
-Nodes (52): build_files(), backend_status(), build_full_simulator(), find_node(), find_source_tree(), inspect_project(), run_custom_build_command(), _run_node() (+44 more)
+### Community 248 - "unrealinsights/core/export.py"
+Cohesion: 0.07
+Nodes (22): build_export_exec_command(), build_rsp_exec_command(), classify_export_result(), collect_materialized_outputs(), default_log_path(), execute_export(), _execute_insights(), execute_response_file() (+14 more)
 
 ### Community 249 - "dify_workflow_cli.py"
 Cohesion: 0.12
@@ -2239,19 +2278,23 @@ Nodes (25): checklist(), config_add_question(), config_add_tool(), config_add_va
 
 ### Community 250 - "drawio/tests/test_core.py"
 Cohesion: 0.06
-Nodes (11): list_edge_styles(), remove_connector(), update_connector_label(), list_formats(), render_or_save(), list_presets(), list_shape_types(), move_shape() (+3 more)
+Nodes (14): list_edge_styles(), remove_connector(), update_connector_label(), list_presets(), list_shape_types(), remove_shape(), update_label(), _has_drawio() (+6 more)
 
-### Community 251 - "cli"
-Cohesion: 0.09
-Nodes (8): cli(), TestCLIParsing, TestErrorHandling, runner(), TestCleanup, TestSearchE2E, TestServerE2E, TestVaultE2E
+### Community 251 - "inkscape/core/export.py"
+Cohesion: 0.07
+Nodes (13): export_pdf(), export_svg(), _get_style_val(), list_presets(), _parse_color(), _parse_svg_points(), _render_object(), _render_path_as_polygon() (+5 more)
 
 ### Community 252 - "README.md"
 Cohesion: 0.04
 Nodes (49): 🎯 Authentic Software Integration, 📚 Citation, 🐍 Clean Package Architecture, 🏗️ CLI-Anything's Architecture, CLI-Anything's Key Features, 💡 CLI-Anything's Vision: Building Agent-Native Software, 🤝 Contributing, 🎯 Core Design Principles (+41 more)
 
-### Community 254 - "ccswitch/tests/test_core.py"
-Cohesion: 0.10
-Nodes (33): cli(), _mask_sensitive(), _init_cli_db(), runner(), test_all_command_groups(), test_main_help(), test_mask_api_key(), test_mask_api_token() (+25 more)
+### Community 253 - "TestParityHighValueSchemas"
+Cohesion: 0.07
+Nodes (7): TestRealSafariRoundTrip, TestParityHighValueSchemas, E2E Tests (`tests/test_full_e2e.py`), Parity Tests (`tests/test_parity.py`), Security Tests (`tests/test_security.py`), Testing Strategy, Unit Tests (`tests/test_core.py`)
+
+### Community 254 - "success"
+Cohesion: 0.08
+Nodes (21): list_workflows(), config_set(), config_test(), repl(), _safe_filename(), _strip_server_fields(), versions_diff(), _clean() (+13 more)
 
 ### Community 255 - "Interactive Features Guide"
 Cohesion: 0.04
@@ -2266,16 +2309,16 @@ Cohesion: 0.09
 Nodes (23): _default_name(), _detect_format(), import_3mf(), _import_as_draft(), _import_as_mesh(), _import_as_part(), import_brep(), import_dxf() (+15 more)
 
 ### Community 259 - "gimp/tests/test_core.py"
-Cohesion: 0.08
-Nodes (15): add_layer(), duplicate_layer(), flatten_layers(), get_layer(), list_layers(), merge_down(), move_layer(), _read_image_dimensions() (+7 more)
+Cohesion: 0.11
+Nodes (10): add_layer(), duplicate_layer(), flatten_layers(), get_layer(), list_layers(), merge_down(), move_layer(), remove_layer() (+2 more)
 
-### Community 260 - "analytics.py"
-Cohesion: 0.05
-Nodes (19): _analytics_dir(), _build_posthog_payload(), _build_umami_payload(), detect_invocation_context(), _detect_is_agent(), _flush_pending(), _get_distinct_id(), _is_enabled() (+11 more)
+### Community 260 - "add_text"
+Cohesion: 0.12
+Nodes (10): _add_object(), add_text(), _default_layer_id(), layout_text_lines(), list_text_objects(), _rebuild_text_style(), set_text_property(), _truncate_with_ellipsis() (+2 more)
 
 ### Community 262 - "openrefine_cli.py"
-Cohesion: 0.14
-Nodes (34): save_operations(), _ascii_safe(), data_apply(), data_export(), data_rows(), _emit(), _global_args(), _handle() (+26 more)
+Cohesion: 0.13
+Nodes (35): save_operations(), _ascii_safe(), data_apply(), data_export(), data_rows(), _emit(), _global_args(), _handle() (+27 more)
 
 ### Community 264 - "pr-labeler.test.js"
 Cohesion: 0.06
@@ -2283,39 +2326,39 @@ Nodes (32): computeScriptLabels(), isDocumentationFile(), isHarnessFile(), isHar
 
 ### Community 265 - "fake"
 Cohesion: 0.04
-Nodes (20): _server_help_supporting_all_flags(), test_backend_e2ee_decrypt_force_refuses_when_unsupported(), test_backend_e2ee_decrypt_force_supported(), test_backend_e2ee_decrypt_no_force_skips_probe(), test_backend_server_start_exit_early_uses_finite_timeout(), fake(), test_backend_server_start_no_exit_early_uses_no_timeout(), test_backend_server_start_probe_cached_across_calls() (+12 more)
+Nodes (24): e2ee_decrypt(), server_start(), remove_notebook(), remove_note(), _server_help_supporting_all_flags(), test_backend_e2ee_decrypt_force_refuses_when_unsupported(), test_backend_e2ee_decrypt_force_supported(), test_backend_e2ee_decrypt_no_force_skips_probe() (+16 more)
 
-### Community 266 - "create_prefab"
-Cohesion: 0.10
-Nodes (11): create_prefab(), diff_prefabs(), get_prefab_info(), load_prefab(), modify_component(), save_prefab(), prefab_modify_component(), TestPrefab (+3 more)
+### Community 266 - "sbox/tests/test_core.py"
+Cohesion: 0.05
+Nodes (26): generate_gameresource(), add_action(), get_default_input_config(), list_actions(), load_input_config(), remove_action(), save_input_config(), set_action() (+18 more)
 
 ### Community 267 - "commands/reports.py"
-Cohesion: 0.13
+Cohesion: 0.14
 Nodes (25): _cmd_get(), _cmd_get_reports_id_abuse_reports_id_id(), _cmd_get_reports_id_click_details_id(), _cmd_get_reports_id_click_details_id_members_id(), _cmd_get_reports_id_email_activity_id(), _cmd_get_reports_id_open_details_id_members_id(), _cmd_get_reports_id_sent_to_id(), _cmd_get_reports_id_unsubscribed_id() (+17 more)
 
 ### Community 268 - "README_DE.md"
 Cohesion: 0.04
 Nodes (47): Beispiele, Blender &mdash; Orbital Relay Drone via Preview, Live Preview und Trajektorie, 🎨 Breite Domänen-Abdeckung, Das generierte CLI nutzen, 📖 Das Standard-Playbook: HARNESS.md, 🎮 Demo: Generiertes CLI im Einsatz, 🎬 Demonstrationen, 🎬 Demos aus der Praxis (+39 more)
 
-### Community 269 - "patch"
-Cohesion: 0.07
-Nodes (7): _ensure_utf8_stdio(), _invocation_command(), main(), _package_available(), TestCLI, TestMatrixF1F2Commands, TestPackageAvailable
+### Community 269 - "pm2_backend.py"
+Cohesion: 0.10
+Nodes (13): _augmented_path(), _build_env(), _get_pm2(), pm2_action(), pm2_describe(), pm2_flush(), pm2_jlist(), pm2_logs() (+5 more)
 
 ### Community 270 - "cli"
-Cohesion: 0.10
-Nodes (7): cli(), invoke(), invoke_json(), TestCLIArgParsing, TestErrorHandling, TestHumanOutput, TestJSONOutput
+Cohesion: 0.13
+Nodes (4): cli(), invoke(), TestErrorHandling, TestHumanOutput
 
 ### Community 271 - "macrocli/tests/test_core.py"
-Cohesion: 0.13
-Nodes (3): ExecutionSession, RunRecord, TestExecutionSession
+Cohesion: 0.10
+Nodes (4): ExecutionResult, ExecutionSession, RunRecord, TestExecutionSession
 
 ### Community 272 - "export_file.yaml"
 Cohesion: 0.04
 Nodes (46): agent_hints, danger_level, estimated_duration_ms, reversible, side_effects, description, default, description (+38 more)
 
 ### Community 273 - "ollama/tests/test_core.py"
-Cohesion: 0.09
-Nodes (12): embed(), chat(), generate(), copy_model(), delete_model(), pull_model(), show_model(), runner() (+4 more)
+Cohesion: 0.08
+Nodes (11): embed(), chat(), generate(), copy_model(), delete_model(), _format_size(), runner(), TestBackendStreaming (+3 more)
 
 ### Community 274 - "README_CN.md"
 Cohesion: 0.04
@@ -2330,8 +2373,8 @@ Cohesion: 0.10
 Nodes (3): _run(), TestCLISubprocess, TestLiveServer
 
 ### Community 277 - "AdGuardHomeClient"
-Cohesion: 0.08
-Nodes (21): clients_add(), clients_remove(), dhcp_add_static(), dhcp_remove_static(), log_config(), log_show(), stats_config(), stats_reset() (+13 more)
+Cohesion: 0.09
+Nodes (17): clients_remove(), server_restart(), stats_config(), stats_reset(), stats_show(), tls_status(), delete_client(), update_client() (+9 more)
 
 ### Community 278 - "add_scene"
 Cohesion: 0.14
@@ -2345,9 +2388,9 @@ Nodes (46): 1.1 Sample Dataset, 1.2 Data Statistics, 1. Data Quality, 2. Feature
 Cohesion: 0.04
 Nodes (46): 1.1 Check Storage Usage, 1.2 Review Model Performance, 1.3 Document Current State, 1. Never Delete Without Looking, 2.1 Determine What to Keep, 2.2 Set Parameters, 2. Archive Before Delete, 3.1 Interactive Cleanup (Recommended First Time) (+38 more)
 
-### Community 282 - "matrix.py"
-Cohesion: 0.05
-Nodes (23): all_recipes(), _as_list(), _capability_match_field(), capability_matches(), check_provider_requirements(), _ensure_cache_dir(), fetch_all_matrices(), fetch_matrix_registry() (+15 more)
+### Community 282 - "web_yu_pri_cli.py"
+Cohesion: 0.14
+Nodes (21): _body_fingerprint(), browser_session(), capture_snapshot(), default_profile_dir(), doctor(), fill_contents(), _fill_item(), inspect_page() (+13 more)
 
 ### Community 283 - "Command Groups"
 Cohesion: 0.04
@@ -2363,19 +2406,15 @@ Nodes (21): add_annotation(), add_centerline(), add_detail_view(), add_dimension
 
 ### Community 286 - "import_clip"
 Cohesion: 0.16
-Nodes (5): get_clip(), _next_clip_id(), remove_clip(), _unique_clip_name(), TestBin
+Nodes (7): get_clip(), import_clip(), list_clips(), _next_clip_id(), remove_clip(), _unique_clip_name(), TestBin
 
 ### Community 287 - "transform_json.yaml"
 Cohesion: 0.04
 Nodes (44): agent_hints, danger_level, estimated_duration_ms, reversible, side_effects, description, description, example (+36 more)
 
 ### Community 288 - "alexa/core/actions.py"
-Cohesion: 0.14
-Nodes (13): ActionError, announce(), command(), describe(), light(), media(), music(), routine() (+5 more)
-
-### Community 289 - "_run"
-Cohesion: 0.04
-Nodes (19): resolve_data_path(), 1. Test Inventory, 2. Running the Tests, 3. Test Coverage by Class, 4. Coverage by Source Module, 6. Coverage Gaps, 7. Known Test-Environment Quirks, Environment (+11 more)
+Cohesion: 0.12
+Nodes (15): _make(), _cmd(), ActionError, announce(), command(), light(), media(), music() (+7 more)
 
 ### Community 290 - "Command Groups"
 Cohesion: 0.04
@@ -2390,32 +2429,32 @@ Cohesion: 0.05
 Nodes (4): ReplSkin, _box_line(), _strip_ansi(), _visible_len()
 
 ### Community 293 - "ChromaDBBackend"
-Cohesion: 0.08
-Nodes (4): TestBackendErrorHandling, TestBackendServerCommands, TestBackendURLConstruction, ChromaDBBackend
+Cohesion: 0.04
+Nodes (24): cli(), main(), _run_repl(), collection_group(), collection_info(), create_collection(), delete_collection(), list_collections() (+16 more)
 
 ### Community 294 - "Preview Progress"
 Cohesion: 0.05
 Nodes (43): 2026-04-22: Curiosity Turntable Motion, 2026-04-22: Curiosity V6 True Motion Showcase, 2026-04-22: FreeCAD Motion CLI, Blender, Bottom Line, Canonical Command Surface, `cli-hub`, Cross-process live session stability (+35 more)
 
 ### Community 295 - "kdenlive/tests/test_core.py"
-Cohesion: 0.05
-Nodes (29): list_clips(), list_render_presets(), list_guides(), get_project_info(), list_profiles(), save_project(), list_tracks(), move_clip() (+21 more)
+Cohesion: 0.07
+Nodes (21): list_render_presets(), list_filters(), list_guides(), get_project_info(), list_profiles(), save_project(), parse_time(), TestTimecodeUtils (+13 more)
 
 ### Community 296 - "renderdoc/tests/test_core.py"
-Cohesion: 0.08
-Nodes (15): action_summary(), _action_to_dict(), _decode_flags(), find_action_by_event(), find_actions_by_name(), _flatten_actions(), get_drawcalls_only(), list_actions() (+7 more)
+Cohesion: 0.07
+Nodes (17): action_summary(), _action_to_dict(), _decode_flags(), find_action_by_event(), find_actions_by_name(), _flatten_actions(), get_drawcalls_only(), list_actions() (+9 more)
 
 ### Community 297 - "validate_url"
-Cohesion: 0.07
-Nodes (7): _reload_security_module(), TestPrivateNetworkConfig, TestURLValidation, get_allowed_schemes(), get_blocked_schemes(), is_private_network_blocked(), validate_url()
+Cohesion: 0.08
+Nodes (6): TestPrivateNetworkConfig, TestURLValidation, get_allowed_schemes(), get_blocked_schemes(), is_private_network_blocked(), validate_url()
 
 ### Community 298 - "Architecture Design"
 Cohesion: 0.05
 Nodes (44): 1. CLI Interface (`unimol_tools_cli.py`), 1. Command Pattern, 2. Facade Pattern, 2. Storage Analyzer (`core/storage.py`), 3. Models Manager (`core/models_manager.py`), 3. Strategy Pattern, 4. Cleanup Manager (`core/cleanup.py`), 4. Repository Pattern (+36 more)
 
-### Community 299 - "re"
-Cohesion: 0.03
-Nodes (51): _canonical_skill_name(), _click_decorator_info(), CommandGroup, CommandInfo, Example, extract_cli_metadata(), extract_commands_from_cli(), extract_intro_from_readme() (+43 more)
+### Community 299 - "cli-anything-plugin/skill_generator.py"
+Cohesion: 0.09
+Nodes (17): _canonical_skill_name(), _click_decorator_info(), CommandGroup, CommandInfo, Example, extract_cli_metadata(), extract_commands_from_cli(), extract_intro_from_readme() (+9 more)
 
 ### Community 300 - "_mock_response"
 Cohesion: 0.09
@@ -2430,32 +2469,32 @@ Cohesion: 0.08
 Nodes (11): add_result(), create_project(), _default_project(), load_project(), project_info(), record_operation(), _save(), save_project() (+3 more)
 
 ### Community 303 - "api_get"
-Cohesion: 0.07
-Nodes (9): list_models(), running_models(), server_status(), version(), TestBackend, TestBackendHTTPErrors, api_delete(), api_get() (+1 more)
+Cohesion: 0.06
+Nodes (12): list_models(), pull_model(), running_models(), show_model(), server_status(), version(), TestBackend, TestBackendHTTPErrors (+4 more)
 
-### Community 304 - "get_cli"
-Cohesion: 0.10
-Nodes (10): _ensure_cache_dir(), fetch_all_clis(), _fetch_json(), fetch_public_registry(), fetch_registry(), get_cli(), list_categories(), _load_cached_data() (+2 more)
+### Community 304 - "add_linear_gradient"
+Cohesion: 0.12
+Nodes (8): add_linear_gradient(), add_radial_gradient(), apply_gradient(), get_gradient(), list_gradients(), remove_gradient(), _validate_stops(), TestGradients
 
 ### Community 305 - "async_find_window"
 Cohesion: 0.07
 Nodes (16): list_arrangements(), restore_arrangement(), restore_arrangement_in_window(), save_arrangement(), save_window_arrangement(), activate_window(), create_window(), get_current_window() (+8 more)
 
-### Community 306 - "cli"
-Cohesion: 0.09
-Nodes (10): cli(), TestCLIRoot, TestEngineStatus, TestExportPresets, TestProjectCreate, TestProjectInfo, TestProjectList, TestSceneAddNode (+2 more)
+### Community 306 - "add_layer"
+Cohesion: 0.13
+Nodes (8): add_layer(), get_layer(), list_layers(), move_to_layer(), remove_layer(), reorder_layers(), set_layer_property(), TestLayers
 
-### Community 307 - "libreoffice/core/export.py"
-Cohesion: 0.07
-Nodes (19): _build_html(), _build_text(), _col_to_num(), _content_item_to_html(), _content_item_to_text(), export(), _export_odf(), _export_via_libreoffice() (+11 more)
+### Community 307 - "paths.py"
+Cohesion: 0.11
+Nodes (9): convert_to_path(), list_path_operations(), _path_boolean(), path_difference(), path_exclusion(), path_intersection(), path_union(), _shape_to_path_data() (+1 more)
 
 ### Community 308 - "repl"
 Cohesion: 0.12
 Nodes (5): probe(), _artifact_path(), _assert_jpeg(), TestCLISubprocess, TestPreviewE2E
 
 ### Community 309 - "eez_studio/core/project.py"
-Cohesion: 0.14
-Nodes (37): add_build_file(), add_button(), add_label(), add_page(), _base_widget(), _build_templates(), _coerce_bool(), create_project() (+29 more)
+Cohesion: 0.16
+Nodes (32): add_build_file(), add_button(), add_label(), add_page(), _base_widget(), _build_templates(), _coerce_bool(), create_project() (+24 more)
 
 ### Community 310 - "domshell_backend.py"
 Cohesion: 0.03
@@ -2466,12 +2505,12 @@ Cohesion: 0.05
 Nodes (43): 1.1 Sample Dataset, 1.2 Data Statistics, 1. Data Quality, 2. Training, 3.1 Initial Training, 3.2 Check Results, 3. Evaluation, 4.1 Try More Epochs (+35 more)
 
 ### Community 312 - "BackendContext"
-Cohesion: 0.05
-Nodes (21): Backend, BackendContext, StepResult, _file_to_b64(), GUIAgentBackend, _screenshot_b64(), GUIMacroBackend, RecoveryBackend (+13 more)
+Cohesion: 0.06
+Nodes (17): Backend, StepResult, GUIMacroBackend, RecoveryBackend, _atspi_available(), _atspi_find_app(), _atspi_find_control(), _atspi_menu_path() (+9 more)
 
 ### Community 313 - "SiYuanConfig"
-Cohesion: 0.07
-Nodes (5): SiYuanConfig, TestClientConfig, TestFindReplace, TestSiYuanClient, TestUncappedListings
+Cohesion: 0.05
+Nodes (10): load_config(), SiYuanClientError, SiYuanConfig, TestClientConfig, TestFindReplace, TestSiYuanClient, TestUncappedListings, check_siyuan_running() (+2 more)
 
 ### Community 314 - "Zotero: Project-Specific Analysis and Operator Guide"
 Cohesion: 0.05
@@ -2481,33 +2520,33 @@ Nodes (41): Add a Note to a Paper, Architecture Summary, Backend Responsibilitie
 Cohesion: 0.07
 Nodes (5): _run(), TestCLIBasic, TestCollectionE2E, TestJSONOutputValidity, TestServerE2E
 
-### Community 316 - "ccswitch_cli.py"
-Cohesion: 0.08
-Nodes (24): _coerce_env_config(), _env_config(), _env_value(), _gemini_env_config(), _is_valid_env_key(), main(), mcp(), _merge_codex_provider_toml() (+16 more)
+### Community 316 - "unimol_backend.py"
+Cohesion: 0.09
+Nodes (8): list_predictions(), run_prediction(), run_training(), DataValidationError, ModelNotFoundError, TrainingError, UniMolBackend, UniMolError
 
 ### Community 317 - "freecad/core/parts.py"
 Cohesion: 0.04
-Nodes (53): _bbox_center(), check_geometry(), _compute_area(), _compute_inertia(), _compute_volume(), _get_position(), measure_angle(), measure_area() (+45 more)
+Nodes (54): _bbox_center(), check_geometry(), _compute_area(), _compute_inertia(), _compute_volume(), _get_position(), measure_angle(), measure_area() (+46 more)
 
 ### Community 318 - "automations.py"
 Cohesion: 0.16
 Nodes (19): _cmd_archive(), _cmd_create(), _cmd_create_automations_id_emails_id_queue(), _cmd_create_automations_id_removed_subscribers(), _cmd_delete(), _cmd_get(), _cmd_get_automations_id_emails_id(), _cmd_get_automations_id_emails_id_queue_id() (+11 more)
 
 ### Community 319 - "novita_cli.py"
-Cohesion: 0.12
-Nodes (18): chat(), cli(), config_get(), config_path(), get_session(), handle_error(), main(), models() (+10 more)
+Cohesion: 0.11
+Nodes (21): chat(), cli(), config_delete(), config_get(), config_path(), config_set(), get_session(), handle_error() (+13 more)
 
 ### Community 320 - "Session"
 Cohesion: 0.09
 Nodes (3): Session, TestSession, TestSessionIntegration
 
 ### Community 321 - "qgis_backend.py"
-Cohesion: 0.08
-Nodes (18): help_algorithm(), list_algorithms(), _error_payload(), wrapper(), Backend helpers, test_find_qgis_process_missing_raises_clear_error(), test_run_process_json_normalizes_backend_failure(), _detect_qgis_prefix() (+10 more)
+Cohesion: 0.06
+Nodes (20): help_algorithm(), list_algorithms(), parse_param_specs(), run_algorithm(), _error_payload(), wrapper(), Backend helpers, test_find_qgis_process_missing_raises_clear_error() (+12 more)
 
-### Community 322 - "TestCompositing"
-Cohesion: 0.09
-Nodes (7): _find_compositing_transition(), get_track_blend_mode(), list_blend_modes(), pip_position(), set_track_blend_mode(), set_track_opacity(), TestCompositing
+### Community 322 - "spreadsheet.py"
+Cohesion: 0.12
+Nodes (14): _col_to_index(), create_spreadsheet(), export_csv(), get_cell(), _get_sheet(), import_csv(), _index_to_col(), list_spreadsheets() (+6 more)
 
 ### Community 323 - "add_effect"
 Cohesion: 0.11
@@ -2519,7 +2558,7 @@ Nodes (26): add_label(), create_project(), _finite_float(), load_project(), now_
 
 ### Community 325 - "cleanup.py"
 Cohesion: 0.03
-Nodes (21): archive_model(), batch_cleanup(), delete_model(), restore_model(), analyze_project_storage(), format_size(), get_directory_size(), get_file_size() (+13 more)
+Nodes (24): archive_model(), batch_cleanup(), delete_model(), list_archives(), restore_model(), analyze_project_storage(), format_size(), get_age_description() (+16 more)
 
 ### Community 327 - "TestMedia"
 Cohesion: 0.08
@@ -2530,8 +2569,8 @@ Cohesion: 0.05
 Nodes (40): 1.1 Prepare Training Data, 1.2 Split Datasets, 1. Always Split Data Properly, 2.1 Create Project, 2.2 Set Datasets, 2.3 Verify Setup, 2. Start with Baseline, 3.1 Baseline Model (+32 more)
 
 ### Community 329 - "zotero_paths.py"
-Cohesion: 0.17
-Nodes (19): ensure_live_api_enabled(), PathDiscoveryTests, build_environment(), candidate_profile_roots(), _decode_pref_string(), ensure_local_api_enabled(), find_active_profile(), find_data_dir() (+11 more)
+Cohesion: 0.08
+Nodes (28): build_runtime_context(), ensure_live_api_enabled(), launch_zotero(), enable_local_api(), create_sample_environment(), HttpUtilityTests, OpenAIUtilityTests, PathDiscoveryTests (+20 more)
 
 ### Community 330 - "WireMockClient"
 Cohesion: 0.11
@@ -2543,7 +2582,11 @@ Nodes (18): add_assembly_constraint(), add_part_to_assembly(), add_simulation_st
 
 ### Community 332 - "imports.py"
 Cohesion: 0.13
-Nodes (26): _attachment_result(), _attachment_summary(), _default_user_library_target(), _download_remote_pdf(), enable_local_api(), _ensure_pdf_bytes(), _extract_inline_attachment_plans(), import_file() (+18 more)
+Nodes (25): _attachment_result(), _attachment_summary(), _default_user_library_target(), _download_remote_pdf(), _ensure_pdf_bytes(), _extract_inline_attachment_plans(), import_file(), import_json() (+17 more)
+
+### Community 334 - "FileTransformBackend"
+Cohesion: 0.09
+Nodes (5): FileTransformBackend, MacroStep, RoutingEngine, TestFileTransformBackend, TestRoutingEngine
 
 ### Community 336 - "open_project"
 Cohesion: 0.11
@@ -2558,56 +2601,52 @@ Cohesion: 0.10
 Nodes (14): create_task(), download_file(), download_thumbnail(), list_task_records(), _load_task_record(), poll_task(), query_task(), run_full_workflow() (+6 more)
 
 ### Community 339 - "firefly_iii_cli.py"
-Cohesion: 0.04
-Nodes (30): accounts(), autocomplete(), budgets(), export(), export_accounts(), export_budgets(), export_categories(), export_transactions() (+22 more)
-
-### Community 340 - "output"
 Cohesion: 0.06
-Nodes (42): accounts_create(), accounts_delete(), accounts_get(), accounts_list(), accounts_update(), autocomplete_accounts(), autocomplete_bills(), autocomplete_budgets() (+34 more)
+Nodes (18): accounts(), autocomplete(), budgets(), info(), rules(), search(), search_transactions(), summary() (+10 more)
+
+### Community 340 - "get_backend"
+Cohesion: 0.13
+Nodes (16): autocomplete_accounts(), autocomplete_bills(), autocomplete_budgets(), autocomplete_categories(), autocomplete_currencies(), autocomplete_object_groups(), autocomplete_piggy_banks(), autocomplete_recurring() (+8 more)
 
 ### Community 342 - "create_material"
-Cohesion: 0.09
+Cohesion: 0.10
 Nodes (15): assign_material(), create_material(), export_material(), get_material(), _get_material(), import_material(), list_materials(), list_presets() (+7 more)
 
 ### Community 343 - "broadcast.py"
-Cohesion: 0.05
-Nodes (19): add_to_broadcast(), broadcast_all_panes(), clear_broadcast(), get_broadcast_domains(), set_broadcast_domains(), get_menu_item_state(), list_common_menu_items(), select_menu_item() (+11 more)
+Cohesion: 0.08
+Nodes (15): add_to_broadcast(), broadcast_all_panes(), clear_broadcast(), get_broadcast_domains(), set_broadcast_domains(), TestBroadcastCore, _run(), _run() (+7 more)
 
 ### Community 344 - "campaigns.py"
-Cohesion: 0.21
-Nodes (25): campaigns_group(), _cmd_cancel_send(), _cmd_create(), _cmd_create_campaigns_id_feedback(), _cmd_create_resend(), _cmd_delete(), _cmd_delete_campaigns_id_feedback_id(), _cmd_get() (+17 more)
+Cohesion: 0.23
+Nodes (24): _cmd_cancel_send(), _cmd_create(), _cmd_create_campaigns_id_feedback(), _cmd_create_resend(), _cmd_delete(), _cmd_delete_campaigns_id_feedback_id(), _cmd_get(), _cmd_get_campaigns_id_feedback_id() (+16 more)
 
 ### Community 345 - "add_filter"
-Cohesion: 0.13
-Nodes (6): add_filter(), list_available_filters(), list_filters(), TestFilters, TestFilterChains, TestStreamSetupWorkflow
-
-### Community 346 - "obs_studio/core/transitions.py"
-Cohesion: 0.14
-Nodes (8): add_transition(), _get_transitions(), list_transitions(), remove_transition(), set_active_transition(), set_duration(), TestTransitions, TestTransitionWorkflow
+Cohesion: 0.12
+Nodes (9): add_filter(), _get_source_filters(), list_available_filters(), list_filters(), remove_filter(), set_filter_param(), _validate_filter_params(), TestFilters (+1 more)
 
 ### Community 347 - "diff.py"
 Cohesion: 0.10
 Nodes (11): _diff_bindings(), _diff_cbuffer_vars(), _diff_dicts(), _diff_from_snapshots(), _diff_lists(), diff_pipeline(), diff_pipeline_from_snapshots(), _diff_stages() (+3 more)
 
 ### Community 348 - "cli-anything-safari"
-Cohesion: 0.10
-Nodes (20): cli-anything-safari, Clipboard, Command Structure, For AI Agents, Install the CLI, Installation, JavaScript Execution, JSON Output (+12 more)
+Cohesion: 0.05
+Nodes (37): Agent-Specific Guidance, Call a tool (schema-driven), cli-anything-safari, Clipboard, Command Structure, Discover the tool surface, Error Handling, Finding the right tool (+29 more)
 
 ### Community 349 - "cli-anything-safari"
-Cohesion: 0.10
-Nodes (20): cli-anything-safari, Clipboard, Command Structure, For AI Agents, Install the CLI, Installation, JavaScript Execution, JSON Output (+12 more)
+Cohesion: 0.07
+Nodes (29): Call a tool (schema-driven), cli-anything-safari, Clipboard, Command Structure, Discover the tool surface, For AI Agents, Form fill (bulk), Install the CLI (+21 more)
 
 ### Community 350 - "Advanced Usage Tutorial"
 Cohesion: 0.05
 Nodes (38): 1. Multiclass Classification, 2. Multilabel Classification, 3. Multilabel Regression, 4.1 Automated Hyperparameter Search, 4.2 Find Best Configuration, 4.3 Batch Prediction on Multiple Files, 4. Batch Processing and Automation, 5.1 SMILES Standardization (+30 more)
 
 ### Community 351 - "zotero_http.py"
-Cohesion: 0.12
-Nodes (19): build_runtime_context(), launch_zotero(), create_sample_environment(), HttpUtilityTests, _build_url(), connector_import_text(), connector_is_available(), connector_ping() (+11 more)
+Cohesion: 0.29
+Nodes (14): _build_url(), connector_import_text(), connector_is_available(), connector_ping(), connector_save_attachment(), connector_save_items(), connector_update_session(), get_selected_collection() (+6 more)
 
 ### Community 352 - "godot_cli.py"
 Cohesion: 0.03
-Nodes (55): export_project(), list_export_presets(), create_project(), get_project_info(), list_resources(), list_scenes(), list_scripts(), _parse_packed_string_array() (+47 more)
+Nodes (59): export_project(), list_export_presets(), create_project(), get_project_info(), list_resources(), list_scenes(), list_scripts(), _parse_packed_string_array() (+51 more)
 
 ### Community 354 - "steps"
 Cohesion: 0.06
@@ -2622,7 +2661,7 @@ Cohesion: 0.11
 Nodes (3): RequestsLog, TestRequestsLog, Coverage targets
 
 ### Community 357 - "add_keyframe"
-Cohesion: 0.13
+Cohesion: 0.11
 Nodes (8): add_keyframe(), list_keyframes(), remove_keyframe(), set_current_frame(), set_fps(), set_frame_range(), TestAnimation, _add_motion()
 
 ### Community 358 - "list_pages"
@@ -2631,11 +2670,11 @@ Nodes (8): add_page(), list_pages(), remove_page(), TestPages, TestPagesModule, 
 
 ### Community 359 - "run_cli_command"
 Cohesion: 0.05
-Nodes (9): run_cli_command(), TestCleanup, TestErrorHandling, TestJSONMode, TestModelManagement, TestModelTraining, TestPrediction, TestProjectManagement (+1 more)
+Nodes (10): run_cli_command(), test_project(), TestCleanup, TestErrorHandling, TestJSONMode, TestModelManagement, TestModelTraining, TestPrediction (+2 more)
 
 ### Community 360 - "macro_model.py"
-Cohesion: 0.10
-Nodes (11): load_from_yaml(), MacroOutput, MacroParameter, _parse_condition(), _parse_output(), _parse_parameter(), _parse_step(), substitute() (+3 more)
+Cohesion: 0.08
+Nodes (13): load_from_yaml(), MacroCondition, MacroOutput, MacroParameter, _parse_condition(), _parse_output(), _parse_parameter(), _parse_step() (+5 more)
 
 ### Community 361 - "gedit_find_and_replace.yaml"
 Cohesion: 0.06
@@ -2662,8 +2701,8 @@ Cohesion: 0.03
 Nodes (43): list_clips(), split_clip(), _apply_single_effect(), _apply_track_effects(), _render_clip(), _render_track(), _format_time(), get_duration() (+35 more)
 
 ### Community 367 - "QgisBackendError"
-Cohesion: 0.08
-Nodes (24): _bool_param(), export_layout_image(), export_layout_pdf(), export_presets(), _normalize_output_path(), _prepare_output(), parse_param_specs(), run_algorithm() (+16 more)
+Cohesion: 0.06
+Nodes (45): _bool_param(), export_layout_image(), export_layout_pdf(), export_presets(), _normalize_output_path(), _prepare_output(), add_label_item(), add_map_item() (+37 more)
 
 ### Community 368 - "TestFilters"
 Cohesion: 0.11
@@ -2671,19 +2710,19 @@ Nodes (7): get_filter_info(), list_available(), list_filters(), remove_filter(),
 
 ### Community 369 - "analyze_capture"
 Cohesion: 0.13
-Nodes (6): capture_frame(), _select_frame_activity(), capture_trace(), analyze_capture(), TestCoreModules, fake_run()
+Nodes (5): capture_frame(), _select_frame_activity(), capture_trace(), TestCoreModules, fake_run()
 
 ### Community 370 - "grep"
 Cohesion: 0.08
 Nodes (14): test_grep_keyword_use_daemon_still_works(), test_grep_pattern_with_shell_metacharacters_quoted(), test_grep_rejects_hyphen_prefixed_pattern(), test_grep_rejects_newline_in_path(), test_grep_rejects_newline_in_pattern(), test_grep_rejects_newline_in_prev(), test_grep_rejects_positional_path(), test_grep_rejects_positional_use_daemon() (+6 more)
 
 ### Community 371 - "obs_studio/tests/test_core.py"
-Cohesion: 0.09
-Nodes (18): add_audio_source(), get_audio_source(), _get_audio_sources(), list_audio(), mute(), remove_audio_source(), set_balance(), set_monitor() (+10 more)
+Cohesion: 0.10
+Nodes (17): add_audio_source(), get_audio_source(), _get_audio_sources(), list_audio(), mute(), remove_audio_source(), set_balance(), set_monitor() (+9 more)
 
 ### Community 372 - "qgis/tests/test_full_e2e.py"
-Cohesion: 0.13
-Nodes (13): cli(), main(), _build_cli_project(), _build_subprocess_point_project(), _build_subprocess_project(), clean_qgis_state(), _invoke_json(), _parse_json_output() (+5 more)
+Cohesion: 0.23
+Nodes (9): _build_cli_project(), _build_subprocess_point_project(), _build_subprocess_project(), _invoke_json(), _resolve_cli(), runner(), _subprocess_json(), TestCLISubprocess (+1 more)
 
 ### Community 373 - "cli-anything-qgis"
 Cohesion: 0.06
@@ -2714,7 +2753,7 @@ Cohesion: 0.06
 Nodes (34): Artifact Descriptor, Bundle ID, Caching Rules, Core Model, Decision Summary, Default Bundle Location, Design Goals, E2E Tests (+26 more)
 
 ### Community 381 - "create_style"
-Cohesion: 0.14
+Cohesion: 0.13
 Nodes (8): apply_style(), create_style(), get_style(), list_styles(), modify_style(), remove_style(), _validate_properties(), TestStyles
 
 ### Community 382 - "gedit_save_as.yaml"
@@ -2729,9 +2768,9 @@ Nodes (10): _artifact_path(), _run_cli(), TestActionsE2E, TestCaptureE2E, TestCo
 Cohesion: 0.16
 Nodes (28): `POST /api/v1/multiplayer`, abandon_game(), advance_dialogue(), cancel_selection(), choose_event_option(), choose_map_node(), choose_rest_option(), claim_reward() (+20 more)
 
-### Community 385 - "krita_cli.py"
-Cohesion: 0.10
-Nodes (11): open_project(), save_project(), canvas(), cli(), _auto_save(), export_group(), filter(), main() (+3 more)
+### Community 385 - "commands_user.py"
+Cohesion: 0.14
+Nodes (15): create_group(), create_user(), delete_user(), get_user(), group_members(), list_groups(), list_users(), my_assets() (+7 more)
 
 ### Community 386 - "Session"
 Cohesion: 0.12
@@ -2745,45 +2784,41 @@ Nodes (3): SessionManager, SessionState, TestSessionManager
 Cohesion: 0.11
 Nodes (11): delete_breakpoint(), list_breakpoints(), set_breakpoint(), set_enabled(), evaluate_expression(), list_locals(), read_memory(), backtrace() (+3 more)
 
-### Community 389 - "commands_audit.py"
-Cohesion: 0.16
-Nodes (9): activity_logs(), adhoc_list(), ftp_logs(), job_list(), job_log(), login_logs(), operate_logs(), password_logs() (+1 more)
+### Community 389 - "musescore_cli.py"
+Cohesion: 0.08
+Nodes (13): cli(), export_group(), instruments(), main(), _make_export_cmd(), export_cmd(), media(), parts() (+5 more)
 
 ### Community 390 - "add_filter"
-Cohesion: 0.13
-Nodes (7): add_filter(), list_available(), list_filters(), remove_filter(), set_filter_param(), _validate_filter_params(), TestFilters
+Cohesion: 0.15
+Nodes (6): add_filter(), list_available(), remove_filter(), set_filter_param(), _validate_filter_params(), TestFilters
 
 ### Community 391 - "reporting.py"
 Cohesion: 0.19
 Nodes (14): _cmd_get(), _cmd_get_reporting_landing_pages_id(), _cmd_get_reporting_surveys_id(), _cmd_get_reporting_surveys_id_questions_id(), _cmd_get_reporting_surveys_id_responses_id(), _cmd_list_(), _cmd_list_reporting_facebook_ads_id_ecommerce_product_activity(), _cmd_list_reporting_landing_pages() (+6 more)
-
-### Community 392 - "Session"
-Cohesion: 0.09
-Nodes (3): _locked_save_json(), Session, TestSession
 
 ### Community 393 - "._run"
 Cohesion: 0.16
 Nodes (7): TestCLISubprocess, TestRealWaveToneBackend, default_candidates(), doctor(), find_wavetone(), launch_wavetone(), supported_formats()
 
 ### Community 394 - "create_material"
-Cohesion: 0.14
-Nodes (7): create_material(), get_material(), list_materials(), _next_id(), set_material_property(), _unique_name(), TestMaterials
+Cohesion: 0.10
+Nodes (8): create_material(), get_material(), list_materials(), _next_id(), set_material_property(), _unique_name(), TestMaterials, TestCLISubprocess
 
 ### Community 396 - "What This Command Does"
 Cohesion: 0.06
 Nodes (29): Arguments, Auto-Save + --dry-run (Required for Session-Based CLIs), cli-anything Command, CRITICAL: Read HARNESS.md First, Example, Output Structure, Phase 0: Source Acquisition, Phase 1: Codebase Analysis (+21 more)
 
-### Community 397 - "web_yu_pri_cli.py"
-Cohesion: 0.05
-Nodes (61): _body_fingerprint(), browser_session(), build_dry_run(), capture_snapshot(), default_profile_dir(), doctor(), fill_contents(), _fill_item() (+53 more)
+### Community 397 - "web_yu_pri/tests/test_core.py"
+Cohesion: 0.10
+Nodes (28): build_dry_run(), build_contents_plan(), _coerce_int(), ItemLine, _load_delimited(), load_items(), _load_json(), _normalize_country() (+20 more)
 
 ### Community 399 - "videocaptioner_cli.py"
 Cohesion: 0.04
 Nodes (35): process(), process_subtitle(), synthesize(), transcribe(), TestBackend, TestPipeline, TestReview, TestSubtitle (+27 more)
 
-### Community 400 - "TestPreviewBundle"
-Cohesion: 0.17
-Nodes (3): _make_preview_bundle(), _make_preview_session(), TestPreviewBundle
+### Community 400 - "localization.py"
+Cohesion: 0.12
+Nodes (10): bulk_set(), create_translation_file(), get_key(), list_keys(), load_translations(), remove_key(), save_translations(), set_key() (+2 more)
 
 ### Community 401 - "_parse_epub_chapters"
 Cohesion: 0.11
@@ -2794,8 +2829,8 @@ Cohesion: 0.06
 Nodes (31): agent_hints, danger_level, estimated_duration_ms, reversible, side_effects, description, DISPLAY, default (+23 more)
 
 ### Community 404 - "unittest_mock"
-Cohesion: 0.18
-Nodes (11): test_chat_completion_e2e(), test_chat_stream_e2e(), test_list_models_e2e(), chat_completion(), chat_completion_stream(), count_tokens(), format_message(), list_models() (+3 more)
+Cohesion: 0.09
+Nodes (19): test_chat_completion_error(), test_chat_completion_success(), test_get_api_key_priority(), test_list_models_success(), test_run_full_workflow(), test_save_and_load_config(), test_chat_completion_e2e(), test_chat_stream_e2e() (+11 more)
 
 ### Community 405 - "cli"
 Cohesion: 0.11
@@ -2806,16 +2841,16 @@ Cohesion: 0.06
 Nodes (32): API Reference, Archive Commands, `archive list`, `archive restore`, `cleanup`, Cleanup Commands, cleanup.py, CLI Commands (+24 more)
 
 ### Community 407 - "unrealinsights/core/capture.py"
-Cohesion: 0.06
-Nodes (16): build_capture_command(), build_exec_cmds_arg(), capture_status(), resolve_capture_target(), resolve_editor_target(), resolve_engine_root(), run_capture(), snapshot_capture() (+8 more)
+Cohesion: 0.08
+Nodes (13): build_capture_command(), build_exec_cmds_arg(), capture_status(), normalize_trace_output_path(), resolve_capture_target(), resolve_editor_target(), resolve_engine_root(), run_capture() (+5 more)
 
 ### Community 408 - "Zotero CLI Harness"
 Cohesion: 0.06
 Nodes (31): 10. Experimental Collection Refactoring, 1. Import Literature Into a Specific Collection, 2. Find a Collection, 3. Find a Paper by Keyword or Full Title, 4. Read a Collection or One Item, 5. Read Notes for a Paper, 6. Add a Child Note to a Paper, 7. Export BibTeX, CSL JSON, and Citations (+23 more)
 
 ### Community 409 - "threemf_cli.py"
-Cohesion: 0.07
-Nodes (19): parse_3mf(), ThreeMFData, write_3mf(), _model_root(), TestParser, _triangle_attrs(), _write_triangle_attr_3mf(), cli() (+11 more)
+Cohesion: 0.13
+Nodes (12): cli(), compare(), handle_error(), info(), inspect(), main(), output(), _print_dict() (+4 more)
 
 ### Community 410 - "mubu/tests/test_cli_entrypoint.py"
 Cohesion: 0.11
@@ -2825,24 +2860,24 @@ Nodes (17): resolve_current_daily_doc_ref(), detect_daily_folder_ref(), resolve_
 Cohesion: 0.07
 Nodes (20): _decode_part_value(), _is_int_value(), _is_text_value(), _parse_message(), _parse_message_payload(), _parse_nsloggerdata(), parse_raw_file(), ParseError (+12 more)
 
-### Community 412 - "db.py"
+### Community 412 - "update_registry_dates.py"
 Cohesion: 0.13
-Nodes (13): test_get_cc_switch_dir_custom(), test_get_config_path(), test_get_db_path(), test_get_settings_path(), test_load_settings_missing(), test_save_and_load_config(), get_cc_switch_dir(), get_config_path() (+5 more)
+Nodes (17): extract_external_source_url(), _extract_install_subdirectory(), _extract_npm_package(), _extract_pypi_package(), _extract_skill_subdirectory(), _fetch_json(), _fetch_last_modified(), get_cli_date() (+9 more)
 
 ### Community 413 - "tab.py"
 Cohesion: 0.10
 Nodes (12): activate_tab(), close_tab(), create_tab(), get_tab_info(), list_tabs(), select_pane_in_direction(), TestTabSelectPane, _run() (+4 more)
 
-### Community 414 - "patch"
-Cohesion: 0.14
-Nodes (5): TestCommandModule, TestNoteModule, TestSearchCommands, TestVaultCommands, is_available()
+### Community 414 - "cli-anything-plugin/preview_bundle.py"
+Cohesion: 0.21
+Nodes (21): append_live_trajectory(), artifact_record(), build_cache_key(), build_live_history_item(), bundle_root(), _clean_none_fields(), finalize_bundle(), find_cached_manifest() (+13 more)
 
 ### Community 415 - "_run_cli"
 Cohesion: 0.07
 Nodes (6): _run_cli(), TestHelpE2E, TestProcessDescribeE2E, TestProcessListE2E, TestProcessMetricsE2E, TestSystemE2E
 
 ### Community 416 - "extract_tools.py"
-Cohesion: 0.11
+Cohesion: 0.10
 Nodes (16): _coerce_default(), _decode_js_string(), _extract_pkg_version(), extract_tools(), _find_brace_end(), _find_matching_paren(), _find_string_end(), main() (+8 more)
 
 ### Community 417 - "Test Suite Report - FINAL"
@@ -2861,29 +2896,29 @@ Nodes (22): Duplicate Filter Types, Filter Translation Pitfalls, Ordering Constr
 Cohesion: 0.07
 Nodes (30): Agent-facing JSON contract, Agent Harness: GUI-to-CLI for Open Source Software, Applying This to Other Software, Architecture Patterns & Pitfalls, Directory Structure, Documentation requirements for preview-capable harnesses, Filter Translation Pitfalls, General SOP: Turning Any GUI App into an Agent-Usable CLI (+22 more)
 
-### Community 421 - "novita/tests/test_core.py"
-Cohesion: 0.11
-Nodes (11): config_delete(), config_set(), test_chat_completion_error(), test_chat_completion_success(), test_get_api_key_priority(), test_list_models_success(), test_run_full_workflow(), test_save_and_load_config() (+3 more)
+### Community 421 - "krita_backend.py"
+Cohesion: 0.15
+Nodes (10): TestKritaBackend, batch_export(), create_new_image(), export_animation(), export_file(), find_krita(), get_version(), _run() (+2 more)
 
 ### Community 422 - "set_render_settings"
-Cohesion: 0.07
-Nodes (13): generate_bpy_script(), get_render_settings(), list_render_presets(), render_scene(), set_render_settings(), TestRender, _resolve_cli(), TestBlenderBackend (+5 more)
+Cohesion: 0.13
+Nodes (7): _render_image(), generate_bpy_script(), get_render_settings(), list_render_presets(), render_scene(), set_render_settings(), TestRender
 
 ### Community 423 - "importer.py"
-Cohesion: 0.22
+Cohesion: 0.21
 Nodes (22): _apply_metadata(), _attr(), can_import(), _cell_data(), _children_by_local(), _doc_type_from_mimetype(), import_odf(), _int_attr() (+14 more)
 
 ### Community 424 - "eth2_quickstart_cli.py"
-Cohesion: 0.06
-Nodes (34): validator_plan(), _config_updates(), install_clients(), setup_node(), _validate_choice(), ensure_user_config(), find_repo_root(), shell_quote() (+26 more)
+Cohesion: 0.15
+Nodes (13): backend_from_context(), configure_validator_cmd(), emit(), fail(), handle_backend_result(), health_check_cmd(), install_clients_cmd(), main() (+5 more)
 
 ### Community 425 - "build_contents_param"
 Cohesion: 0.12
 Nodes (8): get_contents(), _response_to_dict(), web_search(), TestBuildContentsParam, TestContentsCLI, build_contents_param(), check_connectivity(), get_client()
 
 ### Community 426 - "runner.py"
-Cohesion: 0.15
-Nodes (16): _build_summary(), compare_baseline(), default_output_dir(), discover_tasks(), EvalContext, _iso_now(), load_baseline(), _report_to_baseline() (+8 more)
+Cohesion: 0.13
+Nodes (17): _build_summary(), compare_baseline(), default_output_dir(), discover_tasks(), EvalContext, _iso_now(), load_baseline(), _report_to_baseline() (+9 more)
 
 ### Community 427 - "show_alert"
 Cohesion: 0.10
@@ -2894,20 +2929,20 @@ Cohesion: 0.07
 Nodes (29): agent_hints, danger_level, estimated_duration_ms, reversible, side_effects, description, name, outputs (+21 more)
 
 ### Community 429 - "backend/commands.py"
-Cohesion: 0.16
-Nodes (7): build_replay_command(), build_split_capture_command(), build_unified_command(), ensure_exactly_one(), format_env_values(), format_program_args(), require_binary()
+Cohesion: 0.13
+Nodes (10): build_replay_command(), build_split_capture_command(), build_unified_command(), ensure_at_most_one(), ensure_exactly_one(), format_env_values(), format_program_args(), prepare_output_dir() (+2 more)
 
 ### Community 430 - "Test Results"
 Cohesion: 0.07
 Nodes (29): Automated Unit Results, CLI Surface Verification, Coverage Notes, E2E Test Plan, Install Verification, Installed Entrypoint Verification, Installed Entrypoint Verification, Installed Entrypoint Verification (+21 more)
 
-### Community 431 - "notebooklm_cli.py"
-Cohesion: 0.10
-Nodes (8): artifact(), auth(), chat(), download(), main(), notebook(), share(), source()
+### Community 431 - "create_material"
+Cohesion: 0.13
+Nodes (6): create_material(), list_materials(), parse_material(), update_material(), TestMaterial, TestMaterialUpdate
 
 ### Community 432 - "adguardhome/tests/test_core.py"
-Cohesion: 0.12
-Nodes (12): filter_add(), filter_remove(), add_filter(), get_status(), remove_filter(), set_enabled(), make_client(), mock_response() (+4 more)
+Cohesion: 0.17
+Nodes (8): clients_add(), add_client(), make_client(), mock_response(), TestBlocking, TestClients, TestFiltering, TestRewrite
 
 ### Community 433 - "prompt.py"
 Cohesion: 0.09
@@ -2922,8 +2957,8 @@ Cohesion: 0.13
 Nodes (8): get_preset_info(), list_presets(), get_selection(), select_all(), select_none(), set_selection(), TestExportPresets, TestSelection
 
 ### Community 436 - "exa_cli.py"
-Cohesion: 0.11
-Nodes (12): contents_cmd(), _err(), _handle_errors(), wrapper(), main(), _out(), _pretty(), _print_results() (+4 more)
+Cohesion: 0.14
+Nodes (10): contents_cmd(), _err(), _handle_errors(), wrapper(), _out(), _pretty(), _print_results(), repl() (+2 more)
 
 ### Community 437 - "Firefly III CLI"
 Cohesion: 0.07
@@ -2937,25 +2972,29 @@ Nodes (5): get_track(), list_tracks(), remove_track(), set_track_property(), Tes
 Cohesion: 0.20
 Nodes (8): access_key_group(), assign_key(), create_key(), delete_key(), _emit_error(), get_key(), list_keys(), rotate_key()
 
-### Community 440 - "execution.py"
-Cohesion: 0.15
-Nodes (8): activity_artifact_roots(), _combined_output(), default_output_dir(), diff_snapshots(), run_command(), run_with_artifacts(), snapshot_files(), _command_string()
+### Community 440 - "eth2_quickstart/core/project.py"
+Cohesion: 0.16
+Nodes (11): _config_updates(), install_clients(), setup_node(), _validate_choice(), ensure_user_config(), find_repo_root(), shell_quote(), upsert_user_config() (+3 more)
 
 ### Community 441 - "undo_last.yaml"
 Cohesion: 0.07
 Nodes (28): agent_hints, danger_level, estimated_duration_ms, reversible, side_effects, default, description, example (+20 more)
 
-### Community 442 - "parse_style"
-Cohesion: 0.18
-Nodes (6): set_connector_style(), TestStyleParsing, build_style(), parse_style(), remove_style_property(), set_style_property()
+### Community 442 - "emit"
+Cohesion: 0.16
+Nodes (12): contents_fill_cmd(), doctor_cmd(), emit(), fail(), _load_plan(), plan_cmd(), _print_dict(), _print_list() (+4 more)
 
 ### Community 443 - "qgis/core/layers.py"
-Cohesion: 0.09
-Nodes (27): add_feature(), _attribute_map(), _coerce_value(), _ensure_vector_layer(), _feature_summary(), list_features(), _all_layers(), create_vector_layer() (+19 more)
+Cohesion: 0.12
+Nodes (19): add_feature(), _attribute_map(), _coerce_value(), _ensure_vector_layer(), _feature_summary(), list_features(), _all_layers(), create_vector_layer() (+11 more)
+
+### Community 444 - "cli"
+Cohesion: 0.05
+Nodes (11): cli(), tool_group(), TestDependencyChecks, TestSecurityIntegration, TestSessionCommands, _cli_name_for(), TestParityIntrospection, TestParityParameters (+3 more)
 
 ### Community 445 - "patch"
 Cohesion: 0.10
-Nodes (9): _make_run_result(), TestFindPm2, TestProcesses, TestRunPm2, _augmented_path(), _build_env(), _find_pm2(), _get_pm2() (+1 more)
+Nodes (8): delete_process(), restart_process(), stop_process(), _make_run_result(), TestFindPm2, TestLifecycle, TestRunPm2, _find_pm2()
 
 ### Community 446 - "create_task"
 Cohesion: 0.17
@@ -2969,32 +3008,24 @@ Nodes (27): Basic Commands, Blocked-Services, Blocking, Check Server Status, cli
 Cohesion: 0.07
 Nodes (27): `act` — Action Commands, Agent-Specific Guidance, Basic Navigation, cli-anything-browser, Command Groups, Daemon Mode (Faster Interactive Use), Daemon Mode for Efficiency, DOM Content Risks (+19 more)
 
-### Community 450 - "comfyui/tests/test_core.py"
-Cohesion: 0.08
-Nodes (6): run_cli_subprocess(), runner(), sample_workflow(), TestCLIModels, TestCLISystem, workflow_file()
-
-### Community 451 - "validate_model"
-Cohesion: 0.13
-Nodes (6): load_moc3(), Moc3Info, validate_all(), validate_model(), TestValidator, ValidatorStrictModeTest
+### Community 452 - "csf_filter"
+Cohesion: 0.11
+Nodes (4): TestCSFFilterValidation, _resolve_cli(), TestCSFFilter, csf_filter()
 
 ### Community 453 - "version_info"
-Cohesion: 0.10
-Nodes (17): _joplin_package_json_candidates(), _load_joplin_package_metadata(), _npm_global_root(), version_info(), _force_version_failure(), test_backend_find_joplin_missing(), test_backend_find_joplin_ok(), test_backend_version_does_not_fallback_on_unrelated_error() (+9 more)
+Cohesion: 0.20
+Nodes (10): version_info(), _force_version_failure(), test_backend_version_does_not_fallback_on_unrelated_error(), test_backend_version_fallback_ignores_foreign_package_json(), test_backend_version_fallback_reraises_when_nothing_found(), test_backend_version_fallback_unix_global_no_symlink(), test_backend_version_fallback_unix_global_symlink(), test_backend_version_fallback_uses_npm_root_when_local_paths_miss() (+2 more)
 
 ### Community 454 - "TestBackend"
 Cohesion: 0.13
 Nodes (7): _make_completed(), TestBackend, fake_run(), fake_run(), fake_run(), _looks_like_macos_abort(), _macos_app_bundle()
 
 ### Community 455 - "kdenlive/tests/test_core.py"
-Cohesion: 0.17
+Cohesion: 0.16
 Nodes (6): add_transition(), list_transitions(), _next_transition_id(), remove_transition(), set_transition(), TestTransitions
 
-### Community 456 - "TestKdenliveGen5Format"
-Cohesion: 0.11
-Nodes (3): _find_sequence(), TestKdenliveGen5Format, TestXMLGeneration
-
 ### Community 457 - "CaptureHandle"
-Cohesion: 0.12
+Cohesion: 0.11
 Nodes (6): _api_properties_summary(), capture_info(), CaptureHandle, _ensure_replay_api(), _release_replay_api(), _require_rd()
 
 ### Community 458 - "Command Groups"
@@ -3025,6 +3056,10 @@ Nodes (26): Basic Commands, Books, Calibre Query Language, Catalog, cli-anything
 Cohesion: 0.07
 Nodes (26): Agent Preview Notes, assembly (11) — Assembly management, Basic Usage, body (38) — PartDesign features, cam (10) — CNC machining, cli-anything-freecad, Command Groups (258 commands), document (5) — Document management (+18 more)
 
+### Community 465 - "Session"
+Cohesion: 0.10
+Nodes (3): Session, TestSession, TestSessionIntegration
+
 ### Community 466 - "Command Groups"
 Cohesion: 0.07
 Nodes (26): Basic Commands, cli-anything-inkscape, Command Groups, Create a New Project, Document, Examples, Export Group, Export Project (+18 more)
@@ -3033,9 +3068,9 @@ Nodes (26): Basic Commands, cli-anything-inkscape, Command Groups, Create a New 
 Cohesion: 0.07
 Nodes (26): App & context, Architecture, Arrangements, Broadcast, cli-anything-iterm2, Command Groups, Installation, Interactive REPL (+18 more)
 
-### Community 469 - "ModelInfo"
-Cohesion: 0.13
-Nodes (8): compare_models(), DiffItem, ModelDiff, ModelInfo, generate_html(), _texture_to_data_uri(), write_snapshot(), TestSnapshot
+### Community 469 - "live2d/tests/test_core.py"
+Cohesion: 0.06
+Nodes (17): ModelInfo, find_model_files(), scan_directory(), generate_html(), _texture_to_data_uri(), write_snapshot(), validate_all(), validate_model() (+9 more)
 
 ### Community 470 - "Command Groups"
 Cohesion: 0.07
@@ -3061,9 +3096,13 @@ Nodes (26): Audio Automation, Basic Commands, cli-anything-shotcut, Command Grou
 Cohesion: 0.08
 Nodes (25): Animation, Basic Commands, Camera, cli-anything-blender, Command Groups, Create a New Project, Examples, For AI Agents (+17 more)
 
+### Community 476 - "_minimal_project"
+Cohesion: 0.12
+Nodes (3): _excerpt(), _minimal_project(), TestGeneratedScriptSyntax
+
 ### Community 477 - "commands_session.py"
 Cohesion: 0.21
-Nodes (7): Phase Gates and Resume (hard gate), get_session(), kill_session(), list_commands(), list_sessions(), list_terminals(), terminal_status()
+Nodes (7): get_session(), kill_session(), list_commands(), list_sessions(), list_terminals(), session_replay(), terminal_status()
 
 ### Community 478 - "TestModels"
 Cohesion: 0.08
@@ -3079,19 +3118,19 @@ Nodes (8): get_preference(), get_theme(), get_tmux_preferences(), _parse_value()
 
 ### Community 482 - "versions.py"
 Cohesion: 0.16
-Nodes (9): _auto_prune(), _connect(), get_snapshot(), get_version(), list_versions(), prune_versions(), save_snapshot(), stats() (+1 more)
+Nodes (8): _auto_prune(), _connect(), get_snapshot(), list_versions(), prune_versions(), save_snapshot(), stats(), TestVersions
 
 ### Community 483 - "2. E2E Tests (`test_full_e2e.py`)"
 Cohesion: 0.08
 Nodes (25): 1.1 Session Management, 1.2 JumpServerClient, 1.3 CLIState, 1.4 Output Formatting, 1.5 Utilities, 1. Unit Tests (`test_core.py`), 2.1 TestCLISubprocess, 2.2 CLI Discovery (+17 more)
 
-### Community 484 - "Session"
-Cohesion: 0.11
-Nodes (7): set_diagram(), show_diagram(), default_state(), Session, test_default_state(), test_share_payload(), test_undo_redo()
+### Community 484 - "mermaid/tests/test_core.py"
+Cohesion: 0.21
+Nodes (7): default_state(), test_backend_serialization_and_urls(), test_default_state(), build_live_url(), build_render_url(), render_to_file(), serialize_state()
 
 ### Community 485 - "cli"
-Cohesion: 0.19
-Nodes (5): cli(), _set_session_file(), TestBackend, TestCLIHelp, TestCLIJsonErrors
+Cohesion: 0.15
+Nodes (6): cli(), main(), _set_session_file(), TestBackend, TestCLIHelp, TestCLIJsonErrors
 
 ### Community 486 - "MutateDryRunE2ETests"
 Cohesion: 0.14
@@ -3129,9 +3168,9 @@ Nodes (4): _build_package_tree(), _load_repl_skin(), TestSkillPathAutoDetect, Te
 Cohesion: 0.12
 Nodes (5): cli(), TestCLIHelp, TestErrorHandling, TestContentsE2E, TestSearchE2E
 
-### Community 495 - "chromadb_cli.py"
-Cohesion: 0.11
-Nodes (6): cli(), main(), _run_repl(), query_group(), _resolve_collection_id(), search()
+### Community 495 - "lldb/tests/test_full_e2e.py"
+Cohesion: 0.18
+Nodes (9): _close_session(), core_file(), _extract_address(), _find_compiler(), lldb_test_exe(), _run_cli(), session_file(), TestCoreE2E (+1 more)
 
 ### Community 497 - "cli-anything-gimp"
 Cohesion: 0.08
@@ -3141,13 +3180,13 @@ Nodes (24): Basic Commands, Canvas, cli-anything-gimp, Command Groups, Create a 
 Cohesion: 0.23
 Nodes (12): _cmd_cancel_send(), _cmd_create(), _cmd_delete(), _cmd_get(), _cmd_list_(), _cmd_list_sms_campaigns_id_content(), _cmd_schedule(), _cmd_send() (+4 more)
 
-### Community 499 - "mermaid/tests/test_core.py"
-Cohesion: 0.22
-Nodes (9): _make_blank_png(), _make_png_chunk(), render(), share(), test_backend_serialization_and_urls(), build_live_url(), build_render_url(), render_to_file() (+1 more)
+### Community 499 - "budgets.py"
+Cohesion: 0.20
+Nodes (9): budgets_create(), budgets_delete(), budgets_get(), budgets_limit_create(), budgets_limit_delete(), budgets_limit_update(), budgets_limits(), budgets_list() (+1 more)
 
-### Community 500 - "vault.py"
-Cohesion: 0.08
-Nodes (12): search_query(), search_simple(), append_note(), create_note(), delete_note(), list_files(), read_note(), update_note() (+4 more)
+### Community 500 - "textures.py"
+Cohesion: 0.18
+Nodes (6): get_texture(), list_textures(), pick_pixel(), save_texture(), _tex_to_dict(), TestTexturesModule
 
 ### Community 501 - "cli-anything-obsidian"
 Cohesion: 0.08
@@ -3157,9 +3196,9 @@ Nodes (24): API Key Configuration, Basic Commands, cli-anything-obsidian, Comman
 Cohesion: 0.17
 Nodes (15): TestSessionDaemonSecurity, _best_effort_chmod(), _best_effort_restrict_windows_acl(), _encode_token(), main(), _prepare_state_dir(), _recv_exact(), _recv_message() (+7 more)
 
-### Community 503 - "format_size"
-Cohesion: 0.13
-Nodes (8): TestOutputUtils, _human_capture_result(), _human_capture_status(), _human_snapshot_result(), _human_store_latest(), _human_store_list(), format_size(), output_table()
+### Community 503 - "output_json"
+Cohesion: 0.16
+Nodes (6): state_dir(), _state_file(), TestOutputUtils, repl(), output_json(), output_table()
 
 ### Community 504 - "Shotcut: Project-Specific Analysis & SOP"
 Cohesion: 0.08
@@ -3182,8 +3221,8 @@ Cohesion: 0.08
 Nodes (24): API Key Configuration, Basic Commands, cli-anything-obsidian, Command, Command Groups, Commands, Create and Update Notes, Examples (+16 more)
 
 ### Community 509 - "live.py"
-Cohesion: 0.11
-Nodes (16): gui_status(), execute_live_command(), _list_posix_unreal_processes(), list_unreal_processes(), _list_windows_unreal_processes(), _normalize_process(), _process_role(), _render_backend_command() (+8 more)
+Cohesion: 0.09
+Nodes (18): build_gui_command(), gui_status(), open_gui(), execute_live_command(), _list_posix_unreal_processes(), list_unreal_processes(), _list_windows_unreal_processes(), _normalize_process() (+10 more)
 
 ### Community 510 - "Common Workflows"
 Cohesion: 0.08
@@ -3194,19 +3233,19 @@ Cohesion: 0.17
 Nodes (20): _click_decorator_info(), CommandGroup, CommandInfo, _default_command_name(), _default_group_name(), Example, extract_cli_metadata(), extract_commands_from_cli() (+12 more)
 
 ### Community 513 - "read_message"
-Cohesion: 0.16
+Cohesion: 0.20
 Nodes (5): DAPProtocolError, encode_message(), _raise_protocol_error(), read_message(), TestDAPProtocol
 
 ### Community 514 - "commands_perm.py"
-Cohesion: 0.24
-Nodes (5): delete_perm(), get_perm(), list_perms(), perm_assets(), perm_users()
+Cohesion: 0.14
+Nodes (8): create_perm(), delete_perm(), get_perm(), list_perms(), perm_users(), update_perm(), TestParseIDs, parse_ids()
 
 ### Community 515 - "JOPLIN Harness SOP"
-Cohesion: 0.09
-Nodes (19): cli-anything-joplin, Command groups, Install, JSON output contract, Requirements, Save behavior, Test workflow, Usage (+11 more)
+Cohesion: 0.08
+Nodes (20): _cli_supports_flag(), Backend behavior, cli-anything-joplin, Command groups, Install, Requirements, Save behavior, Test workflow (+12 more)
 
 ### Community 516 - "load_config"
-Cohesion: 0.13
+Cohesion: 0.15
 Nodes (5): get_connection(), load_config(), cli(), main(), TestProject
 
 ### Community 517 - "cli-anything-kdenlive"
@@ -3222,8 +3261,8 @@ Cohesion: 0.08
 Nodes (23): Commands run, `core/session.py`, `dap.py`, E2E Test Plan, `lldb_cli.py`, Notes, Output validation, Prerequisites (+15 more)
 
 ### Community 520 - "mermaid_cli.py"
-Cohesion: 0.33
-Nodes (14): diagram_set(), diagram_show(), emit(), export_render(), export_share(), get_session(), project_info(), project_new() (+6 more)
+Cohesion: 0.05
+Nodes (36): set_diagram(), show_diagram(), render(), share(), list_samples(), new_project(), open_project(), project_info() (+28 more)
 
 ### Community 522 - "make_msg"
 Cohesion: 0.14
@@ -3254,16 +3293,16 @@ Cohesion: 0.08
 Nodes (23): 1. 💾 Storage Analysis, 2. 🏆 Models Ranking, 3. ⭐ Best Model, 4. 📈 Model History, 5. 🧹 Cleanup Suggestions, 6. ⚖️ Model Comparison, 🔄 Comparison with Other Demos, 📂 Data Source (+15 more)
 
 ### Community 530 - "analyze.py"
-Cohesion: 0.12
-Nodes (15): analyze_summary(), _counter_summaries(), _diagnostics(), _export_statuses(), _field(), _normalize_header(), _number(), _read_csv_rows() (+7 more)
+Cohesion: 0.14
+Nodes (14): analyze_summary(), _counter_summaries(), _diagnostics(), _export_statuses(), _field(), _normalize_header(), _number(), _read_csv_rows() (+6 more)
 
 ### Community 531 - "Unit Tests (`test_core.py`)"
 Cohesion: 0.09
 Nodes (22): Audacity CLI Harness - Test Documentation, End-to-End Tests (`test_full_e2e.py`), Test Inventory, Test Results, TestAudioProcessing (12 tests), TestAudioUtils (16 tests), TestClips (11 tests), TestCLISubprocess (4 tests) (+14 more)
 
-### Community 532 - "cli"
-Cohesion: 0.32
-Nodes (4): cli(), _auto_save(), repl(), test_cli_json_project_new()
+### Community 532 - "eez_studio/tests/test_core.py"
+Cohesion: 0.14
+Nodes (10): ensure_destination(), load_project(), cli(), _auto_save(), repl(), test_cli_json_mutation_autosaves(), test_cli_json_project_new(), test_custom_build_command_uses_shlex_for_quoted_args() (+2 more)
 
 ### Community 533 - "Calibre CLI Harness — SOP"
 Cohesion: 0.09
@@ -3281,21 +3320,21 @@ Nodes (22): Agent-Specific Guidance, App Types, CC Switch CLI, Check proxy statu
 Cohesion: 0.09
 Nodes (22): Build and Test, Build Another CLI, Build, Validate, Test, Install, CLI doesn't work, Common Workflows, Help, Install the CLI, Installation (+14 more)
 
-### Community 537 - "batch_webhooks.py"
-Cohesion: 0.32
-Nodes (7): batch_webhooks_group(), _cmd_create(), _cmd_delete(), _cmd_get(), _cmd_list_(), _cmd_update(), _parse_json_option()
+### Community 537 - "create_sound_event"
+Cohesion: 0.16
+Nodes (5): create_sound_event(), parse_sound_event(), update_sound_event(), TestSound, TestSoundUpdate
 
-### Community 539 - "TestExport"
-Cohesion: 0.14
-Nodes (4): get_supported_formats(), list_presets(), export_presets(), TestExport
+### Community 539 - "krita/core/export.py"
+Cohesion: 0.08
+Nodes (12): _build_documentinfo_xml(), build_kra_from_project(), _build_maindoc_xml(), export_animation(), export_image(), get_supported_formats(), _layer_filename(), list_presets() (+4 more)
 
 ### Community 540 - "cli-anything-libreoffice"
 Cohesion: 0.09
 Nodes (22): Basic Commands, Calc, cli-anything-libreoffice, Command Groups, Create a New Project, Document, Examples, Export Group (+14 more)
 
-### Community 541 - "UnrealInsightsSession"
-Cohesion: 0.25
-Nodes (4): _normalize_path(), state_dir(), _state_file(), UnrealInsightsSession
+### Community 541 - "object"
+Cohesion: 0.24
+Nodes (3): invoke_json(), TestCLIArgParsing, TestJSONOutput
 
 ### Community 542 - "CliEntrypointTests"
 Cohesion: 0.14
@@ -3362,16 +3401,16 @@ Cohesion: 0.09
 Nodes (21): Basic Commands, cli-anything-drawio, Command Groups, Connect, Create a New Project, Examples, Export, Export Project (+13 more)
 
 ### Community 560 - "cli"
-Cohesion: 0.19
-Nodes (4): cli(), TestCLI, TestProjectHelpers, TestRealCheckoutE2E
+Cohesion: 0.26
+Nodes (3): cli(), TestCLI, TestRealCheckoutE2E
 
 ### Community 561 - "Unit Test Plan (`test_core.py`)"
 Cohesion: 0.09
 Nodes (21): body.py (~7 tests), CLI subprocess tests (~5 tests), Coverage Notes, document.py (~8 tests), E2E Test Plan (`test_full_e2e.py`), Intermediate file tests (~5 tests), materials.py (~7 tests), parts.py (~10 tests) (+13 more)
 
 ### Community 562 - "gimp/core/media.py"
-Cohesion: 0.14
-Nodes (10): _first_nonzero(), get_image_histogram(), _hist_mean(), _human_size(), _last_nonzero(), list_media_in_project(), _probe_basic(), probe_image() (+2 more)
+Cohesion: 0.10
+Nodes (14): _read_image_dimensions(), _read_jpeg_dimensions(), _read_tiff_dimensions(), _read_webp_dimensions(), _first_nonzero(), get_image_histogram(), _hist_mean(), _human_size() (+6 more)
 
 ### Community 563 - "GIMP: Project-Specific Analysis & SOP"
 Cohesion: 0.09
@@ -3386,16 +3425,16 @@ Cohesion: 0.09
 Nodes (21): End-to-End Tests (`test_full_e2e.py`), Inkscape CLI Harness - Test Documentation, Test Inventory, Test Results, TestCLISubprocess (12 tests), TestDocument (17 tests), TestDocumentLifecycle (8 tests), TestExport (2 tests) (+13 more)
 
 ### Community 567 - "session_client.py"
-Cohesion: 0.19
-Nodes (12): _get_session(), default_session_root(), ensure_server(), _load_state_file(), _recv_exact(), _recv_message(), RemoteLLDBSessionProxy, _request() (+4 more)
+Cohesion: 0.20
+Nodes (11): default_session_root(), ensure_server(), _load_state_file(), _recv_exact(), _recv_message(), RemoteLLDBSessionProxy, _request(), resolve_session_file() (+3 more)
 
 ### Community 568 - "recurrences_delete"
-Cohesion: 0.21
-Nodes (5): recurrences_create(), recurrences_delete(), recurrences_get(), recurrences_list(), recurrences_update()
+Cohesion: 0.18
+Nodes (6): recurrences(), recurrences_create(), recurrences_delete(), recurrences_get(), recurrences_list(), recurrences_update()
 
 ### Community 569 - "summary.py"
-Cohesion: 0.24
-Nodes (9): summary(), summary_account_summary(), summary_available_budget(), summary_bill_summary(), summary_budget_summary(), summary_category_summary(), summary_default_set(), summary_tag_summary() (+1 more)
+Cohesion: 0.15
+Nodes (10): summary_account_summary(), summary_available_budget(), summary_bill_summary(), summary_budget_summary(), summary_category_summary(), summary_default_set(), summary_tag_summary(), summary_transfer_summary() (+2 more)
 
 ### Community 571 - "Command Groups"
 Cohesion: 0.09
@@ -3433,6 +3472,10 @@ Nodes (21): Common Commands, Data Format, Description, Documentation, Installati
 Cohesion: 0.09
 Nodes (21): Add Child Note, App, Build LLM Context, cli-anything-zotero, Collection, Command Groups, Entry Points, Examples (+13 more)
 
+### Community 581 - "render"
+Cohesion: 0.15
+Nodes (5): list_formats(), render(), render_or_save(), TestExport, write_drawio()
+
 ### Community 582 - "Uni-Mol Tools - Molecular Property Prediction CLI"
 Cohesion: 0.09
 Nodes (21): Common Commands, Data Format, Description, Documentation, Installation, Interactive Mode, JSON Mode, Key Features (+13 more)
@@ -3445,9 +3488,9 @@ Nodes (9): copy_object(), delete_object(), _emit_error(), get_object(), _is_remo
 Cohesion: 0.09
 Nodes (21): Add Child Note, App, Build LLM Context, cli-anything-zotero, Collection, Command Groups, Entry Points, Examples (+13 more)
 
-### Community 585 - "calibre_cli.py"
+### Community 585 - "ToolRegistry"
 Cohesion: 0.12
-Nodes (5): books(), custom(), formats(), library(), meta()
+Nodes (3): _camel_to_kebab(), ToolRegistry, ToolSchema
 
 ### Community 586 - "Blender CLI - Agent Harness"
 Cohesion: 0.10
@@ -3474,16 +3517,16 @@ Cohesion: 0.10
 Nodes (20): jobs, label, runs-on, steps, name, on, pull_request_target, permissions (+12 more)
 
 ### Community 592 - "add_guide"
-Cohesion: 0.24
-Nodes (4): add_guide(), _next_guide_id(), remove_guide(), TestGuides
+Cohesion: 0.12
+Nodes (5): add_guide(), _next_guide_id(), remove_guide(), TestGuides, TestXMLGeneration
 
 ### Community 593 - "Kdenlive CLI - Agent Harness"
 Cohesion: 0.10
 Nodes (20): Architecture, Available Filters, Command Groups, Export, Filters, Guides, Installation, Interactive REPL (+12 more)
 
 ### Community 594 - "MacroCLI Demo — gedit 完整测试方案"
-Cohesion: 0.11
-Nodes (17): A1. 打开 gedit, A2. 输入文字并保存, A3. 另存为指定路径, Demo A：手写宏执行, Demo B：录制宏（核心功能）, Demo C：transform_json（file_transform 后端）, MacroCLI Demo — gedit 完整测试方案, 回放录制的宏 (+9 more)
+Cohesion: 0.10
+Nodes (19): A1. 打开 gedit, A2. 输入文字并保存, A3. 另存为指定路径, Demo A：手写宏执行, Demo B：录制宏（核心功能）, Demo C：transform_json（file_transform 后端）, MacroCLI Demo — gedit 完整测试方案, 回放录制的宏 (+11 more)
 
 ### Community 595 - "E2E Test Plan (`test_full_e2e.py`)"
 Cohesion: 0.12
@@ -3530,20 +3573,20 @@ Cohesion: 0.05
 Nodes (34): Build, Install Into The Game, Requirements, STS2 Bridge Plugin, What Is Here, PlannedAction, Architecture Summary, Backend: Low Translation Gap (+26 more)
 
 ### Community 606 - "call"
-Cohesion: 0.22
-Nodes (4): TestCallForwarding, fake_call_tool(), call(), _call_tool()
+Cohesion: 0.12
+Nodes (12): TestCallForwarding, fake_call_tool(), call(), _call_tool(), Agent-Specific Guidance, Error Handling, Finding the right tool, Multi-Session Warning (+4 more)
 
 ### Community 607 - "commands/templates.py"
 Cohesion: 0.33
 Nodes (8): _cmd_create(), _cmd_delete(), _cmd_get(), _cmd_list_(), _cmd_list_templates_id_default_content(), _cmd_update(), _parse_json_option(), templates_group()
 
-### Community 608 - "TestCLISubprocess"
-Cohesion: 0.23
-Nodes (5): _artifact_path(), _assert_png(), _luma_yavg(), TestCLISubprocess, TestPreviewE2E
+### Community 608 - "shotcut/tests/test_full_e2e.py"
+Cohesion: 0.05
+Nodes (19): list_profiles(), new_project(), dummy_file(), imported_clip(), session(), session_with_clip(), session_with_three_clips(), session_with_track() (+11 more)
 
-### Community 609 - "_mask_value"
-Cohesion: 0.50
-Nodes (3): _is_sensitive_key(), _mask_value(), test_mask_value_nested_json()
+### Community 609 - "eth2_quickstart/tests/test_core.py"
+Cohesion: 0.17
+Nodes (5): validator_plan(), configure_validator(), repo_root(), runner(), TestValidatorPlan
 
 ### Community 610 - "patch"
 Cohesion: 0.22
@@ -3553,17 +3596,17 @@ Nodes (4): _mock_result(), TestContentsCLI, TestSearchCLI, TestServerCLI
 Cohesion: 0.10
 Nodes (19): Agent guidance, `ai.gen-asset` — AI-generated art/audio for games, `asset.2d` — sprites, tiles, UI art, `asset.3d` — 3D game assets, `asset.audio` — sfx and gameplay audio, `asset.notation` — music notation / score export, `build.package` — package a game binary / bundle, Capabilities (+11 more)
 
-### Community 612 - "cli"
-Cohesion: 0.14
-Nodes (6): cli(), runner(), TestBaselineCommands, TestCheckCommands, TestInfoCommands, TestSessionCommands
+### Community 612 - "menu.py"
+Cohesion: 0.15
+Nodes (6): get_menu_item_state(), list_common_menu_items(), select_menu_item(), TestMenuCore, _run(), _run()
 
 ### Community 613 - "autofix"
 Cohesion: 0.15
 Nodes (5): autofix(), Fix, _iter_params(), _set_nested(), TestFixers
 
 ### Community 614 - "download_image"
-Cohesion: 0.10
-Nodes (5): download_image(), download_prompt_images(), list_output_images(), TestImages, api_get_raw()
+Cohesion: 0.09
+Nodes (7): download_image(), download_prompt_images(), list_output_images(), TestImages, api_delete(), api_get_raw(), api_post()
 
 ### Community 615 - "Exa CLI Skill"
 Cohesion: 0.10
@@ -3582,8 +3625,8 @@ Cohesion: 0.10
 Nodes (19): jobs, publish, name, on, push, id-token, permissions, runs-on (+11 more)
 
 ### Community 619 - "option"
-Cohesion: 0.15
-Nodes (7): cli(), filter_disable(), filter_enable(), filter_refresh(), main(), refresh(), set_filter_url()
+Cohesion: 0.12
+Nodes (12): cli(), filter_add(), filter_disable(), filter_enable(), filter_refresh(), filter_remove(), add_filter(), get_status() (+4 more)
 
 ### Community 620 - "Command Groups"
 Cohesion: 0.10
@@ -3614,8 +3657,8 @@ Cohesion: 0.10
 Nodes (19): Basic Commands, Chat, Chat, Chat Models, cli-anything-minimax, Command Groups, Config, Configure API Key (+11 more)
 
 ### Community 629 - "tts_synthesize"
-Cohesion: 0.18
-Nodes (11): test_tts_synthesize_api_error(), test_tts_synthesize_hex_decoding(), test_tts_synthesize_uses_cn_region_endpoint(), test_tts_synthesize_uses_correct_endpoint(), _captured_payload(), _empty_sse_post(), test_tts_custom_audio_setting(), test_tts_custom_voice_setting() (+3 more)
+Cohesion: 0.16
+Nodes (12): test_tts_synthesize_api_error(), test_tts_synthesize_hex_decoding(), test_tts_synthesize_uses_cn_region_endpoint(), test_tts_synthesize_uses_correct_endpoint(), test_tts_e2e(), _captured_payload(), _empty_sse_post(), test_tts_custom_audio_setting() (+4 more)
 
 ### Community 630 - "3. CLI Capabilities"
 Cohesion: 0.10
@@ -3634,8 +3677,8 @@ Cohesion: 0.10
 Nodes (19): Command Reference, Custom Host, Embed, Example Workflow, For AI Agents, Generate, How to Run, Install Dependencies (+11 more)
 
 ### Community 634 - "renderdoc/core/mesh.py"
-Cohesion: 0.13
-Nodes (7): fetch_counters(), list_counters(), _flatten(), _get_indices(), get_mesh_inputs(), get_mesh_outputs(), _unpack_data()
+Cohesion: 0.25
+Nodes (5): _flatten(), _get_indices(), get_mesh_inputs(), get_mesh_outputs(), _unpack_data()
 
 ### Community 635 - "Exa CLI Skill"
 Cohesion: 0.10
@@ -3650,7 +3693,7 @@ Cohesion: 0.10
 Nodes (19): Basic Commands, Chat, Chat with DeepSeek, cli-anything-novita, Command Groups, Config, Configure API Key, Default Models (+11 more)
 
 ### Community 638 - "browser/tests/test_security.py"
-Cohesion: 0.14
+Cohesion: 0.15
 Nodes (4): TestUtilityFunctions, get_allowed_schemes(), get_blocked_schemes(), is_private_network_blocked()
 
 ### Community 639 - "Unit Test Plan"
@@ -3661,17 +3704,17 @@ Nodes (19): Commands run, `core/analyze.py`, `core/capture.py`, `core/export.py`
 Cohesion: 0.10
 Nodes (19): CLI / Subprocess Plan, Context, Notes, and Analysis, Experimental SQLite Writes, Import Core, Live E2E Plan, Machine / Runtime, Mutating, Non-Mutating (+11 more)
 
-### Community 641 - "cli"
-Cohesion: 0.16
-Nodes (5): cli(), repl(), TestCommandRouting, TestRootHelp, TestSubcommandHelp
+### Community 641 - "connected_sites.py"
+Cohesion: 0.29
+Nodes (7): _cmd_create(), _cmd_delete(), _cmd_get(), _cmd_list_(), _cmd_verify_script_installation(), connected_sites_group(), _parse_json_option()
 
 ### Community 642 - "cli-anything-anygen"
 Cohesion: 0.11
 Nodes (18): Basic Commands, cli-anything-anygen, Command Groups, Config, Create a New Project, Examples, File, For AI Agents (+10 more)
 
-### Community 643 - "shotcut/tests/conftest.py"
+### Community 643 - "export_cloud"
 Cohesion: 0.15
-Nodes (6): dummy_file(), imported_clip(), session_with_clip(), session_with_three_clips(), session_with_track(), session_with_two_clips()
+Nodes (4): batch_export(), export_cloud(), list_presets(), TestExportPipeline
 
 ### Community 644 - "Unit Tests (`test_core.py`)"
 Cohesion: 0.11
@@ -3689,9 +3732,9 @@ Nodes (19): Agent-facing design for `preview live status --json`, Baseline surfa
 Cohesion: 0.11
 Nodes (18): Agent guidance, Capabilities, Image & Graphic Design Matrix (S5 — v2 capability-based), Install, Known gaps, `photo.develop` — RAW processing, `photo.library` — DAM / photo organization, Preflight (+10 more)
 
-### Community 649 - "_pretty"
-Cohesion: 0.09
-Nodes (6): _pretty(), list_presets(), compute_c2m_distances(), compute_curvature(), compute_density(), run_icp()
+### Community 649 - "cc_backend.py"
+Cohesion: 0.05
+Nodes (23): export_mesh(), TestCoordToSFValidation, TestDelaunayMesh, TestFormatConversion, TestNormalsOps, compute_c2c_distances(), compute_c2m_distances(), compute_curvature() (+15 more)
 
 ### Community 651 - "Novita CLI"
 Cohesion: 0.11
@@ -3710,12 +3753,12 @@ Cohesion: 0.11
 Nodes (18): "AppleScript execution failed", cli-anything-safari, Command Structure, Environment Variables, Install, Installation, JSON Output, Links (+10 more)
 
 ### Community 655 - "SAFARI.md — Software-Specific Analysis"
-Cohesion: 0.11
-Nodes (18): 10. References, 1. Codebase Analysis, 2. Command Map, 3. Rendering-Gap Assessment, 4. Filter Translation, 5. Timecode Precision, 6. Session Locking, 7. "Use the Real Software" Compliance (+10 more)
+Cohesion: 0.12
+Nodes (17): 10. References, 1. Codebase Analysis, 2. Command Map, 3. Rendering-Gap Assessment, 4. Filter Translation, 5. Timecode Precision, 6. Session Locking, 7. "Use the Real Software" Compliance (+9 more)
 
 ### Community 656 - "load_model"
-Cohesion: 0.05
-Nodes (24): diff_models(), DiffItem, ExpressionRef, load_model(), MotionRef, save_model(), batch(), TestParser (+16 more)
+Cohesion: 0.07
+Nodes (14): DetailedDiff, diff_models(), DiffItem, ExpressionRef, load_model(), MotionRef, save_model(), batch() (+6 more)
 
 ### Community 658 - "cli-anything-anygen"
 Cohesion: 0.11
@@ -3762,7 +3805,7 @@ Cohesion: 0.13
 Nodes (6): cli(), main(), repl(), TestWrapperCLI, _decode_output(), run_dify_workflow()
 
 ### Community 670 - "._emit_execution_event"
-Cohesion: 0.20
+Cohesion: 0.15
 Nodes (3): _stop_context_text(), _stop_field_matches(), StopRule
 
 ### Community 671 - "piggy_banks.py"
@@ -3785,6 +3828,10 @@ Nodes (17): jobs, test-installer, name, on, pull_request, push, workflow_dispatc
 Cohesion: 0.11
 Nodes (17): jobs, validate-root-skills, name, on, pull_request, push, workflow_dispatch, paths (+9 more)
 
+### Community 676 - "rules.py"
+Cohesion: 0.25
+Nodes (7): rules_create(), rules_delete(), rules_execute(), rules_get(), rules_list(), rules_test(), rules_update()
+
 ### Community 677 - "Kdenlive CLI - Standard Operating Procedure"
 Cohesion: 0.11
 Nodes (17): 1. Create a Project, 2. Import Media, 3. Build Timeline, 4. Apply Effects, 5. Add Transitions, 6. Add Guides, 7. Export, Architecture (+9 more)
@@ -3793,25 +3840,25 @@ Nodes (17): 1. Create a Project, 2. Import Media, 3. Build Timeline, 4. Apply Ef
 Cohesion: 0.11
 Nodes (17): Automations, Campaigns, cli-anything-mailchimp, Command Reference, Common Agent Patterns, E-commerce, Identity, Installation (+9 more)
 
-### Community 679 - "surveys.py"
-Cohesion: 0.31
-Nodes (5): _cmd_create_email(), _cmd_publish(), _cmd_unpublish(), _parse_json_option(), surveys_group()
+### Community 679 - "batches.py"
+Cohesion: 0.28
+Nodes (6): batches_group(), _cmd_create(), _cmd_delete(), _cmd_get(), _cmd_list_(), _parse_json_option()
 
 ### Community 680 - "cli-anything-mubu"
 Cohesion: 0.11
 Nodes (17): cli-anything-mubu, Command Groups, Discover, Discover Current Daily Note, Dry-Run Atomic Update, Entry Points, Examples, For AI Agents (+9 more)
 
 ### Community 681 - "mubu/agent-harness/skill_generator.py"
-Cohesion: 0.23
+Cohesion: 0.22
 Nodes (15): CommandGroup, CommandInfo, Example, extract_cli_metadata(), extract_commands_from_cli(), extract_intro_from_readme(), extract_system_package(), extract_version_from_setup() (+7 more)
 
-### Community 683 - "_handle_repl_builtin"
-Cohesion: 0.12
-Nodes (14): default_session_state(), expand_repl_aliases_with_state(), load_session_state(), session_state_dir(), session_state_path(), SessionTests, _build_runtime_from_config(), dispatch() (+6 more)
+### Community 683 - "zotero/core/session.py"
+Cohesion: 0.25
+Nodes (7): default_session_state(), expand_repl_aliases_with_state(), load_session_state(), locked_save_json(), session_state_dir(), session_state_path(), SessionTests
 
-### Community 684 - "Part 1 — Test Plan"
-Cohesion: 0.13
-Nodes (14): Coverage Notes, Deliberate Deviations from `validate.md`, E2E Test Plan (`test_full_e2e.py`), How to Re-Run, Live verification log (v1.0), Parity Test Plan (`test_parity.py`), Part 1 — Test Plan, Part 2 — Test Results (+6 more)
+### Community 684 - "_unwrap"
+Cohesion: 0.07
+Nodes (19): data(), Session, TestSessionState, TestUnwrap, Coverage Notes, Deliberate Deviations from `validate.md`, E2E Test Plan (`test_full_e2e.py`), How to Re-Run (+11 more)
 
 ### Community 685 - "unimol_tools/tests/conftest.py"
 Cohesion: 0.19
@@ -3841,9 +3888,9 @@ Nodes (17): cli-anything-mubu, Command Groups, Discover, Discover Current Daily 
 Cohesion: 0.11
 Nodes (17): Backend Notes, Basic Commands, cli-anything-videocaptioner, Command Groups, config — Manage settings, download — Download online video, Installation, JSON Output (+9 more)
 
-### Community 692 - "documents.py"
-Cohesion: 0.22
-Nodes (6): add_documents(), count_documents(), delete_documents(), document_group(), get_documents(), _resolve_collection_id()
+### Community 692 - "_run_json"
+Cohesion: 0.19
+Nodes (5): _run_json(), _target_args(), TestDoctorE2E, TestReplayE2E, TestTargetedE2E
 
 ### Community 693 - "Uni-Mol Tools CLI Documentation"
 Cohesion: 0.11
@@ -3866,24 +3913,20 @@ Cohesion: 0.06
 Nodes (22): TestCLIError, TestValidateOutputFormat, CLIError, is_json_mode(), _iter_context_chain(), resolve_output_format(), validate_output_format(), Architecture (+14 more)
 
 ### Community 700 - "CloudCompare CLI Harness — SOP"
-Cohesion: 0.12
-Nodes (15): Agent Usage Notes, Backend, CloudCompare CLI Harness — SOP, Data Model, Detecting CloudCompare, ICP Registration, Installation (required), Key Workflows (+7 more)
+Cohesion: 0.07
+Nodes (20): TestCCBackendConstants, TestBackendAvailability, find_cloudcompare(), get_version(), is_available(), Agent Usage Notes, Backend, CloudCompare CLI Harness — SOP (+12 more)
 
 ### Community 701 - "CLI-Anything for Codex"
 Cohesion: 0.12
 Nodes (16): Build, CLI-Anything for Codex, Condensed Fallback Rules, Harness Structure, Inputs, List, Modes, Output Expectations (+8 more)
-
-### Community 703 - "_invoke_project_json"
-Cohesion: 0.24
-Nodes (4): _invoke_project_json(), TestE2EProject, TestE2EScene, TestE2EScript
 
 ### Community 704 - "EEZ Studio Harness Test Plan"
 Cohesion: 0.12
 Nodes (16): Backend Status Probe, CLI JSON, `core.project`, `core.scpi`, `core.session`, Coverage Notes, E2E Test Plan, EEZ Studio Harness Test Plan (+8 more)
 
 ### Community 705 - "openscreen/core/timeline.py"
-Cohesion: 0.07
-Nodes (15): add_text_annotation(), add_trim_region(), _gen_id(), get_active_regions_at(), get_timeline_boundaries(), list_annotations(), list_trim_regions(), remove_annotation() (+7 more)
+Cohesion: 0.10
+Nodes (11): add_text_annotation(), add_trim_region(), _gen_id(), list_annotations(), list_trim_regions(), remove_annotation(), remove_trim_region(), update_annotation() (+3 more)
 
 ### Community 706 - "attributes"
 Cohesion: 0.12
@@ -3917,9 +3960,9 @@ Nodes (7): _cmd_create(), _cmd_delete(), _cmd_get(), _cmd_list_(), _cmd_update()
 Cohesion: 0.14
 Nodes (16): commander, jest, sketch-constructor, bin, sketch-cli, dependencies, commander@^11.0.0, sketch-constructor@^1.26.0 (+8 more)
 
-### Community 716 - "check_yoyo_export"
-Cohesion: 0.23
-Nodes (4): check_yoyo_export(), YoyoExportReport, write_model(), YoyoPipelineTest
+### Community 716 - "Eth2QuickStartBackend"
+Cohesion: 0.29
+Nodes (6): start_rpc(), health_check(), status(), _try_parse_json(), TestBackendErrors, Eth2QuickStartBackend
 
 ### Community 717 - "audiences.py"
 Cohesion: 0.33
@@ -3963,7 +4006,7 @@ Nodes (16): 1. Extract CLI metadata using `skill_generator.py`:, 1. YAML Frontma
 
 ### Community 727 - "What This Command Does"
 Cohesion: 0.12
-Nodes (15): Arguments, cli-anything Command, CRITICAL: Resolve PLUGIN_ROOT (absolute paths only), Cursor Tool Bindings, Output Expectations, Phase 0: Source Acquisition, Phase 1: Codebase Analysis, Phase 2: CLI Architecture Design (+7 more)
+Nodes (16): Arguments, cli-anything Command, CRITICAL: Resolve PLUGIN_ROOT (absolute paths only), Cursor Tool Bindings, Output Expectations, Phase 0: Source Acquisition, Phase 1: Codebase Analysis, Phase 2: CLI Architecture Design (+8 more)
 
 ### Community 728 - "Unit Test Plan (`test_core.py`)"
 Cohesion: 0.12
@@ -3985,17 +4028,17 @@ Nodes (4): gradient_image(), sample_image(), TestGIMPRenderE2E, tmp_dir()
 Cohesion: 0.12
 Nodes (15): description, label, options, placeholder, value, body, attributes, id (+7 more)
 
-### Community 733 - "collections.py"
-Cohesion: 0.21
-Nodes (5): collection_group(), collection_info(), create_collection(), delete_collection(), list_collections()
+### Community 733 - "contacts.py"
+Cohesion: 0.32
+Nodes (6): _cmd_archive(), _cmd_forget(), _cmd_get(), _cmd_list_(), contacts_group(), _parse_json_option()
 
 ### Community 734 - "verified_domains.py"
 Cohesion: 0.32
 Nodes (7): _cmd_create(), _cmd_delete(), _cmd_get(), _cmd_list_(), _cmd_verify(), _parse_json_option(), verified_domains_group()
 
-### Community 735 - "_unwrap"
-Cohesion: 0.24
-Nodes (3): data(), TestUnwrap, _unwrap()
+### Community 735 - "insights.py"
+Cohesion: 0.23
+Nodes (5): insights(), insights_expense(), insights_income(), insights_overview(), insights_transfer()
 
 ### Community 737 - "NotebookLM Harness - Test Documentation"
 Cohesion: 0.12
@@ -4013,9 +4056,13 @@ Nodes (15): 1. Segment-based rendering (primary approach), 2. Zoom implementatio
 Cohesion: 0.12
 Nodes (15): Backend Rules, Build, CLI-Anything for Reasonix, Existing Harnesses (Reference), Inputs, Modes, Output Expectations, Packaging Rules (+7 more)
 
+### Community 742 - "webhooks.py"
+Cohesion: 0.28
+Nodes (6): webhooks_create(), webhooks_delete(), webhooks_get(), webhooks_list(), webhooks_trigger(), webhooks_update()
+
 ### Community 744 - "add_speed_region"
 Cohesion: 0.09
-Nodes (6): add_speed_region(), list_speed_regions(), remove_speed_region(), _repl_speed(), TestSpeed, TestExportE2E
+Nodes (5): add_speed_region(), list_speed_regions(), remove_speed_region(), TestSpeed, TestExportE2E
 
 ### Community 745 - "cli-anything-seaclip"
 Cohesion: 0.12
@@ -4033,9 +4080,9 @@ Nodes (15): Analyze summaries, Backend discovery, Batch response files, Capture 
 Cohesion: 0.20
 Nodes (3): _locked_save_json(), TestLockedSaveJson, writer()
 
-### Community 749 - "issues.py"
-Cohesion: 0.23
-Nodes (5): issue_create(), issue_delete(), issue_list(), issue_move(), issue_status()
+### Community 749 - "TestExport"
+Cohesion: 0.18
+Nodes (3): get_preset_info(), list_presets(), TestExport
 
 ### Community 752 - "cli-anything-unrealinsights"
 Cohesion: 0.12
@@ -4081,33 +4128,37 @@ Nodes (14): Architecture, Backend, Command Groups, Connecting and getting the ap
 Cohesion: 0.13
 Nodes (14): CLI Subprocess Tests (TestCLISubprocess), Coverage Notes, E2E Test Plan (test_full_e2e.py), export.py, Full Pipeline Tests, krita_backend.py, Part 1: Test Plan, Part 2: Test Results (+6 more)
 
-### Community 767 - "TestRealSafariRoundTrip"
-Cohesion: 0.18
-Nodes (6): TestRealSafariRoundTrip, E2E Tests (`tests/test_full_e2e.py`), Parity Tests (`tests/test_parity.py`), Security Tests (`tests/test_security.py`), Testing Strategy, Unit Tests (`tests/test_core.py`)
-
-### Community 768 - "seaclip_cli.py"
-Cohesion: 0.08
-Nodes (9): activity_group(), activity_list(), agent_group(), issue_group(), pipeline_group(), main(), _run_repl(), server_group() (+1 more)
-
-### Community 769 - "scheduler_add"
+### Community 767 - "Test Plan - cli-anything-sbox"
 Cohesion: 0.17
-Nodes (4): scheduler_add(), scheduler_group(), scheduler_list(), scheduler_sync()
+Nodes (9): 1. Test Inventory, 2. Running the Tests, 4. Coverage by Source Module, 5. E2E Prerequisites, 6. Coverage Gaps, 7. Known Test-Environment Quirks, Environment, Skip behavior (+1 more)
+
+### Community 768 - "accounts.py"
+Cohesion: 0.33
+Nodes (5): accounts_create(), accounts_delete(), accounts_get(), accounts_list(), accounts_update()
+
+### Community 769 - "comparer.py"
+Cohesion: 0.35
+Nodes (3): compare_models(), DiffItem, ModelDiff
 
 ### Community 770 - "cli-anything-minimax"
 Cohesion: 0.13
 Nodes (14): Chat, Chat, cli-anything-minimax, Environment Variables, Installation, Models, Prerequisites, Quick Start (+6 more)
 
-### Community 771 - "ensure_destination"
-Cohesion: 0.40
-Nodes (4): ensure_destination(), inspect_with_backend(), simulator_build(), verify_simulator_output()
+### Community 771 - "eez_studio_backend.py"
+Cohesion: 0.17
+Nodes (11): build_files(), inspect_with_backend(), simulator_build(), backend_status(), build_full_simulator(), find_node(), find_source_tree(), inspect_project() (+3 more)
 
-### Community 772 - "openscreen/tests/test_full_e2e.py"
-Cohesion: 0.06
-Nodes (13): render(), check_video(), extract_thumbnail(), _resolve_cli(), session(), TestMediaE2E, composite_on_background(), concat_segments() (+5 more)
+### Community 772 - "TestMediaE2E"
+Cohesion: 0.28
+Nodes (3): check_video(), extract_thumbnail(), TestMediaE2E
 
 ### Community 773 - "scpi.py"
 Cohesion: 0.45
 Nodes (8): add_command(), add_parameter(), add_subsystem(), find_subsystem(), list_commands(), list_subsystems(), _scpi(), test_scpi_subsystem_command_parameter()
+
+### Community 774 - "llm_assist.py"
+Cohesion: 0.25
+Nodes (5): generate_macro(), _load_image_bytes(), _step_to_yaml_step(), _take_screenshot(), _validate_steps()
 
 ### Community 775 - "What This Command Does"
 Cohesion: 0.13
@@ -4145,10 +4196,6 @@ Nodes (14): Agent Guidance, Always use `--json` in agent contexts, Command Group
 Cohesion: 0.14
 Nodes (13): Basic Commands, cli-anything-chromadb, collection, Command Groups, document, For AI Agents, Installation, Output Formats (+5 more)
 
-### Community 785 - "load_workflow"
-Cohesion: 0.10
-Nodes (4): load_workflow(), save_workflow(), TestWorkflowLoad, TestWorkflowSave
-
 ### Community 787 - "_translate_path"
 Cohesion: 0.20
 Nodes (5): test_translate_path_empty_is_relative_empty(), test_translate_path_preserves_relative(), test_translate_path_root_is_absolute_empty(), test_translate_path_strips_all_leading_slashes(), _translate_path()
@@ -4158,12 +4205,8 @@ Cohesion: 0.14
 Nodes (13): Architecture, Command Mapping, `configure-validator`, ETH2 QuickStart CLI Harness SOP, `health-check`, `install-clients`, Installation Model, Overview (+5 more)
 
 ### Community 789 - "exa/tests/test_full_e2e.py"
-Cohesion: 0.20
-Nodes (5): _resolve_cli(), _run(), runner(), TestEntryPoint, TestServerStatusE2E
-
-### Community 790 - "chromadb/core/server.py"
-Cohesion: 0.27
-Nodes (3): heartbeat(), server_group(), version()
+Cohesion: 0.11
+Nodes (6): main(), _resolve_cli(), _run(), runner(), TestEntryPoint, TestServerStatusE2E
 
 ### Community 791 - "CLI-Anything for Hermes Agent"
 Cohesion: 0.14
@@ -4218,16 +4261,12 @@ Cohesion: 0.14
 Nodes (13): Basic Commands, cli-anything-pm2, Command Groups, For AI Agents, Installation, lifecycle, logs, Output Formats (+5 more)
 
 ### Community 808 - "generate_component"
-Cohesion: 0.04
-Nodes (13): _format_method(), _format_property(), _format_rpc_method(), generate_component(), generate_editor_menu(), generate_gameresource(), generate_panel_component(), generate_razor() (+5 more)
+Cohesion: 0.05
+Nodes (12): _format_method(), _format_property(), _format_rpc_method(), generate_class(), generate_component(), generate_editor_menu(), generate_panel_component(), generate_razor() (+4 more)
 
 ### Community 809 - "Alexa harness: analysis and SOP"
 Cohesion: 0.25
 Nodes (7): Alexa harness: analysis and SOP, Authentication, Backend choices, Command design, Known risks, State model, Target
-
-### Community 810 - "scan_directory"
-Cohesion: 0.27
-Nodes (3): find_model_files(), scan_directory(), TestScanner
 
 ### Community 811 - "parse_child_refs"
 Cohesion: 0.24
@@ -4238,8 +4277,8 @@ Cohesion: 0.15
 Nodes (12): CC Switch CLI - Test Plan, CLI Commands, CLI Core Helpers, Coverage Notes, Database and Config Helpers, E2E Coverage, Latest Verification, Live Config Write Helpers (+4 more)
 
 ### Community 813 - "Video Captions"
-Cohesion: 0.10
-Nodes (21): ASS + FFmpeg, Authoring Paths, Deliverables, Design Recipe, Doctor Review, Film Commentary / Recap, HyperFrames / HTML Captions, Lyrics / Karaoke (+13 more)
+Cohesion: 0.15
+Nodes (13): ASS + FFmpeg, Authoring Paths, Deliverables, Design Recipe, Doctor Review, HyperFrames / HTML Captions, NLE Overlay Tracks, Python / MoviePy / Pillow (+5 more)
 
 ### Community 814 - "Story Structure And Audio Direction"
 Cohesion: 0.15
@@ -4256,6 +4295,10 @@ Nodes (12): Architecture, CLI Strategy, Draw.io — CLI Harness Analysis & SOP, 
 ### Community 817 - "cli-anything-alexa"
 Cohesion: 0.22
 Nodes (8): cli-anything-alexa, Install, Limits, Requirements, Sign in (once), Tests, Troubleshooting, Use
+
+### Community 818 - "log_config"
+Cohesion: 0.25
+Nodes (7): log_clear(), log_config(), log_show(), clear_log(), get_log(), get_log_config(), set_log_config()
 
 ### Community 819 - "cli-anything-alexa"
 Cohesion: 0.25
@@ -4278,8 +4321,8 @@ Cohesion: 0.15
 Nodes (12): Analysis, Architecture, Commands (42 total), Dependencies, Edit (auto-backup), File format reference, Generation, Global (+4 more)
 
 ### Community 826 - "TestCLISubprocessSmoke"
-Cohesion: 0.12
-Nodes (9): _fake_minimax_server(), _resolve_cli(), _subprocess_env(), test_chat_completion_e2e(), test_chat_completion_m27_model_e2e(), test_chat_stream_e2e(), test_tts_e2e(), TestCLISubprocessSmoke (+1 more)
+Cohesion: 0.24
+Nodes (4): _fake_minimax_server(), _subprocess_env(), TestCLISubprocessSmoke, base_url()
 
 ### Community 828 - "CLI-Anything NotebookLM Harness"
 Cohesion: 0.15
@@ -4294,12 +4337,12 @@ Cohesion: 0.15
 Nodes (12): Arguments, cli-anything-refine Command, CRITICAL: Read HARNESS.md First, Notes, Step 1: Inventory Current Coverage, Step 2: Analyze Software Capabilities, Step 3: Gap Analysis, Step 4: Implement New Commands (+4 more)
 
 ### Community 831 - "get_buffer_data"
-Cohesion: 0.19
+Cohesion: 0.21
 Nodes (4): get_buffer_data(), list_buffers(), list_resources(), TestResourcesModule
 
-### Community 832 - "notebooklm/tests/test_core.py"
-Cohesion: 0.13
-Nodes (9): TestBackendDiscovery, TestCommandBuilder, TestErrorSanitization, TestRunNotebooklm, build_command(), command_supports_json(), require_notebooklm(), run_notebooklm() (+1 more)
+### Community 832 - "build_command"
+Cohesion: 0.31
+Nodes (3): TestCommandBuilder, build_command(), command_supports_json()
 
 ### Community 833 - "Command Reference"
 Cohesion: 0.15
@@ -4310,8 +4353,8 @@ Cohesion: 0.17
 Nodes (11): Architecture, cli-anything-3mf, Commands, Dependencies, Hole Detection, Hole Resizing, How It Works, Installation (+3 more)
 
 ### Community 835 - "AdGuardHome - CLI Harness SOP"
-Cohesion: 0.17
-Nodes (10): AdGuardHome - CLI Harness SOP, API Tag Groups, Architecture, CLI Command Map, Connection Config, Overview, Testing Strategy, parental() (+2 more)
+Cohesion: 0.29
+Nodes (6): AdGuardHome - CLI Harness SOP, Architecture, CLI Command Map, Connection Config, Overview, Testing Strategy
 
 ### Community 836 - "load_config"
 Cohesion: 0.27
@@ -4342,8 +4385,8 @@ Cohesion: 0.17
 Nodes (11): Architecture, Breaking: Datum/Origin Redesign, Command Groups, Data Model, Dependencies, FreeCAD 1.1 Changes, FreeCAD CLI Harness — Standard Operating Procedure, FreeCAD Python API Reference (+3 more)
 
 ### Community 845 - "gimp/tests/test_full_e2e.py"
-Cohesion: 0.13
-Nodes (8): _anchor_offset(), crop_canvas(), get_canvas_info(), resize_canvas(), scale_canvas(), set_dpi(), set_mode(), TestCanvas
+Cohesion: 0.10
+Nodes (10): _anchor_offset(), crop_canvas(), get_canvas_info(), resize_canvas(), scale_canvas(), set_dpi(), set_mode(), list_profiles() (+2 more)
 
 ### Community 846 - "Commands"
 Cohesion: 0.17
@@ -4421,9 +4464,17 @@ Nodes (6): E2E tests (`test_full_e2e.py`), Realistic workflows covered, Results,
 Cohesion: 0.17
 Nodes (11): Architecture Summary, CLI Strategy: Subprocess Wrapper, Coverage, Limitations, Subtitle Processing, Testing Strategy, Transcription (4 ASR engines), Utilities (+3 more)
 
+### Community 871 - "firefly_iii/core/export.py"
+Cohesion: 0.39
+Nodes (5): export(), export_accounts(), export_budgets(), export_categories(), export_transactions()
+
+### Community 872 - "Style Presets"
+Cohesion: 0.25
+Nodes (8): Film Commentary / Recap, Lyrics / Karaoke, Product / Digital Launch, Sci-Fi / Game / Mecha Trailer, Sports Hype / Music Montage, Style Presets, Tutorial / Explainer, Vertical Social / Talking Head
+
 ### Community 873 - "video-creation/SKILL.md"
-Cohesion: 0.08
-Nodes (19): Aesthetic Bar, Art Direction Review, Art Gates Before Promotion, Genre Failure Modes, Response To Review Defects, Review Assets, Audio Roles, Mix Review (+11 more)
+Cohesion: 0.18
+Nodes (6): Contact Sheets To Keep, Evidence Levels, Rejection Checklist, Required Manifest Fields, Source Triage For Found-Footage Video, Triage Workflow
 
 ### Community 874 - "cli-hub"
 Cohesion: 0.18
@@ -4449,9 +4500,9 @@ Nodes (10): Agent Usage Guidance, cli-anything-jumpserver, Dry Run Mode, Environ
 Cohesion: 0.18
 Nodes (10): Architecture Analysis, Backend Engine, CLI Interface, Command Map, Krita — Agent Harness SOP, Native File Format (.kra), Python Scripting API (libkis), Rendering Approach (+2 more)
 
-### Community 884 - "export"
-Cohesion: 0.16
-Nodes (4): import_document(), list_import_formats(), TestImport, TestOfficeImportE2E
+### Community 884 - "Sound Design For Video Edits"
+Cohesion: 0.25
+Nodes (7): Audio Roles, Mix Review, Patterns, Procedural Audio Guardrails, Required Deliverable, Sound Design For Video Edits, Source Audio Overlap Rules
 
 ### Community 885 - "cli-anything-mermaid"
 Cohesion: 0.18
@@ -4465,9 +4516,9 @@ Nodes (10): Agent Notes, Capabilities, Commands, doctor, frame capture, Generate
 Cohesion: 0.18
 Nodes (10): 1. Installed CLIs, 2. Generated CLIs, 3. Merge Results, cli-anything-list Command, Implementation Steps, JSON Format (--json), Options, Output Formats (+2 more)
 
-### Community 888 - "repl"
-Cohesion: 0.33
-Nodes (7): list_samples(), new_project(), open_project(), project_info(), save_project(), repl(), test_save_open_roundtrip()
+### Community 888 - "get_template"
+Cohesion: 0.29
+Nodes (3): get_template(), search_templates(), TestTemplates
 
 ### Community 889 - "cli-anything-siyuan"
 Cohesion: 0.18
@@ -4541,9 +4592,9 @@ Nodes (9): cli-anything-krita, Command groups, Export presets, How it works, Ins
 Cohesion: 0.20
 Nodes (9): Analysis (4), cli-anything-live2d, Commands (42 total), Edit (10, all auto-backup), Examples, Generation (3), Other (3), Read (18) (+1 more)
 
-### Community 912 - "Usage Examples"
-Cohesion: 0.22
-Nodes (9): Call a tool (schema-driven), Discover the tool surface, Form fill (bulk), Interactive REPL, Navigate and read in one round-trip, Network monitoring, Raw JSON escape hatch, Storage (+1 more)
+### Community 912 - "weights.py"
+Cohesion: 0.25
+Nodes (3): download_weights(), get_weight_info(), list_downloaded_weights()
 
 ### Community 915 - "cli-anything-notebooklm"
 Cohesion: 0.20
@@ -4561,9 +4612,9 @@ Nodes (9): About RenderDoc, Actions, Capture File (.rdc), CLI Coverage Map, Key 
 Cohesion: 0.20
 Nodes (9): Backend Integration, CLI Command Groups, File Formats, Key Architectural Decisions, Project Structure Created by CLI, SBOX.md - s&box CLI Harness SOP, Server CLI Commands (sbox-server.exe), Software Overview (+1 more)
 
-### Community 921 - "Usage Examples"
-Cohesion: 0.22
-Nodes (9): Call a tool (schema-driven), Discover the tool surface, Form fill (bulk), Interactive REPL, Navigate and read in one round-trip, Network monitoring, Raw JSON escape hatch, Storage (+1 more)
+### Community 921 - "Art Direction Review"
+Cohesion: 0.29
+Nodes (6): Aesthetic Bar, Art Direction Review, Art Gates Before Promotion, Genre Failure Modes, Response To Review Defects, Review Assets
 
 ### Community 922 - "Commands (42 total)"
 Cohesion: 0.20
@@ -4585,10 +4636,6 @@ Nodes (9): Coverage Requirements, E2E Tests (`test_full_e2e.py`), Overview, Runn
 Cohesion: 0.25
 Nodes (7): Architecture, Command Groups, Dependency Model, Global Options, HARNESS.md - LLDB CLI Harness Specification, Overview, Patterns
 
-### Community 930 - "wavetone/tests/test_full_e2e.py"
-Cohesion: 0.39
-Nodes (6): _env_flag_enabled(), _real_backend_ready(), _resolve_cli(), test_real_backend_requires_explicit_opt_in(), test_resolve_cli_defaults_to_source_module(), test_resolve_cli_uses_installed_only_when_requested()
-
 ### Community 931 - "Audacity CLI"
 Cohesion: 0.22
 Nodes (8): Architecture, Audacity CLI, Command Groups, Evaluation (Eval Harness), Example Workflow, Install, Run, Run Tests
@@ -4605,9 +4652,9 @@ Nodes (8): Architecture, CC Switch CLI - Agent Harness, Command Groups, Database
 Cohesion: 0.22
 Nodes (9): Phase 1: Codebase Analysis, Phase 2: CLI Architecture Design, Phase 3: Implementation, Phase 4: Test Planning, Phase 5: Test Implementation, Phase 6.5: SKILL.md Generation, Phase 6: Test Documentation, Phase 7: PyPI Publishing and Installation (+1 more)
 
-### Community 936 - "rewrite_add"
-Cohesion: 0.25
-Nodes (6): rewrite_add(), rewrite_list(), rewrite_remove(), add_rewrite(), delete_rewrite(), list_rewrites()
+### Community 936 - "adguardhome_cli.py"
+Cohesion: 0.07
+Nodes (33): API Tag Groups, blocked_services(), blocking(), clients_(), config(), config_show(), dhcp_(), dhcp_add_static() (+25 more)
 
 ### Community 937 - "Video Creation Matrix (v3 — capability-based)"
 Cohesion: 0.22
@@ -4641,9 +4688,9 @@ Nodes (8): prepare_task(), upload_file(), TestConfig, get_api_key(), _make_auth_
 Cohesion: 0.22
 Nodes (8): 1. Prerequisites, 2. Install, 3. Configure, 4. Verify, 5. Use, cli-anything-exa, HOW TO RUN, Running Tests
 
-### Community 945 - "subprocess"
-Cohesion: 0.01
-Nodes (148): agh_docker(), _configure_adguardhome(), _resolve_cli(), _wait_for_adguardhome(), iso_env(), _resolve_cli(), _resolve_cli(), TestSoXAudioE2E (+140 more)
+### Community 945 - "freecad_backend.py"
+Cohesion: 0.06
+Nodes (13): harness_dir(), minimal_harness(), TestExtractIntroFromReadme, TestExtractSystemPackage, TestExtractVersionFromSetup, TestGenerateSkillFile, export_headless(), find_freecad() (+5 more)
 
 ### Community 948 - "mock_config"
 Cohesion: 0.29
@@ -4710,8 +4757,8 @@ Cohesion: 0.22
 Nodes (9): 📚 Documentation, 🎯 Features, Installation & Usage, 🔗 Links, 📁 Project Structure, 🚀 Quick Start, Running the Demo, 🧪 Testing (+1 more)
 
 ### Community 970 - "_run_repl"
-Cohesion: 0.15
-Nodes (7): save(), startup(), version(), _repl_start(), _run_repl(), system_version(), TestSystem
+Cohesion: 0.18
+Nodes (6): save(), startup(), version(), _run_repl(), system_version(), TestSystem
 
 ### Community 971 - "WaveTone Harness Test Plan and Results"
 Cohesion: 0.22
@@ -4721,17 +4768,9 @@ Nodes (8): CLI Backend Workflow, CLI Project Workflow, Coverage Notes, E2E Test 
 Cohesion: 0.22
 Nodes (8): Backend Surface, Commands, Input Model, Known Web Yu-pri Selectors, Purpose, Safety Model, Test Strategy, Web Yu-pri Harness SOP
 
-### Community 973 - "Agent-Specific Guidance"
-Cohesion: 0.25
-Nodes (8): Agent-Specific Guidance, Error Handling, Finding the right tool, Multi-Session Warning, Refs Expire, Tab Ownership Safety, Tool selection strategy, URL Validation
-
 ### Community 974 - "flatten_network"
 Cohesion: 0.29
 Nodes (3): flatten_network(), walk(), test_flatten_network_nested()
-
-### Community 975 - "Agent-Specific Guidance"
-Cohesion: 0.25
-Nodes (8): Agent-Specific Guidance, Error Handling, Finding the right tool, Multi-Session Warning, Refs Expire, Tab Ownership Safety, Tool selection strategy, URL Validation
 
 ### Community 976 - "CLI-Anything ChromaDB"
 Cohesion: 0.25
@@ -4829,6 +4868,10 @@ Nodes (7): About Nsight Graphics, AI Operator Workflow, Compatibility Notes, Exp
 Cohesion: 0.25
 Nodes (7): cli-anything-nslogger, Commands, File Formats, Installation, JSON Output (Agent Mode), Log Levels, Quick Start
 
+### Community 1005 - "flush_logs"
+Cohesion: 0.20
+Nodes (4): flush_logs(), view_logs(), _repl_logs_view(), TestLogs
+
 ### Community 1006 - "Ollama: Project-Specific Analysis & SOP"
 Cohesion: 0.25
 Nodes (7): API Endpoints, Architecture Summary, CLI Strategy: REST API Wrapper, Command Map: Ollama Native CLI → CLI-Anything, Model Parameters (options), Ollama: Project-Specific Analysis & SOP, Test Coverage Plan
@@ -4865,6 +4908,14 @@ Nodes (7): cli-anything-cloudcompare, Error Handling, For AI Agents, Global Opti
 Cohesion: 0.25
 Nodes (7): About Unreal Insights, Analysis backend, Backend Model, Capture backend, CLI Coverage Map, Current Limitations, UNREALINSIGHTS.md - Software-Specific SOP
 
+### Community 1016 - "exa/utils/repl_skin.py"
+Cohesion: 0.40
+Nodes (3): _box_line(), _strip_ansi(), _visible_len()
+
+### Community 1017 - "minimax/utils/repl_skin.py"
+Cohesion: 0.40
+Nodes (3): _box_line(), _strip_ansi(), _visible_len()
+
 ### Community 1018 - "VideoCaptioner CLI"
 Cohesion: 0.25
 Nodes (7): Architecture, Backend compatibility, Coverage, Install, Pipeline, Run, VideoCaptioner CLI
@@ -4885,9 +4936,9 @@ Nodes (6): cli-anything-adguardhome, Configuration, Installation, Prerequisites,
 Cohesion: 0.29
 Nodes (6): Blender — Orbital Relay Drone via Preview, Live Preview, and Trajectory, CLI-Anything Demo Assets, Draw.io — HTTPS Handshake Diagram, FreeCAD — Curiosity Rover via Preview, Live Preview, and Trajectory, Slay the Spire II — Game Automation, VideoCaptioner — Auto-Generated Subtitles
 
-### Community 1024 - "pm2/tests/test_core.py"
+### Community 1024 - "list_processes"
 Cohesion: 0.09
-Nodes (15): 常见问题, delete_process(), restart_process(), start_process(), stop_process(), describe_process(), _format_bytes(), _format_uptime() (+7 more)
+Nodes (14): describe_process(), _format_bytes(), _format_uptime(), get_metrics(), list_processes(), TestFormatBytes, TestProcesses, E2E Tests (test_full_e2e.py) (+6 more)
 
 ### Community 1026 - "ChromaDB CLI Tests"
 Cohesion: 0.29
@@ -4898,7 +4949,7 @@ Cohesion: 0.29
 Nodes (7): Known Failure Modes, Mezzanine Conventions, Promotion, Provider Boundary Pattern, Render Resilience, Shotcut And Kdenlive NLE Workflow, When To Choose An NLE
 
 ### Community 1030 - "Render Doctor And Final Promotion"
-Cohesion: 0.25
+Cohesion: 0.29
 Nodes (7): Baseline Doctor Commands, Doctor Principle, Investigation Signals, Promotion Discipline, Render Doctor And Final Promotion, Reporting, What To Read
 
 ### Community 1031 - "codex-skill/tests/test_install.sh"
@@ -4964,10 +5015,6 @@ Nodes (6): Current Limitations, Data Model, Integration Strategy, LLDB.md - LLDB
 ### Community 1050 - "MacroCLI"
 Cohesion: 0.29
 Nodes (6): Adding a Macro, Architecture, Installation, MacroCLI, Run Tests, Usage
-
-### Community 1051 - "PM2 CLI Tests"
-Cohesion: 0.29
-Nodes (6): E2E Tests (test_full_e2e.py), Last Run Results, PM2 CLI Tests, Running Tests, Test Files, Test Plan
 
 ### Community 1052 - "cli-anything-musescore"
 Cohesion: 0.29
@@ -5077,9 +5124,9 @@ Nodes (5): Draw.io CLI — Test Plan & Results, E2E Tests (test_full_e2e.py), Te
 Cohesion: 0.33
 Nodes (5): cli-anything-eth2-quickstart, Core Commands, Runtime Expectations, Safety Rules, When To Use
 
-### Community 1082 - "run_checked"
-Cohesion: 0.47
-Nodes (5): export_audio_snippet(), ffmpeg_filter_report(), run(), run_bytes(), run_checked()
+### Community 1082 - "Security Policy"
+Cohesion: 0.33
+Nodes (5): Codec Allowlists (Breaking Change), Reporting a Vulnerability, Security Guidelines for Harness Developers, Security Policy, Threat Model
 
 ### Community 1083 - "contact_links"
 Cohesion: 0.33
@@ -5197,10 +5244,6 @@ Nodes (4): macros, name, path, version
 Cohesion: 0.40
 Nodes (4): Auth, cli-anything-mailchimp, Install, Usage
 
-### Community 1129 - "parse_captions"
-Cohesion: 0.60
-Nodes (5): clean_text(), parse_ass(), parse_captions(), parse_srt(), parse_time()
-
 ### Community 1130 - "cli-anything PM2"
 Cohesion: 0.40
 Nodes (4): Architecture, cli-anything PM2, Command Groups, Quick Start
@@ -5269,17 +5312,9 @@ Nodes (3): Full workflow, Mapping tmux panes → iTerm2 session IDs, tmux -CC Wo
 Cohesion: 0.50
 Nodes (3): Acknowledgements, Attribution, Design Boundary
 
-### Community 1160 - "_supports_interactive_prompt"
-Cohesion: 0.40
-Nodes (3): _supports_interactive_prompt(), test_prompt_toolkit_is_reserved_for_real_terminals(), isatty()
-
 ### Community 1162 - "Test Plan — cli-anything-obsidian"
 Cohesion: 0.50
 Nodes (3): E2E Tests (`test_full_e2e.py`), Test Plan — cli-anything-obsidian, Unit Tests (`test_core.py`)
-
-### Community 1163 - "lldb_cli.py"
-Cohesion: 0.08
-Nodes (17): main(), breakpoint_group(), _cleanup(), core_group(), dap_server(), frame_group(), main(), memory_group() (+9 more)
 
 ### Community 1167 - "Test Results — Shotcut CLI Harness"
 Cohesion: 0.50
@@ -5294,24 +5329,24 @@ Cohesion: 0.50
 Nodes (4): 4. mesh — Mesh Operations (3 commands), mesh add, mesh list, mesh sample
 
 ## Knowledge Gaps
-- **7 isolated node(s):** `DOTNET_SKIP_FIRST_TIME_EXPERIENCE`, `net9.0`, `Microsoft.NET.Sdk`, `cli-anything-jumpserver`, `cli-anything-n8n` (+2 more)
-  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 17114 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
-- **559 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **7 isolated node(s):** `HOME`, `cli-anything-jumpserver`, `cli-anything-n8n`, `net9.0`, `Microsoft.NET.Sdk` (+2 more)
+  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 17107 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
+- **577 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `Changes Made` connect `cleanup.py` to `Test Suite Report - FINAL`?**
-  _High betweenness centrality (0.038) - this node is a cross-community bridge._
-- **What connects `DOTNET_SKIP_FIRST_TIME_EXPERIENCE`, `net9.0`, `Microsoft.NET.Sdk` to the rest of the system?**
+- **Why does `group` connect `group` to `sbox_cli.py`, `load_config`, `app`, `ccswitch/tests/test_core.py`, `timeline`, `calc`, `session`, `cli`, `core_group`, `mermaid_cli.py`, `config`, `session`, `execution_`, `mailchimp/tests/test_core.py`, `inkscape_cli.py`, `eez_studio/tests/test_core.py`, `commands/__init__.py`, `blender_cli.py`, `workflow_versions_`, `doctor_group`, `audio_group`, `layout`, `project`, `session`, `config_group`, `smtp`, `gimp_cli.py`, `media`, `preview`, `TigrisBackend`, `models`, `renderdoc_cli.py`, `sys`, `gui_group`, `store_group`, `obs_studio_cli.py`, `session`, `audacity_cli.py`, `openscreen_cli.py`, `mubu_cli.py`, `cli`, `request`, `safari_cli.py`, `record`, `scenario`, `settings`, `patch`, `stub`, `recurrences_delete`, `drawio_cli.py`, `libreoffice_cli.py`, `cli`, `shotcut_cli.py`, `qgis_cli.py`, `zotero_cli.py`, `conversations.py`, `click`, `MailchimpError`, `kdenlive_cli.py`, `cloudanalyzer_cli.py`, `lldb_cli.py`, `object.py`, `cli`, `cli`, `macrocli_cli.py`, `alexa_cli.py`, `notebooklm_cli.py`, `joplin_cli.py`, `SeaClipBackend`, `commands/templates.py`, `click`, `slay_the_spire_ii_cli.py`, `option`, `pass_context`, `take_snapshot`, `file_manager.py`, `landing_pages.py`, `iam.py`, `jumpserver/tests/test_core.py`, `cli`, `motion.py`, `cli`, `anygen_cli.py`, `connected_sites.py`, `pm2_cli.py`, `TigrisCliError`, `session_group`, `openrefine/tests/test_core.py`, `cli`, `zoom_cli.py`, `campaign_folders.py`, `cli`, `piggy_banks.py`, `batches.py`, `_unwrap`, `cli`, `categories.py`, `selection`, `template_folders.py`, `JumpServerREPL`, `_run_repl`, `audiences.py`, `requests`, `siyuan_cli.py`, `bills.py`, `rule_groups.py`, `firefly_iii/core/tags.py`, `contacts.py`, `verified_domains.py`, `backend`, `lvgl`, `project`, `insights.py`, `auto_backup`, `authorized_apps.py`, `nsight_graphics_cli.py`, `cli`, `unrealinsights/tests/test_core.py`, `nslogger_cli.py`, `ollama_cli.py`, `wavetone_cli.py`, `currencies.py`, `minimax_cli.py`, `presign.py`, `scpi`, `openrefine_cli.py`, `commands/reports.py`, `cli`, `effect_group`, `session`, `export_group`, `web_yu_pri_cli.py`, `camera`, `ChromaDBBackend`, `images`, `models`, `queue`, `workflow`, `system`, `motion_group`, `feature`, `preview_group`, `text`, `novita_cli.py`, `WireMockClient`, `firefly_iii_cli.py`, `godot_cli.py`, `steps`, `firefly_iii/core/export.py`, `musescore_cli.py`, `cli`, `reporting.py`, `web_yu_pri/tests/test_core.py`, `videocaptioner_cli.py`, `cli`, `threemf_cli.py`, `cli`, `adguardhome_cli.py`, `cli`, `cli`, `access_key.py`, `cli`, `style`, `config`, `app`, `arrangement`, `broadcast`, `menu`, `pref`, `profile`, `tmux`, `window`, `tab`, `session`, `secret_group`, `cli`, `cli`, `platform_group`, `terminal_group`, `sms_campaigns.py`, `configs`, `edit`, `config`, `session`?**
+  _High betweenness centrality (0.022) - this node is a cross-community bridge._
+- **What connects `HOME`, `cli-anything-jumpserver`, `cli-anything-n8n` to the rest of the system?**
   _7 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `freecad_cli.py` be split into smaller, more focused modules?**
-  _Cohesion score 0.012601187263896384 - nodes in this community are weakly interconnected._
-- **Why does `Test Suite Report - FINAL` connect `Test Suite Report - FINAL` to `cleanup.py`?**
-  _High betweenness centrality (0.038) - this node is a cross-community bridge._
+  _Cohesion score 0.012660292348779842 - nodes in this community are weakly interconnected._
+- **Why does `Changes Made` connect `cleanup.py` to `Test Suite Report - FINAL`?**
+  _High betweenness centrality (0.021) - this node is a cross-community bridge._
 - **Should `group` be split into smaller, more focused modules?**
-  _Cohesion score 0.004784688995215311 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.006329113924050633 - nodes in this community are weakly interconnected._
+- **Why does `Test Suite Report - FINAL` connect `Test Suite Report - FINAL` to `cleanup.py`?**
+  _High betweenness centrality (0.021) - this node is a cross-community bridge._
 - **Should `freecad/tests/test_core.py` be split into smaller, more focused modules?**
-  _Cohesion score 0.024587634168924247 - nodes in this community are weakly interconnected._
-- **Should `sbox_cli.py` be split into smaller, more focused modules?**
-  _Cohesion score 0.03125996810207336 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.035023041474654376 - nodes in this community are weakly interconnected._
