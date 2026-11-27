@@ -6012,8 +6012,8 @@
     "semantic_hash": ""
   },
   "registry.json": {
-    "mtime": 1795692469.1454031,
-    "seen": 1795692527.8054638,
+    "mtime": 1795778810.5779433,
+    "seen": 1795778886.6355608,
     "ast_hash": "97a8237fa41de222fb8b3ae7fe86d694",
     "semantic_hash": ""
   },
@@ -8238,8 +8238,8 @@
     "semantic_hash": ""
   },
   "README.md": {
-    "mtime": 1795692468.4980178,
-    "seen": 1795692527.812753,
+    "mtime": 1795778810.2974856,
+    "seen": 1795778886.6461637,
     "ast_hash": "7300602dd8fe2173db4c5ce88a884fd4",
     "semantic_hash": ""
   },
@@ -11048,19 +11048,19 @@
   "mubu/agent-harness/pyproject.toml": {
     "mtime": 1795014639.5182452,
     "seen": 1795692600.331816,
-    "ast_hash": "b3546f8b58654642bcbf2b27ab959ce0",
+    "ast_hash": "",
     "semantic_hash": ""
   },
   "nslogger/agent-harness/pyproject.toml": {
     "mtime": 1795014639.523602,
     "seen": 1795692600.33194,
-    "ast_hash": "061459011bd0526b3f70c10c2237e705",
+    "ast_hash": "",
     "semantic_hash": ""
   },
   "zotero/agent-harness/pyproject.toml": {
     "mtime": 1795014639.5553343,
     "seen": 1795692600.3324437,
-    "ast_hash": "b3546f8b58654642bcbf2b27ab959ce0",
+    "ast_hash": "",
     "semantic_hash": ""
   },
   "alexa/agent-harness/cli_anything/alexa/__init__.py": {
@@ -11076,9 +11076,9 @@
     "semantic_hash": ""
   },
   "alexa/agent-harness/cli_anything/alexa/alexa_cli.py": {
-    "mtime": 1795606013.7979743,
-    "seen": 1795606073.7222319,
-    "ast_hash": "e216fcd6b9cd59701a7df9e0e267c861",
+    "mtime": 1795778810.6522949,
+    "seen": 1795778886.6101146,
+    "ast_hash": "09833fad6dda548907992f0402d2ac2b",
     "semantic_hash": ""
   },
   "alexa/agent-harness/cli_anything/alexa/core/__init__.py": {
@@ -11112,9 +11112,9 @@
     "semantic_hash": ""
   },
   "alexa/agent-harness/cli_anything/alexa/tests/test_core.py": {
-    "mtime": 1795692469.2052314,
-    "seen": 1795692527.787362,
-    "ast_hash": "c155b4c2868a3209703d1a59b9148e31",
+    "mtime": 1795778810.652745,
+    "seen": 1795778886.610257,
+    "ast_hash": "b61720d3c8230d5682fea87714b32ff0",
     "semantic_hash": ""
   },
   "alexa/agent-harness/cli_anything/alexa/tests/test_full_e2e.py": {
@@ -11130,9 +11130,9 @@
     "semantic_hash": ""
   },
   "alexa/agent-harness/cli_anything/alexa/utils/alexa_backend.py": {
-    "mtime": 1795692469.2055068,
-    "seen": 1795692527.787403,
-    "ast_hash": "abb384a5749bf49e8fe553e6e6b0aaf8",
+    "mtime": 1795778810.6530843,
+    "seen": 1795778886.6103106,
+    "ast_hash": "1726b4bca9e8f65e8c78692436dd45a6",
     "semantic_hash": ""
   },
   "alexa/agent-harness/cli_anything/alexa/utils/repl_skin.py": {
@@ -11160,38 +11160,38 @@
     "semantic_hash": ""
   },
   "alexa/agent-harness/cli_anything/alexa/README.md": {
-    "mtime": 1795692468.4980178,
-    "seen": 1795692527.8129587,
+    "mtime": 1795778810.2974856,
+    "seen": 1795778886.6463912,
     "ast_hash": "b471a7a2ec83153c3ef283ccc63f717d",
     "semantic_hash": ""
   },
   "alexa/agent-harness/cli_anything/alexa/skills/SKILL.md": {
-    "mtime": 1795692468.4980178,
-    "seen": 1795692527.8129601,
+    "mtime": 1795778810.2978094,
+    "seen": 1795778886.6463933,
     "ast_hash": "9bf33d0010e5592313bde3ed522697ae",
     "semantic_hash": ""
   },
   "alexa/agent-harness/cli_anything/alexa/tests/TEST.md": {
-    "mtime": 1795692469.2034245,
-    "seen": 1795692527.8129613,
-    "ast_hash": "36892aa7d702a3481a2920e1e21ce8cb",
+    "mtime": 1795778810.652557,
+    "seen": 1795778886.6463954,
+    "ast_hash": "9f4edbcc1bca689829be647274969cb2",
     "semantic_hash": ""
   },
   "skills/cli-anything-alexa/SKILL.md": {
-    "mtime": 1795692469.1454031,
-    "seen": 1795692527.8192747,
+    "mtime": 1795778810.5779433,
+    "seen": 1795778886.6543863,
     "ast_hash": "dcd3f2dcf30280d591c5800f3faff410",
     "semantic_hash": ""
   },
   ".claude/settings.json": {
-    "mtime": 1795692468.49673,
-    "seen": 1795692527.7857244,
+    "mtime": 1795778810.2938094,
+    "seen": 1795778886.6081445,
     "ast_hash": "8eafe95f2f857d090df6c04324b234d1",
     "semantic_hash": ""
   },
   "CLAUDE.md": {
-    "mtime": 1795692468.4980178,
-    "seen": 1795692527.8126547,
+    "mtime": 1795778810.2974856,
+    "seen": 1795778886.645993,
     "ast_hash": "dfe5fa7939121e96d61b54077cc9ab84",
     "semantic_hash": ""
   },
