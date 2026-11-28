@@ -6,6 +6,7 @@
 ## Where
 - Code: `alexa/agent-harness/` (on `main` and `feat/alexa-harness`)
 - Skill: `skills/cli-anything-alexa/SKILL.md` (repo mirror) and `.claude/skills/cli-anything-alexa/` (loaded by Claude Code sessions in this repo)
+- Agent: `.claude/agents/alexa.md` — subagent for Alexa tasks (plans/validates commands; hands Mac commands to the user in cloud sessions)
 - Tests: `alexa/agent-harness/cli_anything/alexa/tests/` — 116 pass, 5 live tests opt-in (`ALEXA_E2E=1`)
 
 ## Install / use (on the Mac, not the cloud session)

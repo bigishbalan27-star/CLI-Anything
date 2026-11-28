@@ -11190,9 +11190,9 @@
     "semantic_hash": ""
   },
   "CLAUDE.md": {
-    "mtime": 1795854264.2504706,
-    "seen": 1795854317.5853827,
-    "ast_hash": "68e4d6d5348f5a260f53baa294269f7a",
+    "mtime": 1795870513.417159,
+    "seen": 1795870583.134196,
+    "ast_hash": "977b12885f8dc6e92f14392929d7fd49",
     "semantic_hash": ""
   },
   "alexa/agent-harness/examples/morning_briefing.sh": {
@@ -11208,9 +11208,9 @@
     "semantic_hash": ""
   },
   "memory/context/setup.md": {
-    "mtime": 1795854264.3502398,
-    "seen": 1795854317.589646,
-    "ast_hash": "0bfd6439cd60a2455e679fe13ae37f78",
+    "mtime": 1795870513.418396,
+    "seen": 1795870583.1346056,
+    "ast_hash": "1fc2a2cebba18b450972b4d60961398c",
     "semantic_hash": ""
   },
   "memory/glossary.md": {
@@ -11220,9 +11220,15 @@
     "semantic_hash": ""
   },
   "memory/projects/alexa-harness.md": {
-    "mtime": 1795854264.504801,
-    "seen": 1795854317.5896504,
-    "ast_hash": "105d38c30ef153befb1aad02401075f4",
+    "mtime": 1795870513.49213,
+    "seen": 1795870583.1346123,
+    "ast_hash": "9a967c1c443b794bd3185815e037cf9a",
+    "semantic_hash": ""
+  },
+  ".claude/agents/alexa.md": {
+    "mtime": 1795870472.3775454,
+    "seen": 1795870583.134177,
+    "ast_hash": "25b4c0159562d99c6b353f9cb2bf3b05",
     "semantic_hash": ""
   },
   "sketch/agent-harness/package-lock.json": {

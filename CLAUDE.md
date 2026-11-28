@@ -30,7 +30,7 @@ Hot cache for this fork. Full detail: `memory/` (glossary, projects, context).
 ### Projects
 | Name | What |
 |------|------|
-| **Alexa harness** | `cli-anything-alexa`, controls Echo devices; built here, live-tested on the Mac → memory/projects/alexa-harness.md |
+| **Alexa harness** | `cli-anything-alexa`, controls Echo devices; built here, live-tested on the Mac → memory/projects/alexa-harness.md. Agent: `.claude/agents/alexa.md`; skill: `.claude/skills/cli-anything-alexa/` |
 | **Graph** | graphify knowledge graph of this repo in `graphify-out/` (see graphify section above) |
 | **Cloud setup** | Default environment installs graphify, CLI-Hub (+pip, Pillow), GIMP, LibreOffice → memory/context/setup.md |
 
