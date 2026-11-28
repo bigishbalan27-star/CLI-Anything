@@ -357,3 +357,6 @@ assets/gen_typing_gif.py
 !/graphify-out/
 /graphify-out/cache/
 /graphify-out/.rebuild.lock
+
+# Persistent memory for Claude sessions (see CLAUDE.md "Memory")
+!/memory/
